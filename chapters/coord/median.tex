@@ -1,0 +1,192 @@
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+  \item In 
+	\figref{fig:tri_med_isect}	
+	\begin{align}
+	AF = BF, \,
+	AE = BE, 
+	\end{align}
+	and the medians $BE$ and $CF$ meet at $\vec{G}$.
+	Show that
+\begin{align}
+	ar\brak{BEC}
+	=ar\brak{BFC} = \frac{1}{2}ar\brak{ABC}
+	\label{eq:median-area}
+\end{align}
+\solution
+	From \eqref{tri:area-sin},
+\begin{align}
+	ar\brak{BEC} &= 
+	\frac{1}{2}a\brak{\frac{b}{2}}\sin C 
+	\\
+	ar\brak{BFC}&=
+	\frac{1}{2}a\brak{\frac{c}{2}}\sin  B
+\end{align}
+yielding
+	\eqref{eq:median-area}.
+\item 
+	Show that
+\begin{align}
+	ar\brak{CGE}
+	=ar\brak{BGF} 
+	\label{eq:median-sub-area}
+\end{align}
+\solution 
+From 
+	\figref{fig:tri_med_isect}	
+	and 
+	\eqref{eq:median-area},
+\begin{align}
+	ar\brak{BGF}
+	+
+	ar\brak{BGC}
+	=
+	ar\brak{CGE}
+	+
+	ar\brak{BGC}
+\end{align}
+yielding 
+	\eqref{eq:median-sub-area}.
+\item 
+	If $\vec{G}$ divides $BE$ and $CF$ in the ratios $k_1$ and $k_2$ respectively, 
+	show that
+%	Using Fig. \ref{ch2_median_ratio_val}, 
+	\begin{align}
+\label{eq:tri_med_centroid_ratio}
+k_1 = k_2 
+	\end{align}
+%
+\begin{figure}[!ht]
+	\begin{center}
+		\resizebox{\columnwidth}{!}{\input{./figs/coord/tri_med_isect.tex}}
+%		\resizebox{\columnwidth}{!}{\input{./figs/coord/tri_med_meet.tex}}
+	\end{center}
+	\caption{$k_1=k_2$.}
+	\label{fig:tri_med_isect}	
+	%\label{fig:tri_med_meet}	
+\end{figure}
+\solution 
+Let 
+\begin{align}
+	GE = l_1, GF = l_2
+\end{align}
+From 
+	\eqref{tri:area-sin}
+	and 
+	\eqref{eq:median-sub-area},
+\begin{align}
+	\frac{1}{2}l_1 \brak{k_2l_2} \sin \theta
+	= \frac{1}{2}l_2 \brak{k_1l_1}\sin \theta
+\end{align}
+yielding
+\eqref{eq:tri_med_centroid_ratio}.
+\item Show that
+\begin{align}
+	k_1 = k_2 = 2
+\end{align}
+\solution 
+Let 
+\begin{align}
+	  \label{eq:section_formula-G-2}
+	k_1 = k_2 = k
+\end{align}
+Using 
+	  \eqref{eq:section_formula},
+  \begin{align}
+	  \label{eq:section_formula-G}
+\vec{G} = 
+	   \frac{k\vec{E}+ \vec{B}}{k+1}
+	  &= \frac{k\vec{F}+ \vec{C}}{k+1}
+	  \\
+	  \implies 
+	   k\brak{\frac{\vec{A}+\vec{C}}{2}}+ \vec{B}
+	  &= k\brak{\frac{\vec{A}+\vec{B}}{2}}+ \vec{C}
+	  \label{eq:section_formula-G-val}
+	  \\
+	  \implies 
+	   k\brak{\vec{B}-\vec{C}}
+	  &= 
+	   2\brak{\vec{B}-\vec{C}}
+  \end{align}
+  resulting in 
+	  \eqref{eq:section_formula-G-2}.
+  \item Substituting $k = 2$ in \eqref{eq:section_formula-G-val},
+\begin{align}
+	\vec{G} = \frac{\vec{A}+\vec{B}+\vec{C}}{3}
+	  \label{eq:centroid-G}
+\end{align}
+\item 
+In	\figref{fig:tri_med_meet},	
+$AG$ is extended to join $BC$ at $\vec{D}$.  Show that $AD$ is also a median.
+\begin{figure}[!ht]
+	\begin{center}
+%		\resizebox{\columnwidth}{!}{\input{./figs/coord/tri_med_isect.tex}}
+		\resizebox{\columnwidth}{!}{\input{./figs/coord/tri_med_meet.tex}}
+	\end{center}
+	\caption{$k_3 = 2, k_4 =1$}
+%	\label{fig:tri_med_isect}	
+	\label{fig:tri_med_meet}	
+\end{figure}
+	\\
+	\solution Considering the ratios in 
+	\figref{fig:tri_med_meet},	
+  \begin{align}
+\vec{G} = 
+	  \frac{k_3\vec{D}+\vec{A} }{k_3+1} 
+	  \\
+	\vec{D}  =\frac{k_4\vec{C}+\vec{B} }{k_4+1} 
+  \end{align}
+  Substituting from 
+	  \eqref{eq:centroid-G}
+	  in the above, 
+  \begin{align}
+	  \brak{k_3+1}\brak{\frac{\vec{A}+\vec{B} + \vec{C}}{3}}
+ = 
+	  {k_3\brak{\frac{k_4\vec{C}+\vec{B} }{k_4+1}} +\vec{A} } 
+  \end{align}
+  which can be expressed as
+\begin{multline}
+\brak{k_3+1}\brak{k_4+1}\brak{{\vec{A}+\vec{B} + \vec{C}}}
+ = 
+ \\
+	  {3} \cbrak{ {k_3\brak{{k_4\vec{C}+\vec{B} }} +\brak{k_4+1}\vec{A} }} 
+  \end{multline}
+  which can be expressed as
+  \begin{multline}
+	  \brak{k_3k_4+k_3-2k_4-2}\vec{A}
+	  \\
+	-  \brak{-k_3k_4-k_4+2k_3-1}\vec{B}
+	  \\
+	  - \brak{-k_3-k_4 - 1 
++2k_3k_4} \vec{C} = \vec{0}
+  \end{multline}
+  Comparing the above with 
+	  \eqref{eq:two-tri-indep},
+  \begin{align}
+	  p = {-k_3k_4-k_4+2k_3-1}, q = {-k_3-k_4 - 1 
++2k_3k_4}
+  \end{align}
+  yielding 
+  \begin{align}
+	  \label{eq:centroid-G-meet-1}
+	   {-k_3k_4-k_4+2k_3-1} = 0
+	   \\ {-k_3-k_4 - 1 
++2k_3k_4} = 0
+	  \label{eq:centroid-G-meet-2}
+  \end{align}
+  Subtracting 
+	  \eqref{eq:centroid-G-meet-1}
+	  from
+	  \eqref{eq:centroid-G-meet-2},
+  \begin{align}
+	  3k_3\brak{k_4-1} &= 0
+	  \\
+	  \implies k_4&=1
+  \end{align}
+  which upon substituting in 
+	  \eqref{eq:centroid-G-meet-1}
+	  yields
+  \begin{align}
+	  k_3 = 2
+  \end{align}
+\end{enumerate}

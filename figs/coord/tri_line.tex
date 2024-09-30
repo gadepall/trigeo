@@ -1,0 +1,58 @@
+%Code by GVV Sharma
+%December 7, 2019
+%released under GNU GPL
+%Proof of Baudhyana Theorem
+
+
+\begin{tikzpicture}
+[scale=2,>=stealth,point/.style={draw,circle,fill = black,inner sep=0.5pt},]
+
+%Triangle sides
+\def\a{4}
+\def\c{3}
+\def\b{sqrt(\a^2+\c^2)}
+
+%Trigonometric ratios
+\def\ct{\a/\b}
+\def\st{\c/\b}
+
+%perp distance
+\def\r{\a*\st}
+
+%Section Ratio
+\def\k{1.2}
+
+%Labeling points
+\node (A) at (0,\c)[point,label=above left:$A$] {};
+\node (B) at (-\a, 0)[point,label=below right:$B$] {};
+\node (C) at (0, 0)[point,label=below left:$C$] {};
+
+%Foot of perpendicular
+\node (D) at ($({-\r*\st}, {\r*\ct})$)[point,label=above left:$D$] {};
+%Coordinates of point E (foot of perpendicular DE on BC)
+\coordinate (E) at ($(B)!(D)!(C)$);
+%Labeling point E
+\node [point,label=below right:$E$] at (E) {};
+
+
+%Drawing triangle ABC
+\draw (A) -- node[left] {$\textrm{c}$} (B) -- node[below] {$\textrm{a}$} (C) -- node[above,xshift=2mm] {$\textrm{b}$} (A);
+
+%Drawing perpendicular DE
+\draw[dashed] (D) -- node[right] {} (E);
+
+%Adding label for DE
+\node [right] at ($ (D)!0.5!(E) $) {$ y $};
+
+%Adding label for CE
+\node [below] at ($ (C)!0.5!(E) $) {$ x $};
+
+
+%Drawing and marking angles
+\tikzset{my angle/.style={fill=#1!40, size=0.5cm, mark=}}
+\tkzMarkRightAngle[fill=blue!20,size=.2](A,C,B)
+\tkzLabelAngle[pos=0.65](C,B,A){$\theta$}
+\tkzMarkAngle[fill=orange!40,size=0.5cm,mark=](C,B,A)
+\end{tikzpicture}
+
+

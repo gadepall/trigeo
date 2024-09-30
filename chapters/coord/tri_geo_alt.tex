@@ -1,0 +1,55 @@
+%\subsection{Properties}
+%
+\renewcommand{\theequation}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+%
+%
+\item 
+	In \figref{fig:tri_alt_h},	
+$AD \perp BC$ and $BE \perp AC$ are defined to be the altitudes of $\triangle ABC$. 
+\item Let $\vec{H}$ be the intersection of the altitudes $AD$ and $BE$ as shown in Fig. \ref{fig:tri_alt_h}.  $CH$ is extended to meet $AB$ at $\vec{F}$.  Show that $CF \perp AB$.
+%
+\begin{figure}[!ht]
+	\begin{center}
+		\resizebox{\columnwidth}{!}{\input{./figs/coord/tri_alt_h.tex}}
+	\end{center}
+	\caption{Altitudes of a triangle meet at the orthocentre $H$}
+	\label{fig:tri_alt_h}	
+\end{figure}
+%
+\\
+\solution 
+From 
+\eqref{eq:tri_cos_form-orth},
+%
+\begin{align}
+\brak{\vec{B}-\vec{C}}^{\top}\brak{\vec{H}-\vec{A}} &= 0  
+\\
+\brak{\vec{C}-\vec{A}}^{\top}\brak{\vec{H}-\vec{B}} &= 0  
+\end{align}
+%
+Adding both the above and simplifying, 
+%
+\begin{align}
+\brak{\vec{B}-\vec{A}}^{\top}\brak{\vec{H}-\vec{C}} &= 0  
+\end{align}
+%
+$\implies CH \perp AB$, or $CF \perp AB$.  
+%
+\iffalse
+The python code for  Fig. \ref{fig:tri_alt_h} is
+\begin{lstlisting}
+codes/triangle/tri_alt_h.py
+\end{lstlisting}
+%
+and the equivalent latex-tikz code is
+%
+\begin{lstlisting}
+figs/triangle/tri_alt_h.tex
+\end{lstlisting}
+\fi
+\item Altitudes of a $\triangle$ meet at the {\em orthocentre} $H$.
+%
+\end{enumerate}
