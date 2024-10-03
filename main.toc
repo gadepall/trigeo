@@ -1,14 +1,12 @@
-\contentsline {section}{\numberline {1}Triangle}{4}{section.1}%
+\contentsline {section}{\numberline {1}Geometry}{4}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Formulae}{4}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Problems}{4}{subsection.1.2}%
-\contentsline {section}{\numberline {2}Applications}{5}{section.2}%
-\contentsline {section}{\numberline {3}Inequalities}{8}{section.3}%
-\contentsline {section}{\numberline {4}Altitudes of a Triangle}{8}{section.4}%
-\contentsline {section}{\numberline {5}Median}{9}{section.5}%
-\contentsline {section}{\numberline {6}Angle Bisectors}{12}{section.6}%
-\contentsline {section}{\numberline {7}Perpendicular Bisectors}{15}{section.7}%
-\contentsline {section}{\numberline {8}Circumcircle: Circle Equation}{17}{section.8}%
-\contentsline {section}{\numberline {9}Tangent}{20}{section.9}%
-\contentsline {section}{Appendix\nobreakspace A: Collinear Points}{23}{section*.16}%
-\contentsline {section}{Appendix\nobreakspace B: Cosine Formula}{25}{section*.18}%
-\contentsline {section}{Appendix\nobreakspace C: Trigonometric Identities}{27}{section*.20}%
+\contentsline {subsection}{\numberline {1.2}Triangle}{19}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}JEE}{20}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Quadrilateral}{29}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Circle}{30}{subsection.1.5}%
+\contentsline {section}{\numberline {2}Equations}{30}{section.2}%
+\contentsline {subsection}{\numberline {2.1}JEE}{30}{subsection.2.1}%
+\contentsline {section}{\numberline {3}Inequalities}{44}{section.3}%
+\contentsline {section}{\numberline {4}Applications}{45}{section.4}%
+\contentsline {section}{\numberline {5}Inverse Trigonometric Functions}{47}{section.5}%
+\contentsline {subsection}{\numberline {5.1}JEE}{47}{subsection.5.1}%

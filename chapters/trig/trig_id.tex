@@ -1,6 +1,30 @@
 %
 \begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
 %
+	\item 
+A right angled triangle looks like Fig. \ref{fig:tri_right_angle}.
+\begin{figure}[!ht]
+\centering
+\resizebox{0.6\columnwidth}{!}{\input{./figs/trig/tri_right_angle.tex}}
+\caption{Right Angled Triangle}
+\label{fig:tri_right_angle}	
+\end{figure}
+with angles $\angle A,\angle B$ and $\angle C$ and sides $a, b$ and $c$.  The unique feature of this triangle is $\angle B$ which is defined to be $90\degree$.
+\item
+	For simplicity, let the greek letter $\theta = \angle C$.  We have the following definitions.
+\begin{equation}
+\label{eq:tri_trig_defs}
+\begin{matrix}
+	\sin \theta = \frac{c}{b} & 	\cos \theta = \frac{a}{b} \\[1ex]
+	\tan \theta = \frac{c}{a} & \cot \theta = \frac{1}{\tan \theta} \\[1ex]
+	\csc \theta = \frac{1}{\sin \theta} & \sec \theta = \frac{1}{\cos \theta}
+	\end{matrix}
+\end{equation}
+\item  
+	\begin{equation}
+	\cos \theta = \sin \brak{90\degree - \theta}
+	\label{eq:tri_baudh_comp}	
+	\end{equation}
 \item
 In  \figref{fig:tri_baudh}, 
 show that 
@@ -12,7 +36,7 @@ b = a \cos \theta + c \sin \theta
 %
 \begin{figure}[!ht]
 	\begin{center}
-		\resizebox{\columnwidth}{!}{\input{./figs/trig/tri_baudh.tex}}
+		\resizebox{0.6\columnwidth}{!}{\input{./figs/trig/tri_baudh.tex}}
 	\end{center}
 	\caption{Baudhayana Theorem}
 	\label{fig:tri_baudh}	
@@ -65,7 +89,7 @@ b &= a\frac{a}{b} + c \frac{c}{b} \quad \brak{\text{from} \quad \eqref{eq:tri_tr
 	Show that the area of $\Delta ABC$ in Fig. 	\ref{fig:tri_sss}	is $\frac{1}{2}ab \sin C$.
 \begin{figure}[!ht]
 	\begin{center}
-			\resizebox{\columnwidth}{!}{\input{./figs/triangle/tri_sss.tex}}
+			\resizebox{0.6\columnwidth}{!}{\input{./figs/triangle/tri_sss.tex}}
 	\end{center}
 	\caption{Area of a Triangle}
 	\label{fig:tri_sss}	
@@ -84,7 +108,8 @@ ar\brak{\Delta ABC} = \frac{1}{2}ah = \frac{1}{2}ab\sin C \quad \brak{\because \
 	\frac{\sin A}{a} = \frac{\sin B}{b} = \frac{\sin C}{c}
 	\end{equation}
 
-\solution Fig. \ref{fig:tri_sss} can be suitably modified to obtain 
+\solution 
+\figref{fig:tri_sss} can be suitably modified to obtain 
 \begin{align}
 ar\brak{\Delta ABC} = 
 \frac{1}{2}ab\sin C = \frac{1}{2}bc\sin A = \frac{1}{2}ca\sin B
@@ -97,6 +122,22 @@ Dividing the above by $abc$, we obtain
 	\end{equation}
 This is known as the sine formula.	
 %
+\item In a right angled triangle, the hypotenuse is the longest side.
+\label{them:hyp_largest}
+\\
+\solution From 
+\eqref{eq:tri_sin_cos_id},
+\begin{align}
+	0 \le \sin \theta, \cos \theta \le 1
+\end{align}
+Hence, 
+\begin{align}
+	b \sin \theta \le b \implies  c \le b
+\end{align}
+Similalry,
+\begin{align}
+	a \le b
+\end{align}
 %
 \item Show that 
 %
@@ -111,7 +152,7 @@ This is known as the sine formula.
 		
 		%\includegraphics[width=\columnwidth]{./figs/fig:tri_sin_inc}
 		%\vspace*{-10cm}
-		\resizebox{\columnwidth}{!}{\input{./figs/triangle/tri_sin_inc.tex}}
+		\resizebox{0.6\columnwidth}{!}{\input{./figs/triangle/tri_sin_inc.tex}}
 	\end{center}
 	\caption{}
 	%\caption{$\sin \brak{\theta_1+\theta_2} = \sin\theta_1\cos\theta_2 + \cos\theta_1\sin\theta_2$}
@@ -135,6 +176,315 @@ from Theorem \ref{them:hyp_largest}, yielding
 \end{align}
 
 This proves \eqref{eq:trig_id_sin_inc}.
+\item
+In Fig. \ref{fig:tri_cosine_formula}, show that
+%
+\begin{equation}
+\label{eq:tri_cos_mat}
+\begin{pmatrix}
+0 & c & b \\
+c & 0 & a \\
+b & a & 0
+\end{pmatrix}
+\begin{pmatrix}
+\cos A \\
+\cos B \\
+\cos C
+\end{pmatrix}
+= 
+\begin{pmatrix}
+a\\
+b\\
+c
+\end{pmatrix}
+\end{equation}
+%
+%
+\begin{figure}[!ht]
+	\begin{center}
+		
+		%\includegraphics[width=0.6\columnwidth]{./figs/ch2_triang_ar}
+		%\vspace*{-10cm}
+		\resizebox{0.6\columnwidth}{!}{\input{./figs/triangle/tri_cosine_formula.tex}}
+	\end{center}
+	\caption{The cosine formula}
+	\label{fig:tri_cosine_formula}	
+\end{figure}
+\solution From Fig. \ref{fig:tri_cosine_formula}, 
+%
+\begin{align}
+	a &= x + y = b \cos C + c \cos B = \myvec{  \cos C & \cos B } \myvec{ b \\ c }
+	\\
+&=\myvec{0 & b & c } \myvec{ \cos A \\ \cos C \\ \cos B } 
+\end{align}
+%
+Similarly,
+%
+\begin{align}
+b &= c \cos A + a \cos C 
+=\myvec{c & 0 & a } \myvec{ \cos A \\ \cos C \\ \cos B } 
+	\\
+c &= b \cos A + a \cos B
+=\myvec{b & a & 0 } \myvec{ \cos A \\ \cos C \\ \cos B } 
+\end{align}
+%
+The above equations can be expressed in matrix form as
+\eqref{eq:tri_cos_mat}.
+
+\item Show that 
+\begin{equation}
+\label{eq:tri_cos_form}
+\cos A = \frac{b^2+c^2-a^2}{2bc}
+\end{equation}
+%
+\solution 
+Using the properties of determinants,
+%
+\begin{align}
+\cos A = \frac{
+\begin{vmatrix}
+a & c & b \\
+b & 0 & a \\
+c & a & 0
+\end{vmatrix}
+	}
+	{
+\begin{vmatrix}
+0 & c & b \\
+c & 0 & a \\
+b & a & 0
+\end{vmatrix}
+	}
+	=\frac{ab^2 + ac^2 - a^3}{abc + abc} 
+= \frac{b^2 + c^2 - a^2}{2abc}
+\end{align}
+\item  In  
+	\figref{fig:tri_icentre}, the bisectors of $\angle B$ and $\angle C$	 meet at $\vec{I}$.
+Show that $IA$ bisects $\angle A$.
+\begin{figure}[!ht]
+	\begin{center}
+		
+		\resizebox{0.6\columnwidth}{!}{\input{./figs/trig/tri-icentre.tex}}
+	\end{center}
+	\caption{Incentre $I$ of $\triangle ABC$}
+	\label{fig:tri_icentre}	
+\end{figure}
+\\
+\solution
+Using sine formula
+in
+\eqref{eq:tri_sin_form}
+  \begin{align}
+  \frac{l_1}{\sin\frac{C}{2}}
+  &= 
+   \frac{l_3}{\sin \brak{A-\theta}}
+  \\
+   \frac{l_3}{\sin\frac{B}{2}}
+&=\frac{l_2}{\sin\frac{C}{2}}
+  \\
+\frac{l_2}{\sin \theta}
+	  &=
+  \frac{l_1}{\sin\frac{B}{2}}
+  \end{align}
+  Multiplying the above equations, 
+  \begin{align}
+  \sin \theta &= \sin \brak{A - \theta}
+  \\
+	  \implies \theta &=A - \theta 
+  \\
+	  \text{or, } \theta &= \frac{A}{2}
+  \end{align}
+  \item In
+	\figref{fig:tri_iradius}, 
+  \begin{align}
+	  ID \perp BC, \, 
+	  IE \perp AC, \, 
+	  IF \perp AB.
+  \end{align}
+		\begin{figure}[!ht]
+	\begin{center}
+		\resizebox{0.6\columnwidth}{!}{\input{./figs/trig/tri-iradius.tex}}
+	\end{center}
+	\caption{Inradius $r$ of $\triangle ABC$}
+	\label{fig:tri_iradius}	
+\end{figure}
+  Show that 
+  \begin{align}
+	  ID=   
+	  IE= 
+	  IF=r 
+	\label{eq:tri_iradius}	
+  \end{align}
+  \\
+		\solution
+In $\triangle$s $IDC$ and $IEC$, 
+		\begin{align}
+ID = IE=  \frac{l_3}{\sin\frac{C}{2}}
+		\end{align}
+		Similarly, 
+in $\triangle$s $IEA$ and $IFA$, 
+		\begin{align}
+IF = IE=  \frac{l_1}{\sin\frac{A}{2}}
+		\end{align}
+		yielding 
+	\eqref{eq:tri_iradius}	
+  \item In
+	\figref{fig:tri_iradius}, show that
+  \begin{align}
+	  BD=BF ,\, 
+	  AE=AF ,\, 
+	  CD=CE 
+  \end{align}
+  \solution  From 
+\figref{fig:tri_iradius}, in $\triangle$s $IBD$ and $IBF$, 
+		\begin{align}
+			x = BD = BF = r \cot \frac{B}{2}
+		\end{align}
+		Similarly, other results can be obtained.
+\item The circle with centre $\vec{I}$ and radius $r$ in  
+	\figref{fig:tri_icircle}	
+is known as the {\em incircle}. 
+%Find the radius $r$.
+\begin{figure}[!ht]
+	\begin{center}
+		\resizebox{0.6\columnwidth}{!}{\input{./figs/trig/tri_icircle.tex}}
+	\end{center}
+	\caption{Incircle of $\triangle ABC$}
+	\label{fig:tri_icircle}	
+\end{figure}
+\item In 
+	\figref{fig:tri-isosc},	
+\begin{figure}[!ht]
+	\begin{center}
+		\resizebox{0.6\columnwidth}{!}{\input{./figs/trig/tri_isosc.tex}}
+	\end{center}
+	\caption{Isosceles Triangle}
+	\label{fig:tri-isosc}	
+\end{figure}
+\begin{align}
+	OB = OC=R
+\end{align}
+Such a triangle is known as an isosceles triangle.  Show that
+\begin{align}
+	\angle B = \angle C
+\end{align}
+\solution 
+Using
+\eqref{eq:tri_sin_form},
+\begin{align}
+	\frac{\sin B}{R} &= \frac{\sin C}{R}
+	\\
+\implies	{\sin B} &= {\sin C}
+\\
+	\text{or, } \angle B &= \angle C.
+\end{align}
+\item In 
+	\figref{fig:tri-isosc},	
+	show that 
+  \begin{align}
+	  a = 2R \sin\frac{ \theta }{2}
+\label{eq:crad_cos2a}
+  \end{align}
+		\solution In $\triangle OBC$,  using the cosine formula from
+\eqref{eq:tri_cos_form},
+\begin{align}
+	\cos \theta &= \frac{R^2+R^2 - a^2}{2R^2} = 1 -\frac{a^2}{2R^2}
+	\\
+	\implies \frac{a^2}{2R^2}&= 2\sin^2\frac{\theta}{2}
+\end{align}
+yielding 
+\eqref{eq:crad_cos2a}.
+\item In
+	\figref{fig:tri_ccircle-ang},
+show that 
+\begin{align}
+\label{eq:tri_crad_R}
+\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C} = 2R.
+\end{align}
+%
+%
+\solution
+From 
+\eqref{eq:ang-subtend-ccentre}
+and 
+\eqref{eq:crad_cos2a}
+  \begin{align}
+	  a = 2R \sin A
+  \end{align}
+
+\item In 
+	\label{prob:tri-ccentre-def}
+	\figref{fig:tri-perp-bis}, 
+\begin{align}
+OB = OC=R, 	BD = DC.
+\end{align}
+Show that $OD \perp BC$.
+%
+\begin{figure}[!ht]
+	\begin{center}
+		
+		\resizebox{0.6\columnwidth}{!}{\input{./figs/coord/tri-perp-bis.tex}}
+	\end{center}
+	\caption{Perpendicular bisector.}
+	\label{fig:tri-perp-bis}	
+%github/geometry/figs/
+\end{figure}
+\\
+\solution 
+\begin{align}
+	\norm{\vec{O}-\vec{C}} &=
+\norm{\vec{O}-\vec{B}} =R
+\\
+	\implies \norm{\vec{O}-\vec{C}}^2 &=
+\norm{\vec{O}-\vec{B}}^2 
+\end{align}
+which can be expressed as 
+\begin{align}
+%  \label{eq:norm2d_dist}
+	\brak{\vec{O}-\vec{C}}^{\top} \brak{\vec{O}-\vec{C}}&=
+	\brak{\vec{O}-\vec{B}}^{\top} 
+\brak{\vec{O}-\vec{B}}
+\\
+\norm{\vec{O}}^2-2{\vec{O}}^{\top}\vec{C} + \norm{\vec{C}}^2
+	&= \norm{\vec{O}}^2-2{\vec{O}}^{\top}\vec{B} + \norm{\vec{B}}^2
+	\\
+	\implies 
+	  \brak{\vec{B}-\vec{C}}^{\top}{\vec{O}} 
+	  &=  \frac{\norm{\vec{B}}^2 - \norm{\vec{C}}^2}{2}
+\end{align}
+which can be simplified to obtain
+  \begin{align}
+	  \brak{\vec{B}-\vec{C}}^{\top}\cbrak{{\vec{O}}- 
+	    \brak{\frac{{\vec{B}} + {\vec{C}}}{2}}}=0
+  \label{eq:norm2d_equidist}
+  \\
+	  \text{or, }
+	  \brak{\vec{B}-\vec{C}}^{\top}\cbrak{{\vec{O}}- \vec{D}}=0
+  \label{eq:norm2d_equidist-conv}
+  \end{align}
+  which proves the give result using 
+	  \eqref{eq:section_formula}
+	  and 
+\eqref{eq:tri_cos_form-orth}.
+\item In 
+	\figref{fig:tri_ccentre},
+$OD$ and $OE$ are the perpendicular bisectors of sides $BC$ and $AC$ respectively.  Show that 
+$OA = R$.
+\begin{figure}[!ht]
+	\begin{center}
+		
+		\resizebox{0.6\columnwidth}{!}{\input{./figs/coord/tri_ccentre.tex}}
+	\end{center}
+	\caption{ Perpendicular bisectors of $\triangle ABC$ meet at $\vec{O}$.}
+	\label{fig:tri_ccentre}	
+\end{figure}
+\\
+\solution Tracing
+  \eqref{eq:norm2d_equidist-conv}
+  backwards yields
+\begin{align}
+	OB = OC, OC = OA = R.
+\end{align}
 %From \eqref{eq:trig_id_sum_diff3},
 %%
 %\begin{multline}
@@ -142,6 +492,197 @@ This proves \eqref{eq:trig_id_sin_inc}.
 %\\
 %\times \cos\brak{\frac{\theta_1+\theta_2}{2}} > 0, \because \theta_1-\theta_2 > 0
 %\end{multline}
+  \item The equation  of the circle in 
+	\figref{fig:tri_ccircle-ang},
+\begin{figure}[!ht]
+	\begin{center}
+		\resizebox{0.6\columnwidth}{!}{\input{./figs/coord/tri_ccircle.tex}}
+	\end{center}
+	\caption{Circumcircle of $\triangle ABC$}
+	\label{fig:tri_ccircle-ang}	
+\end{figure}
+	is
+  \begin{align}
+	  \norm{\vec{x}-\vec{O}} = R
+  \end{align}
+  This is known as the {\em circumcircle} of $\triangle ABC$.
+\item Any point on the circle can be expressed as 
+  \begin{align}
+	  \vec{x} = \vec{O} + R\myvec{\cos \theta \\ \sin \theta}, \quad 0 \in \sbrak{0, 2\pi}
+\label{eq:polar-ccentre}.
+  \end{align}
+  \item Let
+  \begin{align}
+	  R = 1,\,
+	  \vec{O} = \vec{0} ,\,
+	  \vec{A} = \myvec{\cos \theta_1 \\ \sin \theta_1},\,
+	  \vec{B} = \myvec{\cos \theta_2 \\ \sin \theta_2},\,
+  \end{align}
+Show that 
+  \begin{align}
+	  \norm{\vec{A}-\vec{B}} = 
+	   2 \sin \brak{\frac{\theta_1-\theta_2}{2}}
+\label{eq:norm-polar-ccentre}
+  \end{align}
+  \solution 
+  From 
+\eqref{eq:polar-ccentre}.
+  \begin{align}
+	  \vec{A}-\vec{B} &= 
+\myvec{\cos \theta_1-\cos \theta_2 \\ \sin \theta_1-\sin \theta_2}
+\\
+\implies 
+	  \norm{\vec{A}-\vec{B}}^2 &= 
+	  \brak{\cos \theta_1-\cos \theta_2}^2 +\brak{\sin \theta_1-\sin \theta_2}^2
+	  \\
+	  &= 2\cbrak{1-
+	  \cos \brak{\theta_1-\theta_2}} = 4 \sin^2 \brak{\frac{\theta_1-\theta_2}{2}}
+  \end{align}
+  yielding 
+\eqref{eq:norm-polar-ccentre} from
+\eqref{eq:trig-id-2A-cos}.
+  \item In 
+	\figref{fig:tri_ccircle-ang},
+show that 
+  \begin{align}
+	  \theta = 2A
+\label{eq:ang-subtend-ccentre}.
+  \end{align}
+  \solution Let 
+  \begin{align}
+	  \vec{C} = \myvec{\cos \theta_3 \\ \sin \theta_3}
+  \end{align}
+  Then, 
+  substituting 
+  from 
+\eqref{eq:norm-polar-ccentre}
+in 
+\eqref{eq:tri_cos_form-ccentre-norm},
+  \begin{align}
+	  \cos A &= \frac{4 \sin^2 \brak{\frac{\theta_1-\theta_2}{2}} +4\sin^2 \brak{\frac{\theta_1-\theta_3}{2}}-4 \sin^2 \brak{\frac{\theta_2-\theta_3}{2}}}{8 \sin \brak{\frac{\theta_1-\theta_2}{2}} \sin \brak{\frac{\theta_1-\theta_3}{2}}}
+	  \\
+	   &= \frac{2 \sin^2 \brak{\frac{\theta_1-\theta_2}{2}} +\cos \brak{{\theta_2-\theta_3}}- \cos \brak{{\theta_1-\theta_3}}}{4 \sin \brak{\frac{\theta_1-\theta_2}{2}} \sin \brak{\frac{\theta_1-\theta_3}{2}}}
+  \end{align}
+  from 
+\eqref{eq:trig-id-2A-cos}. $\therefore$ from 
+\eqref{eq:trig_id_sum_diff4},
+  \begin{align}
+	   \cos A &= \frac{2 \sin^2 \brak{\frac{\theta_1-\theta_2}{2}} +2\sin \brak{\frac{\theta_1-\theta_2}{2}}\sin \brak{\frac{\theta_1+\theta_2}{2}-\theta_3}}{4 \sin \brak{\frac{\theta_1-\theta_2}{2}} \sin \brak{\frac{\theta_1-\theta_3}{2}}}
+	  \\
+	   &= \frac{ \sin \brak{\frac{\theta_1-\theta_2}{2}} +\sin \brak{\frac{\theta_1+\theta_2}{2}-\theta_3}}{ 2\sin\brak{\frac{\theta_1-\theta_3}{2}}}
+  \end{align}
+  From 
+\eqref{eq:trig_id_sum_diff1}, the above equation can be expressed as
+  \begin{align}
+\cos A	   &= \frac{ 2\sin \brak{\frac{\theta_1-\theta_3}{2}} \cos\brak{\frac{\theta_2-\theta_3}{2}}}{ 2\sin\brak{\frac{\theta_1-\theta_3}{2}}} = \cos\brak{\frac{\theta_2-\theta_3}{2}}
+\label{eq:tri_ccentre_subtend-temp}
+	   \\
+	   \implies 2A &= \theta_2-\theta_3
+\label{eq:tri_ccentre_subtend}
+  \end{align}
+  Similarly, 
+  \begin{align}
+	  \cos \theta = \frac{1 + 1 - 4\sin^2\brak{\frac{\theta_2-\theta_3}{2}}}{2} = \cos\brak{{\theta_2-\theta_3}}= \cos 2A
+  \end{align}
+\item
+In Fig. \ref{fig:circ_tang_icept} show that 
+%
+\begin{equation}
+\theta = \alpha
+		\label{fig:circ_tang_icept-equal}	
+\end{equation}
+%
+\label{them:tang_icept_ang}
+	\begin{figure}[!ht]
+		\begin{center}
+			
+			%\includegraphics[width=0.6\columnwidth]{./figs/fig:circ_tang_icept}
+			%\vspace*{-10cm}
+			\resizebox{0.6\columnwidth}{!}{\input{./figs/coord/circ_tang_icept.tex}}
+		\end{center}
+		\caption{$\theta= \alpha$.}
+		\label{fig:circ_tang_icept}	
+	\end{figure}
+	%
+	\\
+	\solution
+	Let 
+    Let
+  \begin{align}
+	  \vec{O} = \vec{0}
+	  \vec{A} = \myvec{\cos \theta_1 \\ \sin \theta_1},\,
+	  \vec{B} =  \myvec{\cos \theta_2 \\ \sin \theta_2},\,
+	  \vec{C} =  \myvec{\cos \theta_3 \\ \sin \theta_3}
+  \end{align}
+  \iffalse
+  From 
+\eqref{eq:tri_ccentre_subtend-temp}
+  \begin{align}
+	  \cos \alpha = \cos\brak{ \frac{\theta_1-\theta_3}{2}  }
+		\label{eq:circ_tang-line-alpha}	
+  \end{align}
+  \fi
+  Without loss of generality,  let 
+  \begin{align}
+	  \theta_3 = \frac{\pi}{2}
+		\label{eq:circ_tang-line-t3}	
+  \end{align}
+  Then, 
+  \begin{align}
+	  \vec{C}-\vec{O} = \myvec{0 \\ 1}
+  \end{align}
+  %which is the direction vector of the $y$-axis.
+  From 
+		from \eqref{eq:circ_tang-line-orth-pc},	
+  \begin{align}
+	  \vec{C}-\vec{P} = \myvec{1 \\ 0}
+		\label{eq:circ_tang-line-pc},	
+  \end{align}
+From   
+\eqref{eq:tri_cos_form-ccentre}
+and 
+		\eqref{eq:circ_tang-line-pc},	
+  \begin{align}
+	  \cos \theta &= \frac{
+		  \myvec{\cos \theta_3-\cos \theta_1 & \sin \theta_3-\sin \theta_1}
+		  \myvec{1 \\ 0}
+		  }
+		  {
+	   2 \sin \brak{\frac{\theta_1-\theta_3}{2}}
+			  } 
+			  \\
+			  &=
+	    \sin \brak{\frac{\theta_1+\theta_3}{2}}
+	    =\cos\brak{\frac{\pi}{2}-\frac{\theta_1+\theta_3}{2}}
+	    =\cos\brak{\frac{\pi}{4}-\frac{\theta_1}{2}}
+  \end{align}
+  upon substituting from 
+		\eqref{eq:circ_tang-line-t3}.  Similarly, 	
+		from
+\eqref{eq:tri_ccentre_subtend-temp},
+  \begin{align}
+	  \cos \alpha = \cos \brak{\frac{\theta_1-\theta_3}{2}  }
+	    =\cos\brak{\frac{\pi}{4}-\frac{\theta_1}{2}}
+	  =\cos \theta
+  \end{align}
+%
+\item
+	In Fig. \ref{fig:circ_tang_icept}, show that $PA.PB = PC^2$.
+\label{them:circ_tang_icept_prod}	
+\\
+\solution 
+In $\triangle$s $APC$ and $BPC$, 
+using
+		\eqref{fig:circ_tang_icept-equal},	
+  \begin{align}
+	  \frac{AP}{\sin \theta} &= \frac{AC}{\sin P} 
+	  \\
+	  \frac{PC}{\sin \theta} &= \frac{BC}{\sin P} 
+	  \\
+	  \implies \frac{PC}{AP} &= \frac{BC}{AC}  \brak{= \frac{BP}{CP}}
+  \end{align}
+  which gives the desired result.
+$\triangle$s $APC$ and $BPC$ are said to be {\em similar}.
 %
 \item
 	Using 
@@ -158,9 +699,9 @@ show that
 \begin{figure}[!ht]
 	\begin{center}
 		
-		%\includegraphics[width=\columnwidth]{./figs/trig_id_sin_theta}
+		%\includegraphics[width=0.6\columnwidth]{./figs/trig_id_sin_theta}
 		%\vspace*{-10cm}
-		\resizebox{\columnwidth}{!}{\input{./figs/triangle/tri_sin_inc.tex}}
+		\resizebox{0.6\columnwidth}{!}{\input{./figs/triangle/tri_sin_inc.tex}}
 	\end{center}
 	\caption{$\sin \brak{\theta_1+\theta_2} = \sin\theta_1\cos\theta_2 + \cos\theta_1\sin\theta_2$}
 	\label{trig_id_sin_theta}	
@@ -399,5 +940,61 @@ from \eqref{eq:trig_id_ang_sum_diff}.  Other identities may be proved similarly.
 	  &= \cos^2 \theta -\sin^2 \theta 
 \label{eq:trig-id-2A-cos}
   \end{align}
+  \item In 
+	\figref{fig:tri_med_isect}	
+	\begin{align}
+	AF = BF, \,
+	AE = BE, 
+	\end{align}
+	and the medians $BE$ and $CF$ meet at $\vec{G}$.
+	Show that
+\begin{align}
+	ar\brak{BEC}
+	=ar\brak{BFC} = \frac{1}{2}ar\brak{ABC}
+	\label{eq:median-area}
+\end{align}
+\begin{figure}[!ht]
+	\begin{center}
+		\resizebox{0.6\columnwidth}{!}{\input{./figs/coord/tri_med_isect.tex}}
+%		\resizebox{\columnwidth}{!}{\input{./figs/coord/tri_med_meet.tex}}
+	\end{center}
+	\caption{$k_1=k_2$.}
+	\label{fig:tri_med_isect}	
+	%\label{fig:tri_med_meet}	
+\end{figure}
+\solution
+	From \eqref{tri:area-sin},
+\begin{align}
+	ar\brak{BEC} &= 
+	\frac{1}{2}a\brak{\frac{b}{2}}\sin C 
+	\\
+	ar\brak{BFC}&=
+	\frac{1}{2}a\brak{\frac{c}{2}}\sin  B
+\end{align}
+yielding
+	\eqref{eq:median-area}.
+\item 
+	Show that
+\begin{align}
+	ar\brak{CGE}
+	=ar\brak{BGF} 
+	\label{eq:median-sub-area}
+\end{align}
+\solution 
+From 
+	\figref{fig:tri_med_isect}	
+	and 
+	\eqref{eq:median-area},
+\begin{align}
+	ar\brak{BGF}
+	+
+	ar\brak{BGC}
+	=
+	ar\brak{CGE}
+	+
+	ar\brak{BGC}
+\end{align}
+yielding 
+	\eqref{eq:median-sub-area}.
 
 \end{enumerate}
