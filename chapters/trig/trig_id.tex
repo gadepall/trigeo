@@ -429,43 +429,6 @@ Show that $OD \perp BC$.
 	\label{fig:tri-perp-bis}	
 %github/geometry/figs/
 \end{figure}
-\\
-\solution 
-\begin{align}
-	\norm{\vec{O}-\vec{C}} &=
-\norm{\vec{O}-\vec{B}} =R
-\\
-	\implies \norm{\vec{O}-\vec{C}}^2 &=
-\norm{\vec{O}-\vec{B}}^2 
-\end{align}
-which can be expressed as 
-\begin{align}
-%  \label{eq:norm2d_dist}
-	\brak{\vec{O}-\vec{C}}^{\top} \brak{\vec{O}-\vec{C}}&=
-	\brak{\vec{O}-\vec{B}}^{\top} 
-\brak{\vec{O}-\vec{B}}
-\\
-\norm{\vec{O}}^2-2{\vec{O}}^{\top}\vec{C} + \norm{\vec{C}}^2
-	&= \norm{\vec{O}}^2-2{\vec{O}}^{\top}\vec{B} + \norm{\vec{B}}^2
-	\\
-	\implies 
-	  \brak{\vec{B}-\vec{C}}^{\top}{\vec{O}} 
-	  &=  \frac{\norm{\vec{B}}^2 - \norm{\vec{C}}^2}{2}
-\end{align}
-which can be simplified to obtain
-  \begin{align}
-	  \brak{\vec{B}-\vec{C}}^{\top}\cbrak{{\vec{O}}- 
-	    \brak{\frac{{\vec{B}} + {\vec{C}}}{2}}}=0
-  \label{eq:norm2d_equidist}
-  \\
-	  \text{or, }
-	  \brak{\vec{B}-\vec{C}}^{\top}\cbrak{{\vec{O}}- \vec{D}}=0
-  \label{eq:norm2d_equidist-conv}
-  \end{align}
-  which proves the give result using 
-	  \eqref{eq:section_formula}
-	  and 
-\eqref{eq:tri_cos_form-orth}.
 \item In 
 	\figref{fig:tri_ccentre},
 $OD$ and $OE$ are the perpendicular bisectors of sides $BC$ and $AC$ respectively.  Show that 
@@ -478,20 +441,6 @@ $OA = R$.
 	\caption{ Perpendicular bisectors of $\triangle ABC$ meet at $\vec{O}$.}
 	\label{fig:tri_ccentre}	
 \end{figure}
-\\
-\solution Tracing
-  \eqref{eq:norm2d_equidist-conv}
-  backwards yields
-\begin{align}
-	OB = OC, OC = OA = R.
-\end{align}
-%From \eqref{eq:trig_id_sum_diff3},
-%%
-%\begin{multline}
-% \sin \theta_1 - \sin \theta_2 = 2\sin\brak{\frac{\theta_1-\theta_2}{2}}
-%\\
-%\times \cos\brak{\frac{\theta_1+\theta_2}{2}} > 0, \because \theta_1-\theta_2 > 0
-%\end{multline}
   \item The equation  of the circle in 
 	\figref{fig:tri_ccircle-ang},
 \begin{figure}[!ht]
@@ -557,7 +506,7 @@ show that
   from 
 \eqref{eq:norm-polar-ccentre}
 in 
-\eqref{eq:tri_cos_form-ccentre-norm},
+%\eqref{eq:tri_cos_form-ccentre-norm},
   \begin{align}
 	  \cos A &= \frac{4 \sin^2 \brak{\frac{\theta_1-\theta_2}{2}} +4\sin^2 \brak{\frac{\theta_1-\theta_3}{2}}-4 \sin^2 \brak{\frac{\theta_2-\theta_3}{2}}}{8 \sin \brak{\frac{\theta_1-\theta_2}{2}} \sin \brak{\frac{\theta_1-\theta_3}{2}}}
 	  \\
@@ -606,7 +555,6 @@ In Fig. \ref{fig:circ_tang_icept} show that
 	%
 	\\
 	\solution
-	Let 
     Let
   \begin{align}
 	  \vec{O} = \vec{0}
@@ -614,14 +562,6 @@ In Fig. \ref{fig:circ_tang_icept} show that
 	  \vec{B} =  \myvec{\cos \theta_2 \\ \sin \theta_2},\,
 	  \vec{C} =  \myvec{\cos \theta_3 \\ \sin \theta_3}
   \end{align}
-  \iffalse
-  From 
-\eqref{eq:tri_ccentre_subtend-temp}
-  \begin{align}
-	  \cos \alpha = \cos\brak{ \frac{\theta_1-\theta_3}{2}  }
-		\label{eq:circ_tang-line-alpha}	
-  \end{align}
-  \fi
   Without loss of generality,  let 
   \begin{align}
 	  \theta_3 = \frac{\pi}{2}
@@ -633,13 +573,13 @@ In Fig. \ref{fig:circ_tang_icept} show that
   \end{align}
   %which is the direction vector of the $y$-axis.
   From 
-		from \eqref{eq:circ_tang-line-orth-pc},	
+		%from \eqref{eq:circ_tang-line-orth-pc},	
   \begin{align}
 	  \vec{C}-\vec{P} = \myvec{1 \\ 0}
 		\label{eq:circ_tang-line-pc},	
   \end{align}
 From   
-\eqref{eq:tri_cos_form-ccentre}
+%\eqref{eq:tri_cos_form-ccentre}
 and 
 		\eqref{eq:circ_tang-line-pc},	
   \begin{align}
