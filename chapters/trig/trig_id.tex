@@ -69,7 +69,14 @@ From \eqref{ch1_budh_basic}, show that
 1 &= \frac{a}{b}\cos\theta + \frac{c}{b}\sin\theta\\
 \Rightarrow &\sin ^2 \theta + \cos ^2 \theta = 1 \quad \brak{\text{from} \quad \eqref{eq:tri_trig_defs}}
 \end{align}
-
+%
+\item 
+From \eqref{eq:tri_sin_cos_id}
+\begin{align}
+\label{eq:tri_sin_cos_minmax}
+	\abs{\sin \theta} \le 1,\
+	\abs{\cos \theta} \le 1
+\end{align}
 \item
 	Using \eqref{ch1_budh_basic}, show that
 	\begin{equation}
@@ -84,6 +91,14 @@ b &= a\frac{a}{b} + c \frac{c}{b} \quad \brak{\text{from} \quad \eqref{eq:tri_tr
 \implies b^2 &= a^2 + c^2
 \end{align}
 %
+\item In a right angled triangle, the hypotenuse is the longest side.
+\label{them:hyp_largest}
+\\
+\solution From 
+	\eqref{eq:tri_baudh},
+\begin{align}
+	a \le b,\ c \le b.
+\end{align}
 \item
 \label{prob:tri_area_sin}
 	Show that the area of $\Delta ABC$ in Fig. 	\ref{fig:tri_sss}	is $\frac{1}{2}ab \sin C$.
@@ -122,22 +137,6 @@ Dividing the above by $abc$, we obtain
 	\end{equation}
 This is known as the sine formula.	
 %
-\item In a right angled triangle, the hypotenuse is the longest side.
-\label{them:hyp_largest}
-\\
-\solution From 
-\eqref{eq:tri_sin_cos_id},
-\begin{align}
-	0 \le \sin \theta, \cos \theta \le 1
-\end{align}
-Hence, 
-\begin{align}
-	b \sin \theta \le b \implies  c \le b
-\end{align}
-Similalry,
-\begin{align}
-	a \le b
-\end{align}
 %
 \item Show that 
 %
@@ -213,7 +212,7 @@ c
 \solution From Fig. \ref{fig:tri_cosine_formula}, 
 %
 \begin{align}
-	a &= x + y = b \cos C + c \cos B = \myvec{  \cos C & \cos B } \myvec{ b \\ c }
+	a = x + y &= b \cos C + c \cos B = \myvec{  \cos C & \cos B } \myvec{ b \\ c }
 	\\
 &=\myvec{0 & b & c } \myvec{ \cos A \\ \cos C \\ \cos B } 
 \end{align}
