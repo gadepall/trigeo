@@ -46,10 +46,15 @@
 \node [right] at ($(C)!0.5!(E)$) {$\frac{b}{2}$};
 \node [left] at ($(B)!0.5!(F)$) {$\frac{c}{2}$};
 \node [left] at ($(A)!0.5!(F)$) {$\frac{c}{2}$};
+% Adding new labels
+\node [above] at ($(G)!0.5!(E)$) {$p$};
+\node [above] at ($(B)!0.5!(G)$) {$k_1p$};
+\node [above] at ($(G)!0.5!(F)$) {$q$};
+\node [above] at ($(C)!0.5!(G)$) {$k_2q$};
 %\node [below] at ($(E)!0.5!(G)$) {$1$};
-\node [below] at ($(B)!0.5!(G)$) {$k_1$};
+%\node [below] at ($(B)!0.5!(G)$) {$k_1$};
 %\node [below] at ($(F)!0.5!(G)$) {$1$};
-\node [below] at ($(C)!0.5!(G)$) {$k_2$};
+%\node [below] at ($(C)!0.5!(G)$) {$k_2$};
 \tkzLabelAngle[pos=0.5](C,G,E){$\theta$}
 \tkzLabelAngle[pos=0.5](F,G,B){$\theta$}
 \tkzFillAngle[fill=red!20,size=.3](C,G,E)
@@ -65,4 +70,3 @@
 
 %
 \end{tikzpicture}
-

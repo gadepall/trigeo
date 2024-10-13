@@ -1,5 +1,6 @@
 %
-\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\subsection{Sine and Cosine Formula}
+\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
 %
 	\item 
 A right angled triangle looks like Fig. \ref{fig:tri_right_angle}.
@@ -137,44 +138,27 @@ Dividing the above by $abc$, we obtain
 	\end{equation}
 This is known as the sine formula.	
 %
-%
-\item Show that 
-%
+\item 
+	In \figref{fig:tri_isoc}, $AB = AC$.  Show that 
 \begin{align}
-\label{eq:trig_id_sin_inc}
-\alpha > \beta \implies \sin \alpha > \sin \beta
+	\angle B
+	= \angle C 
 \end{align}
-%
-
-\begin{figure}[!ht]
-	\begin{center}
-		
-		%\includegraphics[width=\columnwidth]{./figs/fig:tri_sin_inc}
-		%\vspace*{-10cm}
-		\resizebox{0.6\columnwidth}{!}{\input{./figs/triangle/tri_sin_inc.tex}}
-	\end{center}
+\begin{figure}[H]
+	\centering
+		\resizebox{0.6\columnwidth}{!}{\input{figs/triangle/tri_isoc.tex}}
 	\caption{}
-	%\caption{$\sin \brak{\theta_1+\theta_2} = \sin\theta_1\cos\theta_2 + \cos\theta_1\sin\theta_2$}
-	\label{fig:tri_sin_inc}	
+	\label{fig:tri_isoc}
 \end{figure}
-\solution In Fig. \ref{fig:tri_sin_inc}, 	
-%
+\solution Using the sine formula, 
 \begin{align}
-ar\brak{\triangle ABD} &< ar \brak{\triangle ABC}
-\\
-\implies \frac{1}{2}lc \sin \theta_1 &<  \frac{1}{2}ac \sin \brak{\theta_1 + \theta_2 }
-\\
-\implies \frac{l}{a} &< \frac{\sin \brak{\theta_1 + \theta_2 }}{\sin \theta_1}
-\\
-\text{or, } 1 < \frac{l}{a} &< \frac{\sin \brak{\theta_1 + \theta_2 }}{\sin \theta_1}
+	\frac{AB}{\sin C}
+	&=\frac{AC}{\sin B}
+	\\
+	\implies \sin B &= \sin C
+	\text{ or, } \angle B = \angle C.
 \end{align}
-%
-from Theorem \ref{them:hyp_largest}, yielding 
-\begin{align}
-\implies \frac{\sin \brak{\theta_1 + \theta_2 }}{\sin \theta_1} > 1.
-\end{align}
-
-This proves \eqref{eq:trig_id_sin_inc}.
+%\end{enumerate}
 \item
 In Fig. \ref{fig:tri_cosine_formula}, show that
 %
@@ -257,372 +241,87 @@ b & a & 0
 	=\frac{ab^2 + ac^2 - a^3}{abc + abc} 
 = \frac{b^2 + c^2 - a^2}{2abc}
 \end{align}
-\item  In  
-	\figref{fig:tri_icentre}, the bisectors of $\angle B$ and $\angle C$	 meet at $\vec{I}$.
-Show that $IA$ bisects $\angle A$.
-\begin{figure}[!ht]
-	\begin{center}
-		
-		\resizebox{0.6\columnwidth}{!}{\input{./figs/trig/tri-icentre.tex}}
-	\end{center}
-	\caption{Incentre $I$ of $\triangle ABC$}
-	\label{fig:tri_icentre}	
-\end{figure}
+%
+\item Find Hero's formula for the area of a triangle.
 \\
-\solution
-Using sine formula
-in
-\eqref{eq:tri_sin_form}
-  \begin{align}
-  \frac{l_1}{\sin\frac{C}{2}}
-  &= 
-   \frac{l_3}{\sin \brak{A-\theta}}
-  \\
-   \frac{l_3}{\sin\frac{B}{2}}
-&=\frac{l_2}{\sin\frac{C}{2}}
-  \\
-\frac{l_2}{\sin \theta}
-	  &=
-  \frac{l_1}{\sin\frac{B}{2}}
-  \end{align}
-  Multiplying the above equations, 
-  \begin{align}
-  \sin \theta &= \sin \brak{A - \theta}
-  \\
-	  \implies \theta &=A - \theta 
-  \\
-	  \text{or, } \theta &= \frac{A}{2}
-  \end{align}
-  \item In
-	\figref{fig:tri_iradius}, 
-  \begin{align}
-	  ID \perp BC, \, 
-	  IE \perp AC, \, 
-	  IF \perp AB.
-  \end{align}
-		\begin{figure}[!ht]
-	\begin{center}
-		\resizebox{0.6\columnwidth}{!}{\input{./figs/trig/tri-iradius.tex}}
-	\end{center}
-	\caption{Inradius $r$ of $\triangle ABC$}
-	\label{fig:tri_iradius}	
-\end{figure}
-  Show that 
-  \begin{align}
-	  ID=   
-	  IE= 
-	  IF=r 
-	\label{eq:tri_iradius}	
-  \end{align}
-  \\
-		\solution
-In $\triangle$s $IDC$ and $IEC$, 
-		\begin{align}
-ID = IE=  \frac{l_3}{\sin\frac{C}{2}}
-		\end{align}
-		Similarly, 
-in $\triangle$s $IEA$ and $IFA$, 
-		\begin{align}
-IF = IE=  \frac{l_1}{\sin\frac{A}{2}}
-		\end{align}
-		yielding 
-	\eqref{eq:tri_iradius}	
-  \item In
-	\figref{fig:tri_iradius}, show that
-  \begin{align}
-	  BD=BF ,\, 
-	  AE=AF ,\, 
-	  CD=CE 
-  \end{align}
-  \solution  From 
-\figref{fig:tri_iradius}, in $\triangle$s $IBD$ and $IBF$, 
-		\begin{align}
-			x = BD = BF = r \cot \frac{B}{2}
-		\end{align}
-		Similarly, other results can be obtained.
-\item The circle with centre $\vec{I}$ and radius $r$ in  
-	\figref{fig:tri_icircle}	
-is known as the {\em incircle}. 
-%Find the radius $r$.
-\begin{figure}[!ht]
-	\begin{center}
-		\resizebox{0.6\columnwidth}{!}{\input{./figs/trig/tri_icircle.tex}}
-	\end{center}
-	\caption{Incircle of $\triangle ABC$}
-	\label{fig:tri_icircle}	
-\end{figure}
-\item In 
-	\figref{fig:tri-isosc},	
-\begin{figure}[!ht]
-	\begin{center}
-		\resizebox{0.6\columnwidth}{!}{\input{./figs/trig/tri_isosc.tex}}
-	\end{center}
-	\caption{Isosceles Triangle}
-	\label{fig:tri-isosc}	
-\end{figure}
-\begin{align}
-	OB = OC=R
-\end{align}
-Such a triangle is known as an isosceles triangle.  Show that
-\begin{align}
-	\angle B = \angle C
-\end{align}
 \solution 
-Using
-\eqref{eq:tri_sin_form},
+From \eqref{prob:tri_area_sin}, the area of $\triangle ABC$ is 
 \begin{align}
-	\frac{\sin B}{R} &= \frac{\sin C}{R}
-	\\
-\implies	{\sin B} &= {\sin C}
+\label{eq:tri_geo_area_sin_form}
+ \frac{1}{2}ab\sin C
+%\\
+&=\frac{1}{2}ab\sqrt{1-\cos^2C} 
+\quad \brak{\text{from } \eqref{eq:tri_sin_cos_id}
+%\eqref{eq:tri_geo_baudh}
+}
 \\
-	\text{or, } \angle B &= \angle C.
+&=\frac{1}{2}ab\sqrt{1-\brak{\frac{a^2+b^2-c^2}{2ab}}^2} \brak{\text{from } \eqref{eq:tri_cos_form}
+}
+\\
+&=\frac{1}{4}\sqrt{\brak{2ab}^2-\brak{a^2+b^2-c^2}}
+\\
+&=\frac{1}{4}\sqrt{\brak{2ab+a^2+b^2-c^2}\brak{2ab-a^2-b^2+c^2}}
+\\
+&= \frac{1}{4}\sqrt{\cbrak{\brak{a+b}^2-c^2}\cbrak{c^2-\brak{a-b}^2}}
+\\
+&= \frac{1}{4}\sqrt{\brak{a+b+c}\brak{a+b-c}\brak{a+c-b}\brak{b+c-a}}
+\label{eq:tri_ex_hero_temp}
 \end{align}
-\item In 
-	\figref{fig:tri-isosc},	
-	show that 
-  \begin{align}
-	  a = 2R \sin\frac{ \theta }{2}
-\label{eq:crad_cos2a}
-  \end{align}
-		\solution In $\triangle OBC$,  using the cosine formula from
-\eqref{eq:tri_cos_form},
+Substituting 
+%
 \begin{align}
-	\cos \theta &= \frac{R^2+R^2 - a^2}{2R^2} = 1 -\frac{a^2}{2R^2}
-	\\
-	\implies \frac{a^2}{2R^2}&= 2\sin^2\frac{\theta}{2}
-\end{align}
-yielding 
-\eqref{eq:crad_cos2a}.
-\item In
-	\figref{fig:tri_ccircle-ang},
-show that 
-\begin{align}
-\label{eq:tri_crad_R}
-\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C} = 2R.
+s=\frac{a+b+c}{2}
 \end{align}
 %
+in \eqref{eq:tri_ex_hero_temp}, the area of $\triangle ABC$ is 
 %
-\solution
-From 
-\eqref{eq:ang-subtend-ccentre}
-and 
-\eqref{eq:crad_cos2a}
-  \begin{align}
-	  a = 2R \sin A
-  \end{align}
+\begin{align}
+\label{eq:tri_area_hero}
+\sqrt{s\brak{s-a}\brak{s-b}\brak{s-c}}
+\end{align}
+%
+This is known as Hero's formula.
+\item Show that 
+%
+\begin{align}
+\label{eq:trig_id_sin_inc}
+\alpha > \beta \implies \sin \alpha > \sin \beta
+\end{align}
+%
 
-\item In 
-	\label{prob:tri-ccentre-def}
-	\figref{fig:tri-perp-bis}, 
+\begin{figure}[!ht]
+	\begin{center}
+		
+		%\includegraphics[width=\columnwidth]{./figs/fig:tri_sin_inc}
+		%\vspace*{-10cm}
+		\resizebox{0.6\columnwidth}{!}{\input{./figs/triangle/tri_sin_inc.tex}}
+	\end{center}
+	\caption{}
+	%\caption{$\sin \brak{\theta_1+\theta_2} = \sin\theta_1\cos\theta_2 + \cos\theta_1\sin\theta_2$}
+	\label{fig:tri_sin_inc}	
+\end{figure}
+\solution In Fig. \ref{fig:tri_sin_inc}, 	
+%
 \begin{align}
-OB = OC=R, 	BD = DC.
+ar\brak{\triangle ABD} &< ar \brak{\triangle ABC}
+\\
+\implies \frac{1}{2}lc \sin \theta_1 &<  \frac{1}{2}ac \sin \brak{\theta_1 + \theta_2 }
+\\
+\implies \frac{l}{a} &< \frac{\sin \brak{\theta_1 + \theta_2 }}{\sin \theta_1}
+\\
+\text{or, } 1 < \frac{l}{a} &< \frac{\sin \brak{\theta_1 + \theta_2 }}{\sin \theta_1}
 \end{align}
-Show that $OD \perp BC$.
 %
-\begin{figure}[!ht]
-	\begin{center}
-		
-		\resizebox{0.6\columnwidth}{!}{\input{./figs/coord/tri-perp-bis.tex}}
-	\end{center}
-	\caption{Perpendicular bisector.}
-	\label{fig:tri-perp-bis}	
-%github/geometry/figs/
-\end{figure}
-\item In 
-	\figref{fig:tri_ccentre},
-$OD$ and $OE$ are the perpendicular bisectors of sides $BC$ and $AC$ respectively.  Show that 
-$OA = R$.
-\begin{figure}[!ht]
-	\begin{center}
-		
-		\resizebox{0.6\columnwidth}{!}{\input{./figs/coord/tri_ccentre.tex}}
-	\end{center}
-	\caption{ Perpendicular bisectors of $\triangle ABC$ meet at $\vec{O}$.}
-	\label{fig:tri_ccentre}	
-\end{figure}
-  \item The equation  of the circle in 
-	\figref{fig:tri_ccircle-ang},
-\begin{figure}[!ht]
-	\begin{center}
-		\resizebox{0.6\columnwidth}{!}{\input{./figs/coord/tri_ccircle.tex}}
-	\end{center}
-	\caption{Circumcircle of $\triangle ABC$}
-	\label{fig:tri_ccircle-ang}	
-\end{figure}
-	is
-  \begin{align}
-	  \norm{\vec{x}-\vec{O}} = R
-  \end{align}
-  This is known as the {\em circumcircle} of $\triangle ABC$.
-\item Any point on the circle can be expressed as 
-  \begin{align}
-	  \vec{x} = \vec{O} + R\myvec{\cos \theta \\ \sin \theta}, \quad 0 \in \sbrak{0, 2\pi}
-\label{eq:polar-ccentre}.
-  \end{align}
-  \item Let
-  \begin{align}
-	  R = 1,\,
-	  \vec{O} = \vec{0} ,\,
-	  \vec{A} = \myvec{\cos \theta_1 \\ \sin \theta_1},\,
-	  \vec{B} = \myvec{\cos \theta_2 \\ \sin \theta_2},\,
-  \end{align}
-Show that 
-  \begin{align}
-	  \norm{\vec{A}-\vec{B}} = 
-	   2 \sin \brak{\frac{\theta_1-\theta_2}{2}}
-\label{eq:norm-polar-ccentre}
-  \end{align}
-  \solution 
-  From 
-\eqref{eq:polar-ccentre}.
-  \begin{align}
-	  \vec{A}-\vec{B} &= 
-\myvec{\cos \theta_1-\cos \theta_2 \\ \sin \theta_1-\sin \theta_2}
-\\
-\implies 
-	  \norm{\vec{A}-\vec{B}}^2 &= 
-	  \brak{\cos \theta_1-\cos \theta_2}^2 +\brak{\sin \theta_1-\sin \theta_2}^2
-	  \\
-	  &= 2\cbrak{1-
-	  \cos \brak{\theta_1-\theta_2}} = 4 \sin^2 \brak{\frac{\theta_1-\theta_2}{2}}
-  \end{align}
-  yielding 
-\eqref{eq:norm-polar-ccentre} from
-\eqref{eq:trig-id-2A-cos}.
-  \item In 
-	\figref{fig:tri_ccircle-ang},
-show that 
-  \begin{align}
-	  \theta = 2A
-\label{eq:ang-subtend-ccentre}.
-  \end{align}
-  \solution Let 
-  \begin{align}
-	  \vec{C} = \myvec{\cos \theta_3 \\ \sin \theta_3}
-  \end{align}
-  Then, 
-  substituting 
-  from 
-\eqref{eq:norm-polar-ccentre}
-in 
-%\eqref{eq:tri_cos_form-ccentre-norm},
-  \begin{align}
-	  \cos A &= \frac{4 \sin^2 \brak{\frac{\theta_1-\theta_2}{2}} +4\sin^2 \brak{\frac{\theta_1-\theta_3}{2}}-4 \sin^2 \brak{\frac{\theta_2-\theta_3}{2}}}{8 \sin \brak{\frac{\theta_1-\theta_2}{2}} \sin \brak{\frac{\theta_1-\theta_3}{2}}}
-	  \\
-	   &= \frac{2 \sin^2 \brak{\frac{\theta_1-\theta_2}{2}} +\cos \brak{{\theta_2-\theta_3}}- \cos \brak{{\theta_1-\theta_3}}}{4 \sin \brak{\frac{\theta_1-\theta_2}{2}} \sin \brak{\frac{\theta_1-\theta_3}{2}}}
-  \end{align}
-  from 
-\eqref{eq:trig-id-2A-cos}. $\therefore$ from 
-\eqref{eq:trig_id_sum_diff4},
-  \begin{align}
-	   \cos A &= \frac{2 \sin^2 \brak{\frac{\theta_1-\theta_2}{2}} +2\sin \brak{\frac{\theta_1-\theta_2}{2}}\sin \brak{\frac{\theta_1+\theta_2}{2}-\theta_3}}{4 \sin \brak{\frac{\theta_1-\theta_2}{2}} \sin \brak{\frac{\theta_1-\theta_3}{2}}}
-	  \\
-	   &= \frac{ \sin \brak{\frac{\theta_1-\theta_2}{2}} +\sin \brak{\frac{\theta_1+\theta_2}{2}-\theta_3}}{ 2\sin\brak{\frac{\theta_1-\theta_3}{2}}}
-  \end{align}
-  From 
-\eqref{eq:trig_id_sum_diff1}, the above equation can be expressed as
-  \begin{align}
-\cos A	   &= \frac{ 2\sin \brak{\frac{\theta_1-\theta_3}{2}} \cos\brak{\frac{\theta_2-\theta_3}{2}}}{ 2\sin\brak{\frac{\theta_1-\theta_3}{2}}} = \cos\brak{\frac{\theta_2-\theta_3}{2}}
-\label{eq:tri_ccentre_subtend-temp}
-	   \\
-	   \implies 2A &= \theta_2-\theta_3
-\label{eq:tri_ccentre_subtend}
-  \end{align}
-  Similarly, 
-  \begin{align}
-	  \cos \theta = \frac{1 + 1 - 4\sin^2\brak{\frac{\theta_2-\theta_3}{2}}}{2} = \cos\brak{{\theta_2-\theta_3}}= \cos 2A
-  \end{align}
-\item
-In Fig. \ref{fig:circ_tang_icept} show that 
+from Theorem \ref{them:hyp_largest}, yielding 
+\begin{align}
+\implies \frac{\sin \brak{\theta_1 + \theta_2 }}{\sin \theta_1} > 1.
+\end{align}
+
+This proves \eqref{eq:trig_id_sin_inc}.
+\end{enumerate}
 %
-\begin{equation}
-\theta = \alpha
-		\label{fig:circ_tang_icept-equal}	
-\end{equation}
-%
-\label{them:tang_icept_ang}
-	\begin{figure}[!ht]
-		\begin{center}
-			
-			%\includegraphics[width=0.6\columnwidth]{./figs/fig:circ_tang_icept}
-			%\vspace*{-10cm}
-			\resizebox{0.6\columnwidth}{!}{\input{./figs/coord/circ_tang_icept.tex}}
-		\end{center}
-		\caption{$\theta= \alpha$.}
-		\label{fig:circ_tang_icept}	
-	\end{figure}
-	%
-	\\
-	\solution
-    Let
-  \begin{align}
-	  \vec{O} = \vec{0}
-	  \vec{A} = \myvec{\cos \theta_1 \\ \sin \theta_1},\,
-	  \vec{B} =  \myvec{\cos \theta_2 \\ \sin \theta_2},\,
-	  \vec{C} =  \myvec{\cos \theta_3 \\ \sin \theta_3}
-  \end{align}
-  Without loss of generality,  let 
-  \begin{align}
-	  \theta_3 = \frac{\pi}{2}
-		\label{eq:circ_tang-line-t3}	
-  \end{align}
-  Then, 
-  \begin{align}
-	  \vec{C}-\vec{O} = \myvec{0 \\ 1}
-  \end{align}
-  %which is the direction vector of the $y$-axis.
-  From 
-		%from \eqref{eq:circ_tang-line-orth-pc},	
-  \begin{align}
-	  \vec{C}-\vec{P} = \myvec{1 \\ 0}
-		\label{eq:circ_tang-line-pc},	
-  \end{align}
-From   
-%\eqref{eq:tri_cos_form-ccentre}
-and 
-		\eqref{eq:circ_tang-line-pc},	
-  \begin{align}
-	  \cos \theta &= \frac{
-		  \myvec{\cos \theta_3-\cos \theta_1 & \sin \theta_3-\sin \theta_1}
-		  \myvec{1 \\ 0}
-		  }
-		  {
-	   2 \sin \brak{\frac{\theta_1-\theta_3}{2}}
-			  } 
-			  \\
-			  &=
-	    \sin \brak{\frac{\theta_1+\theta_3}{2}}
-	    =\cos\brak{\frac{\pi}{2}-\frac{\theta_1+\theta_3}{2}}
-	    =\cos\brak{\frac{\pi}{4}-\frac{\theta_1}{2}}
-  \end{align}
-  upon substituting from 
-		\eqref{eq:circ_tang-line-t3}.  Similarly, 	
-		from
-\eqref{eq:tri_ccentre_subtend-temp},
-  \begin{align}
-	  \cos \alpha = \cos \brak{\frac{\theta_1-\theta_3}{2}  }
-	    =\cos\brak{\frac{\pi}{4}-\frac{\theta_1}{2}}
-	  =\cos \theta
-  \end{align}
-%
-\item
-	In Fig. \ref{fig:circ_tang_icept}, show that $PA.PB = PC^2$.
-\label{them:circ_tang_icept_prod}	
-\\
-\solution 
-In $\triangle$s $APC$ and $BPC$, 
-using
-		\eqref{fig:circ_tang_icept-equal},	
-  \begin{align}
-	  \frac{AP}{\sin \theta} &= \frac{AC}{\sin P} 
-	  \\
-	  \frac{PC}{\sin \theta} &= \frac{BC}{\sin P} 
-	  \\
-	  \implies \frac{PC}{AP} &= \frac{BC}{AC}  \brak{= \frac{BP}{CP}}
-  \end{align}
-  which gives the desired result.
-$\triangle$s $APC$ and $BPC$ are said to be {\em similar}.
-%
+\subsection{Trigonometric Identities}
+\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
 \item
 	Using 
 	\figref{fig:tri_sin_inc},
@@ -671,58 +370,6 @@ Multiplying both sides by $\cos \theta_2$,
 %
 resulting in
 \eqref{trig_id_sin_theta_eq}.
-\item Find Hero's formula for the area of a triangle.
-\\
-\solution 
-%In Fig. \ref{fig:rt_triangle}, from Baudhayana's theorem, 
-%\begin{align}
-%\label{eq:tri_geo_baudh}
-%b^2 = a^2+c^2 &
-%\\
-%=b^2\cos^2C+b^2\sin^2C &
-%\\
-%\implies \cos^2C+\sin^2C &= 1
-%\end{align}
-%
-%In Fig. \ref{fig:tri_const_ex_cos_form}, 
-From \eqref{prob:tri_area_sin}, the area of $\triangle ABC$ is 
-{\footnotesize
-\begin{align}
-\label{eq:tri_geo_area_sin_form}
- \frac{1}{2}ab\sin C
-%\\
-&=\frac{1}{2}ab\sqrt{1-\cos^2C} 
-\quad \brak{\text{from } \eqref{eq:tri_sin_cos_id}
-%\eqref{eq:tri_geo_baudh}
-}
-\\
-&=\frac{1}{2}ab\sqrt{1-\brak{\frac{a^2+b^2-c^2}{2ab}}^2} \brak{\text{from } \eqref{eq:tri_cos_form}
-}
-\\
-&=\frac{1}{4}\sqrt{\brak{2ab}^2-\brak{a^2+b^2-c^2}}
-\\
-&=\frac{1}{4}\sqrt{\brak{2ab+a^2+b^2-c^2}\brak{2ab-a^2-b^2+c^2}}
-\\
-&= \frac{1}{4}\sqrt{\cbrak{\brak{a+b}^2-c^2}\cbrak{c^2-\brak{a-b}^2}}
-\\
-&= \frac{1}{4}\sqrt{\brak{a+b+c}\brak{a+b-c}\brak{a+c-b}\brak{b+c-a}}
-\label{eq:tri_ex_hero_temp}
-\end{align}
-}
-Substituting 
-%
-\begin{align}
-s=\frac{a+b+c}{2}
-\end{align}
-%
-in \eqref{eq:tri_ex_hero_temp}, the area of $\triangle ABC$ is 
-%
-\begin{align}
-\label{eq:tri_area_hero}
-\sqrt{s\brak{s-a}\brak{s-b}\brak{s-c}}
-\end{align}
-%
-This is known as Hero's formula.
 \item
 	Prove the following identities 
 	%
@@ -780,22 +427,20 @@ $90{\degree} - \alpha$.  This results in
 %
 Using \eqref{trig_id_cos_diff} in the above,
 %
-\begin{multline}
+\begin{align}
 \sin \brak{\theta_1 + \theta_2}\cos \theta_2 
-=\sin  \theta_1 +\lbrak{\cos \theta_1\cos\theta_2 }
-\\	
-\rbrak{	- \sin \theta_1\sin\theta_2}\sin\theta_2 
-\end{multline}
+=\sin  \theta_1 +\brak{\cos \theta_1\cos\theta_2 
+	- \sin \theta_1\sin\theta_2}\sin\theta_2 
+\end{align}
 %
 which can be expressed as
 %
-\begin{multline}
+\begin{align}
 \sin \brak{\theta_1 + \theta_2}\cos \theta_2 
 =\sin  \theta_1 
-\\
 +\cos \theta_1\cos\theta_2 \sin\theta_2 
 		- \sin \theta_1\sin^2\theta_2
-\end{multline}
+\end{align}
 %
 Since
 %
@@ -805,11 +450,11 @@ Since
 %
 we obtain
 %
-\begin{multline}
+\begin{align}
 \sin \brak{\theta_1 + \theta_2}\cos \theta_2 
 =\cos \theta_1\cos\theta_2 \sin\theta_2 
 + \sin \theta_1\cos^2\theta_2
-\end{multline}
+\end{align}
 %
 resulting in
 %
@@ -853,8 +498,7 @@ From \eqref{trig_id_sin_sum},
 \sin \theta_1 + \sin \theta_2  &= \sin \brak{\alpha + \beta} + \sin \brak{\alpha - \beta}
 \\
 &= \sin \alpha \cos \beta + \cos \alpha \sin \beta 
-\\
-&+\sin \alpha \cos \beta - \cos \alpha \sin \beta
++\sin \alpha \cos \beta - \cos \alpha \sin \beta
 \\
 &= 2 \sin \alpha \cos \beta
 \end{align}
@@ -862,16 +506,16 @@ From \eqref{trig_id_sin_sum},
 resulting in \eqref{eq:trig_id_sum_diff1}
 %
 \begin{align}
-\because \alpha &= \frac{\theta_1 +\theta_2}{2}
-\\
-\beta &= \frac{\theta_1 -\theta_2}{2}
+\because \alpha = \frac{\theta_1 +\theta_2}{2}
+,\
+\beta = \frac{\theta_1 -\theta_2}{2}
 \end{align}
 from \eqref{eq:trig_id_ang_sum_diff}.  Other identities may be proved similarly.
 %
 \item Show that 
   \begin{align}
 \label{eq:trig-id-2A-sin}
-	  \sin 2 \theta = 2 \sin \theta \cos \theta
+	  \sin 2 \theta &= 2 \sin \theta \cos \theta
 	  \\
 	  \cos 2 \theta &= 1 - 2 \sin^2 \theta 
 	  =  2 \cos^2 \theta -1
@@ -879,8 +523,421 @@ from \eqref{eq:trig_id_ang_sum_diff}.  Other identities may be proved similarly.
 	  &= \cos^2 \theta -\sin^2 \theta 
 \label{eq:trig-id-2A-cos}
   \end{align}
+\end{enumerate}
+%
+\subsection{Incircle}
+\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
+\item  In  
+	\figref{fig:tri_icentre}, the bisectors of $\angle B$ and $\angle C$	 meet at $\vec{I}$.
+Show that $IA$ bisects $\angle A$.
+\begin{figure}[!ht]
+	\begin{center}
+		
+		\resizebox{0.6\columnwidth}{!}{\input{./figs/trig/tri-icentre.tex}}
+	\end{center}
+	\caption{Incentre $I$ of $\triangle ABC$}
+	\label{fig:tri_icentre}	
+\end{figure}
+\\
+\solution
+Using sine formula
+in
+\eqref{eq:tri_sin_form}
+  \begin{align}
+  \frac{l_1}{\sin\frac{C}{2}}
+  = 
+   \frac{l_3}{\sin \brak{A-\theta}}
+  ,\
+   \frac{l_3}{\sin\frac{B}{2}}
+=\frac{l_2}{\sin\frac{C}{2}}
+  ,\
+\frac{l_2}{\sin \theta}
+	  =
+  \frac{l_1}{\sin\frac{B}{2}}
+  \end{align}
+  Multiplying the above equations, 
+  \begin{align}
+  \sin \theta &= \sin \brak{A - \theta}
+  \\
+	  \implies \theta &=A - \theta 
+	  \text{ or, } \theta = \frac{A}{2}
+  \end{align}
+  \item 
+	\figref{fig:tri_iradius}, 
+	is obtained from 
+	\figref{fig:tri_icentre}	
+	with
+  \begin{align}
+	  ID \perp BC, \, 
+	  IE \perp AC, \, 
+	  IF \perp AB.
+  \end{align}
+  Show that 
+  \begin{align}
+	  ID=   
+	  IE= 
+	  IF=r 
+	\label{eq:tri_iradius}	
+  \end{align}
+		\begin{figure}[!ht]
+	\begin{center}
+		\resizebox{0.6\columnwidth}{!}{\input{./figs/trig/tri-iradius.tex}}
+	\end{center}
+	\caption{Inradius $r$ of $\triangle ABC$}
+	\label{fig:tri_iradius}	
+\end{figure}
+		\solution
+In $\triangle$s $IDC$ and $IEC$, 
+		\begin{align}
+ID = IE=  \frac{l_3}{\sin\frac{C}{2}}
+		\end{align}
+		Similarly, 
+in $\triangle$s $IEA$ and $IFA$, 
+		\begin{align}
+IF = IE=  \frac{l_1}{\sin\frac{A}{2}}
+		\end{align}
+		yielding 
+	\eqref{eq:tri_iradius}	
+  \item In
+	\figref{fig:tri_iradius}, show that
+  \begin{align}
+	  BD=BF ,\, 
+	  AE=AF ,\, 
+	  CD=CE 
+  \end{align}
+  \solution  From 
+\figref{fig:tri_iradius}, in $\triangle$s $IBD$ and $IBF$, 
+		\begin{align}
+			x = BD = BF = r \cot \frac{B}{2}
+		\end{align}
+		Similarly, other results can be obtained.
+\item The circle with centre $\vec{I}$ and radius $r$ in  
+	\figref{fig:tri_icircle}	
+is known as the {\em incircle}. 
+\begin{figure}[!ht]
+	\begin{center}
+		\resizebox{0.6\columnwidth}{!}{\input{./figs/trig/tri_icircle.tex}}
+	\end{center}
+	\caption{Incircle of $\triangle ABC$}
+	\label{fig:tri_icircle}	
+\end{figure}
+\item The lengths of tangents drawn from an external point to a circle are equal.
+\item In an isosceles $\triangle ABC$, with $AB = AC$, $BE$ and $CF$ are the bisectors of $\angle B$ and $\angle C$ respectively.   Show that 
+\begin{align}
+BE = CF
+	\label{eq:tri_isoc_ang_bsect}
+\end{align}
+\begin{figure}[H]
+	\centering
+		\resizebox{0.6\columnwidth}{!}{\input{figs/triangle/tri_isoc_ang_bsect.tex}}
+	\caption{}
+	\label{fig:tri_isoc_ang_bsect}
+\end{figure}
+\end{enumerate}
+\solution
+%
+In $\triangle$ s $BEC$ and $BFC$, using the sine formula, 
+\begin{align}
+	\label{eq:tri_isoc_ang_bsect-inter}
+	\frac{BE}{\sin C}
+	&=\frac{BC}{\sin \brak{\frac{B}{2}+C}}
+	\\
+	\frac{CF}{\sin B}
+	&=\frac{BC}{\sin \brak{\frac{B}{2}+C}}
+\end{align}
+$\because B = C$, from the above, we obtain
+	\eqref{eq:tri_isoc_ang_bsect}.
+\subsection{Circumcircle}
+\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
+\item In 
+	\figref{fig:tri-isosc},	
+\begin{figure}[!ht]
+	\begin{center}
+		\resizebox{0.6\columnwidth}{!}{\input{./figs/trig/tri_isosc.tex}}
+	\end{center}
+	\caption{Isosceles Triangle}
+	\label{fig:tri-isosc}	
+\end{figure}
+\begin{align}
+	OB = OC=R
+\end{align}
+Such a triangle is known as an isosceles triangle.  Show that
+\begin{align}
+	\angle B = \angle C
+\end{align}
+\solution 
+Using
+\eqref{eq:tri_sin_form},
+\begin{align}
+	\frac{\sin B}{R} &= \frac{\sin C}{R}
+	\\
+\implies	{\sin B} &= {\sin C}
+\\
+	\text{or, } \angle B &= \angle C.
+\end{align}
+\item In 
+	\figref{fig:tri-isosc},	
+	show that 
+  \begin{align}
+	  a = 2R \sin\frac{ \theta }{2}
+\label{eq:crad_cos2a}
+  \end{align}
+		\solution In $\triangle OBC$,  using the cosine formula from
+\eqref{eq:tri_cos_form},
+\begin{align}
+	\cos \theta &= \frac{R^2+R^2 - a^2}{2R^2} = 1 -\frac{a^2}{2R^2}
+	\\
+	\implies \frac{a^2}{2R^2}&= 2\sin^2\frac{\theta}{2}
+\end{align}
+yielding 
+\eqref{eq:crad_cos2a}.
+
+\item In 
+	\label{prob:tri-ccentre-def}
+	\figref{fig:tri-perp-bis}, 
+\begin{align}
+OB = OC=R, 	BD = DC.
+\end{align}
+Show that $OD \perp BC$.
+%
+\begin{figure}[!ht]
+	\begin{center}
+		
+		\resizebox{0.6\columnwidth}{!}{\input{./figs/coord/tri-perp-bis.tex}}
+	\end{center}
+	\caption{Perpendicular bisector.}
+	\label{fig:tri-perp-bis}	
+%github/geometry/figs/
+\end{figure}
+\item In 
+	\figref{fig:tri_ccentre},
+$OD$ and $OE$ are the perpendicular bisectors of sides $BC$ and $AC$ respectively.  Show that 
+$OA = R$.
+\begin{figure}[!ht]
+	\begin{center}
+		
+		\resizebox{0.6\columnwidth}{!}{\input{./figs/coord/tri_ccentre.tex}}
+	\end{center}
+	\caption{ Perpendicular bisectors of $\triangle ABC$ meet at $\vec{O}$.}
+	\label{fig:tri_ccentre}	
+\end{figure}
+\item In
+	\figref{fig:tri_ccentre},
+	%\figref{fig:tri_ccircle-ang},
+show that 
+\begin{align}
+\label{eq:tri_crad_R}
+\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C} = 2R.
+\end{align}
+%
+%
+\solution
+From 
+\eqref{eq:ang-subtend-ccentre}
+and 
+\eqref{eq:crad_cos2a}
+  \begin{align}
+	  a = 2R \sin A
+  \end{align}
+  \item 
+	\figref{fig:tri_ccircle-ang}
+  shows the {\em circumcircle} of $\triangle ABC$.
+\begin{figure}[!ht]
+	\begin{center}
+		\resizebox{0.6\columnwidth}{!}{\input{./figs/coord/tri_ccircle.tex}}
+	\end{center}
+	\caption{Circumcircle of $\triangle ABC$}
+	\label{fig:tri_ccircle-ang}	
+\end{figure}
+\item Any point on the circle can be expressed as 
+  \begin{align}
+	  \vec{x} = \vec{O} + R\myvec{\cos \theta \\ \sin \theta}, \quad 0 \in \sbrak{0, 2\pi}
+\label{eq:polar-ccentre}.
+  \end{align}
+  where $\vec{O}$ is the centere of the circle.
+  \item Let
+  \begin{align}
+	  R = 1,\,
+	  \vec{O} = \vec{0} ,\,
+	  \vec{A} = \myvec{\cos \theta_1 \\ \sin \theta_1},\,
+	  \vec{B} = \myvec{\cos \theta_2 \\ \sin \theta_2},\,
+  \end{align}
+Show that the distance
+  \begin{align}
+	  AB = \norm{\vec{A}-\vec{B}} = 
+	   2 \sin \brak{\frac{\theta_1-\theta_2}{2}}
+\label{eq:norm-polar-ccentre}
+  \end{align}
+  \solution 
+  From 
+\eqref{eq:polar-ccentre}.
+  \begin{align}
+	  \vec{A}-\vec{B} &= 
+\myvec{\cos \theta_1-\cos \theta_2 \\ \sin \theta_1-\sin \theta_2}
+\\
+\implies 
+	  \norm{\vec{A}-\vec{B}}^2 &= 
+	  \brak{\vec{A}-\vec{B}}^\top
+	  \brak{\vec{A}-\vec{B}} 
+	  \\
+	  &= 
+	  \brak{\cos \theta_1-\cos \theta_2}^2 +\brak{\sin \theta_1-\sin \theta_2}^2
+	  \\
+	  &= 2\cbrak{1-
+	  \cos \brak{\theta_1-\theta_2}} = 4 \sin^2 \brak{\frac{\theta_1-\theta_2}{2}}
+  \end{align}
+  yielding 
+\eqref{eq:norm-polar-ccentre} from
+\eqref{eq:trig-id-2A-cos}.
   \item In 
-	\figref{fig:tri_med_isect}	
+	\figref{fig:tri_ccircle-ang}, show that 
+\begin{align}
+	\cos A = \frac{
+	  \brak{\vec{A}-\vec{B}}^\top
+	  \brak{\vec{A}-\vec{B}} 
+}
+{
+	  \norm{\vec{A}-\vec{B}}
+	  \norm{\vec{A}-\vec{C}}
+}
+\label{eq:tri_cos_form-ccentre-norm},
+\end{align}
+  \item In 
+	\figref{fig:tri_ccircle-ang},
+show that 
+  \begin{align}
+	  \theta = 2A
+\label{eq:ang-subtend-ccentre}.
+  \end{align}
+  \solution Let 
+  \begin{align}
+	  \vec{C} = \myvec{\cos \theta_3 \\ \sin \theta_3}
+  \end{align}
+  Then, 
+  substituting 
+  from 
+\eqref{eq:norm-polar-ccentre}
+in 
+\eqref{eq:tri_cos_form},
+%\eqref{eq:tri_cos_form-ccentre-norm},
+  \begin{align}
+	  \cos A &= \frac{4 \sin^2 \brak{\frac{\theta_1-\theta_2}{2}} +4\sin^2 \brak{\frac{\theta_1-\theta_3}{2}}-4 \sin^2 \brak{\frac{\theta_2-\theta_3}{2}}}{8 \sin \brak{\frac{\theta_1-\theta_2}{2}} \sin \brak{\frac{\theta_1-\theta_3}{2}}}
+	  \\
+	   &= \frac{2 \sin^2 \brak{\frac{\theta_1-\theta_2}{2}} +\cos \brak{{\theta_2-\theta_3}}- \cos \brak{{\theta_1-\theta_3}}}{4 \sin \brak{\frac{\theta_1-\theta_2}{2}} \sin \brak{\frac{\theta_1-\theta_3}{2}}}
+  \end{align}
+  from 
+\eqref{eq:trig-id-2A-cos}. $\therefore$ From 
+\eqref{eq:trig_id_sum_diff4},
+  \begin{align}
+	   \cos A &= \frac{2 \sin^2 \brak{\frac{\theta_1-\theta_2}{2}} +2\sin \brak{\frac{\theta_1-\theta_2}{2}}\sin \brak{\frac{\theta_1+\theta_2}{2}-\theta_3}}{4 \sin \brak{\frac{\theta_1-\theta_2}{2}} \sin \brak{\frac{\theta_1-\theta_3}{2}}}
+	  \\
+	   &= \frac{ \sin \brak{\frac{\theta_1-\theta_2}{2}} +\sin \brak{\frac{\theta_1+\theta_2}{2}-\theta_3}}{ 2\sin\brak{\frac{\theta_1-\theta_3}{2}}}
+  \end{align}
+  From 
+\eqref{eq:trig_id_sum_diff1}, the above equation can be expressed as
+  \begin{align}
+\cos A	   &= \frac{ 2\sin \brak{\frac{\theta_1-\theta_3}{2}} \cos\brak{\frac{\theta_2-\theta_3}{2}}}{ 2\sin\brak{\frac{\theta_1-\theta_3}{2}}} = \cos\brak{\frac{\theta_2-\theta_3}{2}}
+\label{eq:tri_ccentre_subtend-temp}
+	   \\
+	   \implies 2A &= \theta_2-\theta_3
+\label{eq:tri_ccentre_subtend}
+  \end{align}
+  Similarly, 
+  \begin{align}
+	  \cos \theta = \frac{1 + 1 - 4\sin^2\brak{\frac{\theta_2-\theta_3}{2}}}{2} = \cos\brak{{\theta_2-\theta_3}}= \cos 2A
+  \end{align}
+\item
+In Fig. \ref{fig:circ_tang_icept}, show that 
+%
+\begin{equation}
+\theta = \alpha
+		\label{fig:circ_tang_icept-equal}	
+\end{equation}
+%
+\label{them:tang_icept_ang}
+where $CP$ is the tangent.
+	\begin{figure}[!ht]
+		\begin{center}
+			
+			%\includegraphics[width=0.6\columnwidth]{./figs/fig:circ_tang_icept}
+			%\vspace*{-10cm}
+			\resizebox{0.6\columnwidth}{!}{\input{./figs/coord/circ_tang_icept.tex}}
+		\end{center}
+		\caption{$\theta= \alpha$.}
+		\label{fig:circ_tang_icept}	
+	\end{figure}
+	%
+	\solution
+    Let
+  \begin{align}
+	  \vec{O} = \vec{0},\
+	  \vec{A} = \myvec{\cos \theta_1 \\ \sin \theta_1},\,
+	  \vec{B} =  \myvec{\cos \theta_2 \\ \sin \theta_2},\,
+	  \vec{C} =  \myvec{\cos \theta_3 \\ \sin \theta_3}
+  \end{align}
+  Without loss of generality,  let 
+  \begin{align}
+	  \theta_3 = \frac{\pi}{2}
+		\label{eq:circ_tang-line-t3}	
+  \end{align}
+  Then, 
+  \begin{align}
+	  \vec{C}-\vec{O} = \myvec{0 \\ 1}.
+\implies	  \vec{C}-\vec{P} \equiv \myvec{1 \\ 0}
+		\label{eq:circ_tang-line-pc},	
+  \end{align}
+  $\because CO \perp CP$.
+From   
+\eqref{eq:tri_cos_form-ccentre-norm},
+and 
+		\eqref{eq:circ_tang-line-pc},	
+  \begin{align}
+	  \cos \theta &= \frac{
+		  \myvec{\cos \theta_3-\cos \theta_1 & \sin \theta_3-\sin \theta_1}
+		  \myvec{1 \\ 0}
+		  }
+		  {
+	   2 \sin \brak{\frac{\theta_1-\theta_3}{2}}
+			  } 
+			  \\
+			  &=
+	    \sin \brak{\frac{\theta_1+\theta_3}{2}}
+	    =\cos\brak{\frac{\pi}{2}-\frac{\theta_1+\theta_3}{2}}
+	    =\cos\brak{\frac{\pi}{4}-\frac{\theta_1}{2}}
+  \end{align}
+  upon substituting from 
+		\eqref{eq:circ_tang-line-t3}.  Similarly, 	
+		from
+\eqref{eq:tri_ccentre_subtend-temp},
+  \begin{align}
+	  \cos \alpha = \cos \brak{\frac{\theta_1-\theta_3}{2}  }
+	    =\cos\brak{\frac{\pi}{4}-\frac{\theta_1}{2}}
+	  =\cos \theta
+  \end{align}
+%
+\item
+	In Fig. \ref{fig:circ_tang_icept}, show that $PA.PB = PC^2$.
+\label{them:circ_tang_icept_prod}	
+\\
+\solution 
+In $\triangle$s $APC$ and $BPC$, 
+using
+		\eqref{fig:circ_tang_icept-equal},	
+  \begin{align}
+	  \frac{AP}{\sin \theta} &= \frac{AC}{\sin P} 
+	  \\
+	  \frac{PC}{\sin \theta} &= \frac{BC}{\sin P} 
+	  \\
+	  \implies \frac{PC}{AP} &= \frac{BC}{AC}  \brak{= \frac{BP}{CP}}
+  \end{align}
+  which gives the desired result.
+$\triangle$s $APC$ and $BPC$ are said to be {\em similar}.
+\end{enumerate}
+%
+\subsection{Medians}
+\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
+  \item In 
+	\figref{fig:tri_med}	
 	\begin{align}
 	AF = BF, \,
 	AE = BE, 
@@ -894,12 +951,10 @@ from \eqref{eq:trig_id_ang_sum_diff}.  Other identities may be proved similarly.
 \end{align}
 \begin{figure}[!ht]
 	\begin{center}
-		\resizebox{0.6\columnwidth}{!}{\input{./figs/coord/tri_med_isect.tex}}
-%		\resizebox{\columnwidth}{!}{\input{./figs/coord/tri_med_meet.tex}}
+		\resizebox{0.6\columnwidth}{!}{\input{./figs/coord/tri_med.tex}}
 	\end{center}
 	\caption{$k_1=k_2$.}
-	\label{fig:tri_med_isect}	
-	%\label{fig:tri_med_meet}	
+	\label{fig:tri_med}	
 \end{figure}
 \solution
 	From \eqref{tri:area-sin},
@@ -912,8 +967,11 @@ from \eqref{eq:trig_id_ang_sum_diff}.  Other identities may be proved similarly.
 \end{align}
 yielding
 	\eqref{eq:median-area}.
+\item The median divides a triangle into two triangle of equal area.
+	\label{prob:median-area}.
 \item 
-	Show that
+	In \figref{fig:tri_med},	
+	show that
 \begin{align}
 	ar\brak{CGE}
 	=ar\brak{BGF} 
@@ -921,7 +979,7 @@ yielding
 \end{align}
 \solution 
 From 
-	\figref{fig:tri_med_isect}	
+	\figref{fig:tri_med}	
 	and 
 	\eqref{eq:median-area},
 \begin{align}
@@ -935,5 +993,95 @@ From
 \end{align}
 yielding 
 	\eqref{eq:median-sub-area}.
+\item In 
+	\figref{fig:tri_med_isect},	show that
+\begin{align}
+	k_1=k_2
+	\label{eq:med-ratio-eq}
+\end{align}
+\begin{figure}[!ht]
+	\begin{center}
+		\resizebox{0.6\columnwidth}{!}{\input{./figs/coord/tri_med_isect.tex}}
+	\end{center}
+	\caption{Equal areas.}
+	\label{fig:tri_med_isect}	
+\end{figure}
+\solution
+	From \eqref{eq:median-sub-area},
+\begin{align}
+	\frac{1}{2}p\brak{k_1q} \sin \theta
+	&=\frac{1}{2}q\brak{k_2p}\sin \theta
+\end{align}
+	yielding \eqref{eq:med-ratio-eq}.
+\item In 
+	\figref{fig:tri_med_meet}, show that 	
+\begin{align}
+	k_3 = k
+\label{eq:med-ratio-eq-k3}
+\end{align}
+\solution 
+	From \probref{prob:median-area},
+\begin{align}
+\begin{split}
+	ar\brak{AGE}
+	&=ar\brak{CGE}
+	\\
+	ar\brak{AGF}
+	&=ar\brak{BGF}
+\end{split}
+\\
+\implies
+\begin{split}
+	\frac{1}{2}p\brak{k_3r}\sin \alpha
+	&=\frac{1}{2}p\brak{kq}\sin \theta
+	\\
+	\frac{1}{2}q\brak{k_3r}\sin \beta
+	&=\frac{1}{2}q\brak{kp} \sin \theta
+\end{split}
+\end{align}
+yileding upon division
+\begin{align}
+	p\sin \alpha &= q \sin \beta
+	\\
+	\implies 
+	\frac{1}{2}kpr\sin \alpha &= \frac{1}{2}kqr \sin \beta
+	\\
+	\implies ar\brak{BGD}
+	&=ar\brak{CGD}
+\end{align}
+Thus, 
+	from \probref{prob:median-area}, $AD$ is also a median.
+	Consequently, 
+	from
+	\eqref{eq:med-ratio-eq} we obtain
+\eqref{eq:med-ratio-eq-k3}.
+%
+\begin{figure}[H]
+	\begin{center}
+		\resizebox{0.6\columnwidth}{!}{\input{./figs/coord/tri_med_meet.tex}}
+	\end{center}
+	\caption{$k_3=k$.}
+	\label{fig:tri_med_meet}	
+\end{figure}
+\item In 
+	\figref{fig:tri_med_sim}, show that $k = 2$.
+	\\
+\solution Using the cosine formula, 
+\begin{align}
+	DE^2 &= \brak{\frac{b}{2}}^2+\brak{\frac{c}{2}}^2-2\brak{\frac{b}{2}}\brak{\frac{c}{2}}\cos A  
+	\\
+	a^2&= b^2+b^2-2bc\cos A  
+	\\
+	\implies DE &= \frac{a}{2}
+\end{align}
+$\because \triangle EGF \sim \triangle BGC, k = 2$.
+\begin{figure}[H]
+	\begin{center}
+		\resizebox{0.6\columnwidth}{!}{\input{./figs/coord/tri_med_sim.tex}}
+	\end{center}
+	\caption{k = 2}
+	\label{fig:tri_med_sim}
+\end{figure}
+
 
 \end{enumerate}
