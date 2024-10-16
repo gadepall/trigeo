@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2024.4.5)  13 OCT 2024 16:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2024.4.5)  16 OCT 2024 10:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1823,7 +1823,7 @@ Package hyperref Info: Link coloring OFF on input line 20.
 \openout5 = `main.out'.
 
 \c@lstlisting=\count397
-<figs/logo.jpg, id=95, 2537.48pt x 2047.65pt>
+<figs/logo.jpg, id=99, 2537.48pt x 2047.65pt>
 File: figs/logo.jpg Graphic file (type jpg)
 <use figs/logo.jpg>
 Package pdftex.def Info: figs/logo.jpg  used on input line 47.
@@ -1872,26 +1872,26 @@ File: utxsyc.fd 2000/12/15 v3.1
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [3] (./chapters/trig/trig_id.tex (./figs/trig/tri_right_angle.tex) (./figs/tri
-g/tri_baudh.tex)
+ [3] (./chapters/trig/trig_id.tex
+(./figs/trig_id/tri_right_angle.tex) (./figs/trig_id/tri_baudh.tex)
 Underfull \vbox (badness 3861) has occurred while \output is active []
 
  [4
 
 ]
-(./figs/triangle/tri_sss.tex)
+(./figs/trig_id/tri_sss.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
-(./figs/triangle/tri_isoc.tex)
+(./figs/trig_id/tri_isoc.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6]
-(./figs/triangle/tri_cosine_formula.tex) [7]
+(./figs/trig_id/tri_cosine_formula.tex) [7]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8]
-(./figs/triangle/tri_sin_inc.tex
+(./figs/trig_id/tri_sin_inc.tex
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1899,56 +1899,65 @@ Missing character: There is no ; in font nullfont!
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10]
-(./figs/trig/tri-icentre.tex) [11] (./figs/trig/tri-iradius.tex) [12]
-(./figs/trig/tri_icircle.tex) [13] (./figs/triangle/tri_isoc_ang_bsect.tex)
-(./figs/trig/tri_isosc.tex) [14] (./figs/coord/tri-perp-bis.tex)
-(./figs/coord/tri_ccentre.tex) (./figs/coord/tri_ccircle.tex) [15]
-Underfull \vbox (badness 2460) has occurred while \output is active []
+(./figs/trig_id/tri-icentre.tex) [11] (./figs/trig_id/tri-iradius.tex) [12]
+(./figs/trig_id/tri_icircle.tex) [13] (./figs/trig_id/tri_isoc_ang_bsect.tex)
+Underfull \vbox (badness 1888) has occurred while \output is active []
 
- [16]
+ [14]
+(./figs/trig_id/tri_isosc.tex) [15] (./figs/trig_id/tri-perp-bis.tex)
+(./figs/trig_id/tri_ccentre.tex) [16] (./figs/trig_id/tri_ccircle.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17]
-(./figs/coord/circ_tang_icept.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18]
-(./figs/coord/tri_med.tex) [19] (./figs/coord/tri_med_isect.tex) [20]
-(./figs/coord/tri_med_meet.tex) (./figs/coord/tri_med_sim.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21])
-(./chapters/trig/tri.tex [22]) (./JEE/zchapters/properties-of-triangle.tex
-(./JEE/Properties-Triangle/fitb/1-11/main.tex)
-(./JEE/Properties-Triangle/mains/3-16/main.tex [23] [24])
-(./JEE/Properties-Triangle/mcq-multiple/1-10/main.tex [25]
+ [19]
+(./figs/trig_id/circ_tang_icept.tex) [20] (./figs/trig_id/tri_med.tex)
+(./figs/trig_id/tri_med_isect.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21]
+(./figs/trig_id/tri_med_meet.tex)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22]
+(./figs/trig_id/tri_med_sim.tex)) (./chapters/trig/tri.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23])
+(./JEE/zchapters/properties-of-triangle.tex
+(./JEE/Properties-Triangle/fitb/1-11/main.tex [24])
+(./JEE/Properties-Triangle/mains/3-16/main.tex [25] [26])
+(./JEE/Properties-Triangle/mcq-multiple/1-10/main.tex [27]
 Underfull \hbox (badness 2359) in paragraph at lines 74--77
 []\OT1/txr/m/n/10 In a tri-an-gle $\OML/txmi/m/it/10 XYZ$\OT1/txr/m/n/10 , let 
 $\OML/txmi/m/it/10 x; y; z$ \OT1/txr/m/n/10 be the lengths of sides op-po-site 
 to an-gles
  []
 
-[26]) (./JEE/Properties-Triangle/mcq-single/1-4/main.tex [27])
-(./JEE/Properties-Triangle/mcq-single/5-19/mcq-single.tex [28]
-<figs/figure.png, id=784, 238.8925pt x 190.7125pt>
+) (./JEE/Properties-Triangle/mcq-single/1-4/main.tex [28])
+(./JEE/Properties-Triangle/mcq-single/5-19/mcq-single.tex [29]
+<figs/figure.png, id=807, 238.8925pt x 190.7125pt>
 File: figs/figure.png Graphic file (type png)
 <use figs/figure.png>
 Package pdftex.def Info: figs/figure.png  used on input line 129.
 (pdftex.def)             Requested size: 71.13188pt x 56.7835pt.
- [29 <./figs/figure.png>]) (./JEE/Properties-Triangle/subjective/1-5/main.tex [
-30])
-(./JEE/Properties-Triangle/subjective/6-21/main.tex
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31]))
-(./chapters/trig/quad.tex
+ [30]
+[31 <./figs/figure.png>]) (./JEE/Properties-Triangle/subjective/1-5/main.tex)
+(./JEE/Properties-Triangle/subjective/6-21/main.tex [32]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32])
-(./chapters/trig/circle.tex [33]
+ [33]))
+(./chapters/trig/quad.tex) (./chapters/trig/circle.tex [34]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34]
+ [35]
 
 LaTeX Warning: Command \textendash invalid in math mode on input line 81.
 
@@ -1959,9 +1968,9 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 81.
 LaTeX Warning: Command \textendash invalid in math mode on input line 81.
 
 ) (./JEE/zchapters/trigonometric-functions-equations.tex
-(./JEE/Trigonometric-Functions-Equations/fitb/1-9/main.tex)
+(./JEE/Trigonometric-Functions-Equations/fitb/1-9/main.tex [36])
 (./JEE/Trigonometric-Functions-Equations/integer/6-7/main.tex)
-(./JEE/Trigonometric-Functions-Equations/mains/1-13/main.tex [35] [36])
+(./JEE/Trigonometric-Functions-Equations/mains/1-13/main.tex [37] [38])
 (./JEE/Trigonometric-Functions-Equations/mains/14-21/14-21.tex
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
@@ -1982,7 +1991,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--30
 
  []
 
-[37]
+
 Underfull \hbox (badness 10000) in paragraph at lines 38--40
 
  []
@@ -2007,7 +2016,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
-
+[39]
 Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
@@ -2058,9 +2067,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--73
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [38]
 Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
  []
@@ -2081,6 +2087,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--85
  []
 
 ) (./JEE/Trigonometric-Functions-Equations/mcq-multiple/1-5/main.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40]
 
 Package multicol Warning: Using `1' columns doesn't seem a good idea.
  I therefore use two columns instead on input line 15.
@@ -2101,7 +2110,6 @@ Package multicol Warning: Using `1' columns doesn't seem a good idea.
 Package multicol Warning: Using `1' columns doesn't seem a good idea.
  I therefore use two columns instead on input line 43.
 
-[39]
 
 Package multicol Warning: Using `1' columns doesn't seem a good idea.
  I therefore use two columns instead on input line 50.
@@ -2118,6 +2126,7 @@ Package multicol Warning: Using `1' columns doesn't seem a good idea.
 Package multicol Warning: Using `1' columns doesn't seem a good idea.
  I therefore use two columns instead on input line 72.
 
+[41]
 
 Package multicol Warning: Using `1' columns doesn't seem a good idea.
  I therefore use two columns instead on input line 77.
@@ -2137,20 +2146,13 @@ Overfull \hbox (34.48985pt too wide) in paragraph at lines 30--33
 mi/m/it/10 :$ 
  []
 
-[40]
+[42]) (./JEE/Trigonometric-Functions-Equations/mcq-single/1-6/main.tex [43])
+(./JEE/Trigonometric-Functions-Equations/mcq-single/20-29/main.tex [44]
+[45]) (./JEE/Trigonometric-Functions-Equations/mcq-single/5-19/main.tex
+[46]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41])
-(./JEE/Trigonometric-Functions-Equations/mcq-single/1-6/main.tex)
-(./JEE/Trigonometric-Functions-Equations/mcq-single/20-29/main.tex [42]
-[43]) (./JEE/Trigonometric-Functions-Equations/mcq-single/5-19/main.tex
-[44]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [45]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [46])
+ [47])
 (./JEE/Trigonometric-Functions-Equations/paragraph/1-2/paragraph.tex
 Underfull \hbox (badness 10000) in paragraph at lines 9--11
 
@@ -2161,25 +2163,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--11
 
  []
 
-) (./JEE/Trigonometric-Functions-Equations/subjective/(1-6)/main.tex)
-(./JEE/Trigonometric-Functions-Equations/subjective/6-20/main.tex [47]
+[48]) (./JEE/Trigonometric-Functions-Equations/subjective/(1-6)/main.tex)
+(./JEE/Trigonometric-Functions-Equations/subjective/6-20/main.tex [49])
+(./JEE/Trigonometric-Functions-Equations/true-false/1-2/main.tex [50]))
+(./chapters/trig/ineq.tex) (./chapters/trig/appl.tex [51]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [48])
-(./JEE/Trigonometric-Functions-Equations/true-false/1-2/main.tex))
-(./chapters/trig/ineq.tex) (./chapters/trig/appl.tex [49] [50]
+ [52]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [51])
+ [53])
 (./JEE/zchapters/inverse-trigonometric-functions.tex
 (./JEE/Inverse-Trigonometric-Functions/fitb/1-3/main.tex
 Underfull \hbox (badness 10000) in paragraph at lines 12--14
 []\OT1/txr/m/n/10 The nu-mer-i-cal value of $[] []$ is equal to []
  []
 
-) (./JEE/Inverse-Trigonometric-Functions/integer/1-2/main.tex [52])
-(./JEE/Inverse-Trigonometric-Functions/mains/1-8/main.tex)
-(./JEE/Inverse-Trigonometric-Functions/matrix-match/1-3/main.tex [53]
+) (./JEE/Inverse-Trigonometric-Functions/integer/1-2/main.tex)
+(./JEE/Inverse-Trigonometric-Functions/mains/1-8/main.tex [54])
+(./JEE/Inverse-Trigonometric-Functions/matrix-match/1-3/main.tex
 Underfull \hbox (badness 10000) in paragraph at lines 77--79
 
  []
@@ -2189,7 +2191,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--86
 
  []
 
-
+[55]
 Underfull \hbox (badness 10000) in paragraph at lines 111--113
 
  []
@@ -2231,30 +2233,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--144
 
  []
 
-) [54] (./JEE/Inverse-Trigonometric-Functions/mcq-multiple/1-3/main.tex)
-(./JEE/Inverse-Trigonometric-Functions/mcq-single/1-7/main.tex [55]
+) (./JEE/Inverse-Trigonometric-Functions/mcq-multiple/1-3/main.tex [56])
+(./JEE/Inverse-Trigonometric-Functions/mcq-single/1-7/main.tex [57]
 Underfull \hbox (badness 10000) detected at line 95
  []$[]  [][] [][]  $ 
  []
 
-[56]) (./JEE/Inverse-Trigonometric-Functions/subjective/1-2/main.tex)
-(./JEE/Inverse-Trigonometric-Functions/subjective/3/main.tex)) [57] (./main.aux
+) (./JEE/Inverse-Trigonometric-Functions/subjective/1-2/main.tex [58])
+(./JEE/Inverse-Trigonometric-Functions/subjective/3/main.tex)) [59] (./main.aux
 )
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: DA58E3764DE0AB2C439E043F4AD8017E;1763.
+(rerunfilecheck)             Checksum: 16C3170861492436F8D6A0E2BE9B9EA1;1846.
  ) 
 Here is how much of TeX's memory you used:
- 55051 strings out of 474104
- 1312935 string characters out of 5729886
- 1967493 words of memory out of 5000000
- 75277 multiletter control sequences out of 15000+600000
+ 55086 strings out of 474104
+ 1313511 string characters out of 5729886
+ 1968493 words of memory out of 5000000
+ 75292 multiletter control sequences out of 15000+600000
  627669 words of font info for 175 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 109i,15n,145p,1194b,1482s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 109i,16n,145p,1194b,1482s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/fonts/type1/pu
 blic/txfonts/rtxi.pfb></data/data/com.termux/files/usr/share/texlive/2024/texmf
 -dist/fonts/type1/public/txfonts/rtxmi.pfb></data/data/com.termux/files/usr/sha
@@ -2269,10 +2271,10 @@ syc.pfb></data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/fonts/ty
 pe1/urw/times/utmb8a.pfb></data/data/com.termux/files/usr/share/texlive/2024/te
 xmf-dist/fonts/type1/urw/times/utmr8a.pfb></data/data/com.termux/files/usr/shar
 e/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (57 pages, 663693 bytes).
+Output written on main.pdf (59 pages, 668367 bytes).
 PDF statistics:
- 1904 PDF objects out of 2073 (max. 8388607)
- 1752 compressed objects within 18 object streams
- 1183 named destinations out of 1200 (max. 500000)
- 247 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1949 PDF objects out of 2073 (max. 8388607)
+ 1795 compressed objects within 18 object streams
+ 1206 named destinations out of 1440 (max. 500000)
+ 255 words of extra memory for PDF output out of 10000 (max. 10000000)
 

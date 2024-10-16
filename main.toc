@@ -2,15 +2,16 @@
 \contentsline {subsection}{\numberline {1.1}Sine and Cosine Formula}{4}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Trigonometric Identities}{9}{subsection.1.2}%
 \contentsline {subsection}{\numberline {1.3}Incircle}{11}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}Circumcircle}{14}{subsection.1.4}%
-\contentsline {subsection}{\numberline {1.5}Medians}{19}{subsection.1.5}%
-\contentsline {section}{\numberline {2}Triangle}{22}{section.2}%
-\contentsline {subsection}{\numberline {2.1}JEE}{23}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Quadrilateral}{33}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Circle}{33}{subsection.2.3}%
-\contentsline {section}{\numberline {3}Equations}{35}{section.3}%
-\contentsline {subsection}{\numberline {3.1}JEE}{35}{subsection.3.1}%
-\contentsline {section}{\numberline {4}Inequalities}{49}{section.4}%
-\contentsline {section}{\numberline {5}Applications}{50}{section.5}%
-\contentsline {section}{\numberline {6}Inverse Trigonometric Functions}{52}{section.6}%
-\contentsline {subsection}{\numberline {6.1}JEE}{52}{subsection.6.1}%
+\contentsline {subsection}{\numberline {1.4}Circumcircle}{15}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Medians}{20}{subsection.1.5}%
+\contentsline {section}{\numberline {2}Triangle}{24}{section.2}%
+\contentsline {subsection}{\numberline {2.1}NCERT}{24}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}JEE}{24}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Quadrilateral}{34}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Circle}{34}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Equations}{36}{section.3}%
+\contentsline {subsection}{\numberline {3.1}JEE}{36}{subsection.3.1}%
+\contentsline {section}{\numberline {4}Inequalities}{51}{section.4}%
+\contentsline {section}{\numberline {5}Applications}{51}{section.5}%
+\contentsline {section}{\numberline {6}Inverse Trigonometric Functions}{54}{section.6}%
+\contentsline {subsection}{\numberline {6.1}JEE}{54}{subsection.6.1}%
