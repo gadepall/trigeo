@@ -103,14 +103,34 @@ b &= a\frac{a}{b} + c \frac{c}{b} \quad \brak{\text{from} \quad \eqref{eq:tri_tr
 \item $ABC$ is an isosceles triangle in which altitudes $BE$ and $CF$ are drawn to equal sides $AC$ and $AB$ respectively . Show that these altitudes are equal.
 %
 	\\
-	\solution 
+	\solution In $\triangle$s $BFC$ and $BEC$,
+\begin{align}
+	\label{eq:tri_isoc-alt}
+	BF &= a \sin C,\
+	CE = a \sin B 
+	\\
+	\implies BF &= CE, \because B = C.
+\end{align}
+\begin{figure}[H]
+	\centering
+		\resizebox{0.6\columnwidth}{!}{\input{figs/trig_id/tri_isoc-alt.tex}}
+	\caption{$B = C$}
+	\label{fig:tri_isoc-alt}
+\end{figure}
 \item $ABC$ is a triangle in which altitudes $BE$ and $CF$ to sides $AC$ and $AB$ are equal. Show that
 %
-\begin{enumerate} 
-\item $\triangle  ABE \cong  \triangle  ACF $
-\item  $AB = AC$, i.e., $ABC$ is an isosceles triangle.
-\end{enumerate}
+$AB = AC$.
 %
+\\
+\solution
+	In \eqref{eq:tri_isoc-alt},
+\begin{align}
+	BE &= CF \implies 
+	 a \sin C
+	= a \sin B 
+	\\
+	\text{or, } B &= C
+\end{align}
 \end{enumerate}
 \subsection{Sine and Cosine Formula}
 \begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
