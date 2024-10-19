@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2024.4.5)  20 OCT 2024 00:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2024.4.5)  20 OCT 2024 00:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1873,7 +1873,8 @@ File: utxsyc.fd 2000/12/15 v3.1
 \openout6 = `main.toc'.
 
  [3] (./chapters/trig/trig_id.tex
-(./figs/trig_id/tri_right_angle.tex) (./figs/trig_id/tri_baudh.tex)
+(./figs/trig_id/right/tri_right_angle.tex) (./figs/trig_id/right/tri_baudh.tex)
+
 Underfull \vbox (badness 3861) has occurred while \output is active []
 
  [4
@@ -1882,15 +1883,16 @@ Underfull \vbox (badness 3861) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
-(./figs/trig_id/tri_isoc-alt.tex) (./figs/trig_id/tri_sss.tex) [6]
-(./figs/trig_id/tri_isoc.tex) (./figs/trig_id/tri_cosine_formula.tex)
+(./figs/trig_id/right/tri_isoc-alt.tex) (./figs/trig_id/right/tri_sss.tex)
+[6] (./figs/trig_id/right/tri_isoc.tex)
+(./figs/trig_id/sincos/tri_cosine_formula.tex)
 Underfull \vbox (badness 1490) has occurred while \output is active []
 
  [7]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8]
-(./figs/trig_id/tri_sin_inc.tex
+(./figs/trig_id/sincos/tri_sin_inc.tex
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -1901,16 +1903,20 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11]
-(./figs/trig_id/tri-icentre.tex) [12] (./figs/trig_id/tri-iradius.tex) [13]
-(./figs/trig_id/tri_icircle.tex) (./figs/trig_id/tri_isoc_ang_bsect.tex)
+(./figs/trig_id/angbis/tri-icentre.tex) [12]
+(./figs/trig_id/angbis/tri-iradius.tex) [13]
+(./figs/trig_id/angbis/tri_icircle.tex)
+(./figs/trig_id/angbis/tri_isoc_ang_bsect.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [15]
-(./figs/trig_id/tri_isosc.tex) [16] (./figs/trig_id/tri-perp-bis.tex)
-(./figs/trig_id/tri_ccentre.tex) (./figs/trig_id/tri_ccircle.tex)
+(./figs/trig_id/ccircle/tri_isosc.tex) [16]
+(./figs/trig_id/ccircle/tri-perp-bis.tex)
+(./figs/trig_id/ccircle/tri_ccentre.tex)
+(./figs/trig_id/ccircle/tri_ccircle.tex)
 Underfull \vbox (badness 5161) has occurred while \output is active []
 
  [17]
@@ -1920,12 +1926,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19]
-(./figs/trig_id/circ_tang_icept.tex) [20] (./figs/trig_id/tri_med.tex) [21]
-(./figs/trig_id/tri_med_isect.tex)
+(./figs/trig_id/ccircle/circ_tang_icept.tex) [20]
+(./figs/trig_id/median/tri_med.tex) [21]
+(./figs/trig_id/median/tri_med_isect.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [22]
-(./figs/trig_id/tri_med_meet.tex) (./figs/trig_id/tri_med_sim.tex)
+(./figs/trig_id/median/tri_med_meet.tex) (./figs/trig_id/median/tri_med_sim.tex
+)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [23])
@@ -2258,8 +2266,8 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 851C023640BBE8169301E0ED95E158AE;2015.
  ) 
 Here is how much of TeX's memory you used:
- 55105 strings out of 474104
- 1313974 string characters out of 5729886
+ 55109 strings out of 474104
+ 1314761 string characters out of 5729886
  1964493 words of memory out of 5000000
  75304 multiletter control sequences out of 15000+600000
  627669 words of font info for 175 fonts, out of 8000000 for 9000
