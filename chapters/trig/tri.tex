@@ -1,11 +1,66 @@
 \begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
 
-\item  $D$ is a point on the side $BC$ of a $\triangle ABC$ such that  $\angle  ADC =  \angle  BAC$. Show that $CA^2 = CB.CD$.
+\item  $D$ is a point on the side $BC$ of a $\triangle ABC$ such that  $\angle  ADC =  \angle  BAC$. Show that 
+\begin{align}
+	\label{eq:tri-sim}	
+	CA^2 = CB.CD
+\end{align}
 %
-\item $BL$ and $CM$ are medians of a $\triangle ABC$ right angled at $A$. Prove that $4 (BL^2 + CM^2
-) = 5 BC^2$ .
+	\\
+		\solution
+	See \figref{fig:tri-sim}.	
+\begin{align}
+	\frac{x}{\sin\brak{A+C}} = 
+	\frac{b}{\sin A}  
+\quad 
+		\brak{\triangle ADC},
+		\\
+\implies	\frac{x}{\sin B} = 
+	\frac{b}{\sin A}  
+	\\
+	\implies 
+\implies	\frac{x}{b} = 
+	\frac{\sin B}{\sin A}  = 
+	\frac{b}{a}  \quad \brak{\text{ sine formula }}
+\end{align}
+yielding
+	\eqref{eq:tri-sim}.	
+\begin{figure}[H]
+	\begin{center}
+			\resizebox{0.6\columnwidth}{!}{\input{figs/tri/tri-sim.tex}}
+	\end{center}
+	\caption{}
+	\label{fig:tri-sim}	
+\end{figure}
 \item   $D$ is a point on side $BC$ of  $\triangle  ABC$ such that
 $\frac{BD}{CD}= \frac{AB}{AC}  $.  Prove that $AD$ is the bisector of  $\angle  BAC$.
+\\
+\solution 
+	See \figref{fig:tri-ang-bis}.	
+\begin{align}
+	\frac{x}{a-x} &= 
+	\frac{c}{b}  \quad \brak{\text{ given }}
+	\\
+	\frac{c}{\sin\phi} &= 
+	\frac{x}{\sin \theta}  \quad \brak{\triangle ABD}
+	\\
+	\frac{a-x}{\sin\brak{A-\theta}} &= 
+	\frac{b}{\sin 180-\phi}  \quad \brak{\triangle ACD}
+	\\
+	&=\frac{b}{\sin \phi}
+\end{align}
+using the sine formula.  Multiplying all the above equations yields
+\begin{align}
+	\sin \brak{A-\theta}
+	=\sin \theta \implies \theta = \frac{A}{2}
+\end{align}
+\begin{figure}[H]
+	\begin{center}
+			\resizebox{0.6\columnwidth}{!}{\input{figs/tri/tri-ang-bis.tex}}
+	\end{center}
+	\caption{}
+	\label{fig:tri-ang-bis}	
+\end{figure}
 \item P is a point in the interior of a parallelogram $ABCD$. Show that
 \begin{enumerate}
 \item $ar (APB) + ar (PCD) = \frac{1}{ 2}ar (ABCD)$

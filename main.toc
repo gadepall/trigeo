@@ -7,12 +7,12 @@
 \contentsline {subsection}{\numberline {1.6}Medians}{20}{subsection.1.6}%
 \contentsline {section}{\numberline {2}Triangle}{24}{section.2}%
 \contentsline {subsection}{\numberline {2.1}NCERT}{24}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}JEE}{25}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Quadrilateral}{34}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Circle}{35}{subsection.2.4}%
-\contentsline {section}{\numberline {3}Equations}{37}{section.3}%
-\contentsline {subsection}{\numberline {3.1}JEE}{37}{subsection.3.1}%
-\contentsline {section}{\numberline {4}Inequalities}{51}{section.4}%
-\contentsline {section}{\numberline {5}Applications}{51}{section.5}%
-\contentsline {section}{\numberline {6}Inverse Trigonometric Functions}{54}{section.6}%
-\contentsline {subsection}{\numberline {6.1}JEE}{54}{subsection.6.1}%
+\contentsline {subsection}{\numberline {2.2}JEE}{26}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Quadrilateral}{36}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Circle}{36}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Equations}{38}{section.3}%
+\contentsline {subsection}{\numberline {3.1}JEE}{38}{subsection.3.1}%
+\contentsline {section}{\numberline {4}Inequalities}{52}{section.4}%
+\contentsline {section}{\numberline {5}Applications}{53}{section.5}%
+\contentsline {section}{\numberline {6}Inverse Trigonometric Functions}{55}{section.6}%
+\contentsline {subsection}{\numberline {6.1}JEE}{55}{subsection.6.1}%

@@ -1,0 +1,49 @@
+%Code by GVV Sharma
+%July 8, 2023
+%released under GNU GPL
+%Drawing the triangle and angle bisectors
+
+
+\begin{tikzpicture}
+[scale=2,>=stealth,point/.style={draw,circle,fill=black,inner sep=0.5pt}]
+
+% Coordinates of the triangle vertices
+\def\a{6}
+\def\b{5}
+\def\c{4}
+
+% Coordinates of A
+\pgfmathsetmacro\p{(\a^2+\c^2-\b^2)/(2*\a)}
+\pgfmathsetmacro\q{sqrt(\c^2-\p^2)}
+%\def\p{{(\a^2+\c^2-\b^2)/(2*\a)}}
+%\def\q{{sqrt(\c^2-\p^2)}}
+
+% Labeling points
+\node (A) at (\p,\q)[point,label=above right:$A$] {};
+\node (B) at (0,0)[point,label=below left:$B$] {};
+\node (C) at (\a,0)[point,label=below right:$C$] {};
+
+% Drawing triangle ABC
+\draw (A) -- node[left] {$c$} (B) -- node[below] {} (C) -- node[above,xshift=2mm] {${b}$} (A);
+
+\node (D) at ($(B)!\c/(\a+\c)!(C)$)[point,label=below :$D$] {};
+
+%Drawing altitude AD
+\draw (A) -- node[left] {}(D);
+
+
+\draw[<->] (\a,-0.5) -- (0,-0.5) node[midway, above] {$a$};
+\node at ($(B)!0.5!(D)$) [below] {$x$};
+\node at ($(D)!0.5!(C)$) [below] {$a-x$};
+
+%Drawing and marking angles
+\tkzLabelAngle[pos=1](D,A,C){$A-\theta$}
+\tkzLabelAngle[pos=0.4](B,A,D){ $\theta$}
+\tkzLabelAngle[pos=0.4](A,D,B){ $\phi$}
+\tkzFillAngle[fill=red!20,size=.6](D,A,C)
+\tkzFillAngle[fill=blue!20,size=.3](B,A,D)
+\tkzFillAngle[fill=green!20,size=.3](A,D,B)
+
+\end{tikzpicture}
+
+

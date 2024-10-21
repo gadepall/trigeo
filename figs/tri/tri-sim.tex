@@ -1,0 +1,52 @@
+%Code by GVV Sharma
+%October 21, 2024
+%released under GNU GPL
+%Drawing a triangle given 3 sides
+
+\begin{tikzpicture}
+[scale=2,>=stealth,point/.style={draw,circle,fill = black,inner sep=0.5pt},]
+
+%Triangle sides
+\def\a{6}
+\def\b{5}
+\def\c{4}
+ 
+%Coordinates of A
+%\def\p{{\a^2+\c^2-\b^2}/{(2*\a)}}
+\def\p{2.25}
+\def\q{{sqrt(\c^2-\p^2)}}
+% Calculate x = b^2 / a
+\pgfmathsetmacro\x{\b^2/\a}
+
+%Labeling points
+\node (A) at (\p,\q)[point,label=above right:$A$] {};
+\node (B) at (0, 0)[point,label=below left:$B$] {};
+\node (C) at (\a, 0)[point,label=below right:$C$] {};
+
+
+
+%Foot of perpendicular
+
+\node (D) at (\a-\x,0)[point,label=below :$D$] {};
+
+%Drawing triangle ABC
+\draw (A) -- node[left] {$c$} (B) -- node[below] {} (C) -- node[above,xshift=2mm] {${b}$} (A);
+
+%Drawing altitude AD
+\draw (A) -- node[left] {}(D);
+%\draw (A) -- node[left] {$\textrm{h}$}(D);
+%\draw (C) -- node[left] {}(C);
+\draw[<->] (\a - \x,-0.3) -- (\a,-0.3) node[midway, above] {$x$};
+
+%Drawing and marking angles
+\tkzLabelAngle[pos=0.4](C,D,A){$\theta$}
+\tkzLabelAngle[pos=0.4](B,A,C){ $\theta$}
+\tkzFillAngle[fill=red!20,size=.3](C,D,A)
+\tkzFillAngle[fill=red!20,size=.3](B,A,C)
+%\tkzLabelAngle[pos=1](B,A,C){\rotatebox{-45}{$\alpha = 90\degree -\theta$}}
+%\tkzLabelAngle[pos=0.65](C,B,D){$\alpha$}
+
+% Drawing arrows to mark length of BC
+\draw[<->] (\a,-0.5) -- (0,-0.5) node[midway, above] {$a$};
+
+\end{tikzpicture}
