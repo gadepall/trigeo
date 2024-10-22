@@ -1,0 +1,50 @@
+%Code by GVV Sharma
+%October 23, 2019
+%released under GNU GPL
+%Drawing a trapezium
+
+\begin{tikzpicture}
+[scale=2,>=stealth,point/.style={draw,circle,fill = black,inner sep=0.5pt},]
+
+%Triangle sides
+\def\a{6}
+\def\b{5}
+\def\c{4}
+ 
+%Coordinates of A
+%\def\p{{\a^2+\c^2-\b^2}/{(2*\a)}}
+\def\p{2.25}
+\def\q{{sqrt(\c^2-\p^2)}}
+
+%Labeling points
+\node (A) at (\p,\q)[point,label=above right:$D$] {};
+\node (B) at (0, 0)[point,label=below left:$A$] {};
+\node (C) at (\a, 0)[point,label=below right:$B$] {};
+\node (D) at ({(\a+\p)/2},\q)[point,label=above right:$C$] {};
+
+%\node (D) at ($(B)!0.5!(D)$) [below] {$x$};
+%Foot of perpendicular
+
+%\node (D) at (\p,0)[point,label=above right:$D$] {};
+
+%Drawing trapezium ABC
+\draw (A) -- node[left] {} (B) -- node[below] {} (C) -- node[above,xshift=2mm] {} (D)
+-- node[above,xshift=2mm] {} (A);
+\draw (A) --  (C); 
+\draw (B) --  (D); 
+
+% Labeling point O
+\node (O) at (3, 2.558)[point,label=above right:$O$] {};
+
+%Drawing and marking angles
+\tkzLabelAngle[pos=0.4](C,B,D){$\theta$}
+\tkzLabelAngle[pos=0.4](A,D,B){$\theta$}
+\tkzLabelAngle[pos=0.4](A,C,B){ $\phi$}
+\tkzLabelAngle[pos=0.4](C,A,D){ $\phi$}
+\tkzFillAngle[fill=red!20,size=.3](C,B,D)
+\tkzFillAngle[fill=red!20,size=.3](A,D,B)
+\tkzFillAngle[fill=blue!20,size=.3](A,C,B)
+\tkzFillAngle[fill=blue!20,size=.3](C,A,D)
+
+
+\end{tikzpicture}

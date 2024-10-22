@@ -1,0 +1,44 @@
+%Code by GVV Sharma
+%October 23, 2024
+%released under GNU GPL
+%Drawing a rectangle
+
+\begin{tikzpicture}[scale=2]
+
+%Triangle sides
+\def\a{4}
+\def\c{3}
+
+%Marking coordiantes
+\coordinate [label=above:$D$] (D) at (0,\c);
+\coordinate [label=left:$A$] (A) at (0,0);
+\coordinate [label=right:$B$] (B) at (\a,0);
+\coordinate [label=right:$C$] (C) at (\a,\c);
+\coordinate [label=right:$O$] (O) at ({(3*\a/4)},{(\c/4)});
+
+%
+\draw (A) -- node[below] {$a$} (B) -- node[right] {$b$} (C) -- node[above,xshift=2mm] {$a$} (D)
+-- node[above,xshift=2mm] {$b$} (A);
+\draw (O) --  node[above] {$p$}(A); 
+\draw (O) -- node[below left] {$q$}(B); 
+\draw (O) -- node[left] {$r$}(C); 
+\draw (O) -- node[left] {$s$}(D); 
+%%Drawing triangle ABC
+%\draw (A) -- node[left] {${c}$} (B) -- node[below] {${a}$} (C) -- node[above,,xshift=2mm] {} (A);
+%\draw (B) -- (D); 
+%\node at ($(A)!0.5!(D)$) [above right] {$\frac{b}{2}$};
+%\node at ($(C)!0.5!(D)$) [above right] {$\frac{b}{2}$};
+%\node at ($(B)!0.5!(D)$) [right] {$x$};
+%
+%%Drawing and marking angles
+%\tkzFillAngle[fill=orange!40,size=0.5cm](C,B,D)
+%\tkzMarkRightAngle[fill=blue!20,size=.3](A,B,C)
+\tkzLabelAngle[pos=0.65](B,A,O){$\theta_1$}
+\tkzLabelAngle[pos=0.65](C,B,O){$\theta_2$}
+\tkzLabelAngle[pos=0.65](D,C,O){$\theta_3$}
+\tkzLabelAngle[pos=0.65](A,D,O){$\theta_4$}
+\tkzMarkAngle[fill=red!10](B,A,O)
+\tkzMarkAngle[fill=red!10](C,B,O)
+\tkzMarkAngle[fill=red!10](D,C,O)
+\tkzMarkAngle[fill=red!10](A,D,O)
+\end{tikzpicture}
