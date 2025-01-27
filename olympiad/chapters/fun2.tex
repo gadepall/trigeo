@@ -1,0 +1,58 @@
+\begin{enumerate}
+\item Let $N$ be the set of natural numbers. Suppose $f : N \rightarrow N$ is a function satisfying the following conditions:
+    \begin{enumerate}
+	    \item $f\brak{mn} = f\brak{m} f\brak{n}$,
+	    \item $f\brak{m} < f\brak{n}$ if $m < n$,
+	    \item $f\brak{2} = 2$.
+    \end{enumerate}
+	What is the value of $\sum_{k=1}^{20} f\brak{k}$ ?\hfill(PRERMO 2012)
+	\item One is given a finite set of points in the plane, each point having integer coordinates. Is it always possible to color some of the points in the set red and the remaining points white in such a way that for any straight line $L$ parallel to either one of the coordinate axes the difference (in absolute value) between the numbers of white point and red points on $L$ is not greater than $1$?\hfill(IMO 1986)
+\item Let $n$ be an integer greater than or equal to $2$. Prove that if $k^2+k+n$ is prime for all integers $k$ such that $0\leq k\leq \sqrt{n/3}$, then $k^2+k+n$ is prime for all integers $k$ such that $0\leq k\leq n-2$ \hfill(IMO 1987)
+	\item A function $f$ is defined on the positive integers by
+                  \begin{align*}
+  f\brak{1}=1, f\brak{3}=3, \\
+  f\brak{2n}=f\brak{n}, \\
+                  f\brak{4n+1}=2f\brak{2n+1}-f\brak{n},\\
+                  f\brak{4n+3}=3f\brak{2n+1}-2f\brak{n},\\ \end{align*}
+                  for all positive integers n.
+                  Determine the number of positive integers $n$, less than or equal to $1988$,for which $f(n) = n$.\hfill(IMO 1988)
+                  \item Show that set of real numbers x which satisfy the in equality                                                                \begin{align*}\sum{k=1}^{70}\frac{k}{x-k}\geq \frac{5}{4}\\ \end{align*}                                                          is a union of disjoint intervals, the sum of whose lengths is $1988$\hfill(IMO 1988)
+\item Let $Q^+$ be the set of positive rational numbers. Construct a function $ f: Q^+ \rightarrow Q^+$ such that 
+
+			\begin{align*}  f\brak{xf\brak{y}}= \frac{f\brak{x}}{y} \end{align*}\\ for all $x , y$ in $Q^+$.\hfill(IMO 1990)
+
+
+      \subsection*{COMBINATOMICS}
+
+  \item Let $S = \{1,2,3,......,280\}$. Find the smallest integer $n$ such that each $n-$ element subset of $S$ contains five numbers which are pairwise relatively prime.\hfill(IMO 1991)
+
+	  \subsection*{GRAPH THEORY}
+
+  \item Suppose $G$ is a connected graph with $k$ edges. Prove that it is possible to label the edges $1,2.....k$ in such a way that at each vertex which belongs to two or more edges, the greatest common divisor of the integers labeling those edges is equal to $1$.
+	  $[$ A graph consists of a set of points, called vertices, together with a set of edges joining certain pairs of distinct vertices. Each pair of vertices. $u, v$ belongs to at most one edge. The graph $G$ is connected if for cach pair of distinct vertices $x, y$ there is some sequence of vertices   $x=v_0,v_1,v_2,.......,v_m = y$  such that each pair $v_i,v_{i+1}\brak{0\leq i < m}$ is joined by an edge of G$.]$ \hfill(IMO 1991)
+	  \item Let $Q^+$ be the set of positive rational numbers. Construct a function $ f: Q^+ \rightarrow Q^+$ such that 
+
+			\begin{align*}  f\brak{xf\brak{y}}= \frac{f\brak{x}}{y} \end{align*}\\ for all $x , y$ in $Q^+$.\hfill(IMO 1990)
+			\item Determine all functions $f: \textbf{R} \to \textbf{R}$ such that\\$f\brak{x - f\brak{y}} = f\brak{f\brak{y}} + xf\brak{y} + f\brak{x} - 1$ \\for all real numbers x,y.\hfill(IMO 1999)
+			\item Determine all functions $f:R \rightarrow R $ such that the euality
+				\begin{align}
+					f(\lfloor{x} \rfloor{y})=f(x) \lfloor{f(y)} \rfloor
+				\end{align}
+				holds for all $x,y \in R $.(Here $\lfloor{z}\rfloor$ denotes the greatest integer less than or equal to $z$.)\hfill(IMO2010)
+			\item Let $f:R \rightarrow R$ be a real-valued function defined on the set of real numbers that satisfies
+				\begin{align}
+					f\brak x+y \leq{y f\brak x}+f\brak{f\brak x}
+				\end{align}
+				for all real numbers $x$ and $y$. Prove that $f \brak x=0$ for all $x\leq{0}$.\hfill(IMO2011)
+			\item Let $n>0$ be an integer. We are given a balance and $n$ weights of weight $2^{0}, 2^{1}, \dots, 2^{n-1}$. We are to place each of the $n$ weights on the balance, one after another, in such way that the right pan is never heavier than the left pan. At each step we choose one of the weights that has not yet been placed on the balance, and place it on either the left pan or the right pan, unwtil all of the weights have been placed.
+				Determine the number of ways in which this can be done.\hfill(IMO2011)
+			\item The liar's guessing game is a game played between two players $A$ and $B$. The rules of the game depend on two positive integers $k$ and $n$ which are known to both players. At the start of the game$A$ chooses integers $x$ and $N$ with $1\leq{x}\leq{N}$. Player $A$ keeps $x$ secret, and truthfully tells $N$ to player $B$. Player $B$ now tries to obtain information about $x$ by asking player $A$ questions as follows: each question consists of $B$ specifying an arbitrary set $S$ of positive integers (possibly one specified in some previous question), and asking $A$ whether $x$ belongs to $S$. Player $B$ may ask as many such questions as he wishes. After each question, player $A$ must immediately answer it with yes or no, but is allowed to lie as many times as she wants; the only restriction is that, among any $k + 1$ consecutive answers, at least one answer must be truthful.
+				After $B$ has asked as many questions as he wants, he must specify a set $X$ of at most $n$ positive integers. If $x$ belongs to $X$, then $B$ wins; otherwise, he loses. Prove that:
+				1. If $n\geq{2^{k}}$, then $B$ can guarantee a win.
+				2. For all sufficiently large $k$, there exists an integer $n\geq{1.99^{k}}$ such that $B$ cannot guarantee a win.\hfill(IMO2012)
+			\item  Find all positive integers $n$ for which there exist non-negative integers $a_{1}, a_{2}, \dots, a_{n}$ such that
+				\begin{align}
+					\frac{1}{2^{a_{1}}}+\frac{1}{2^{a_{2}}}+ \dots +\frac{1}{2^{a_{n}}}=\frac{1}{3^{a_{1}}}+\frac{1}{3^{a_{2}}}+ \dots +\frac{n}{3^{a_{n}}}=1.\hfill(IMO2012)
+				\end{align}
+
+\end{enumerate}
