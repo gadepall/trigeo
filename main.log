@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2024.4.5)  7 FEB 2025 13:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2024.4.5)  7 FEB 2025 18:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1823,7 +1823,7 @@ Package hyperref Info: Link coloring OFF on input line 20.
 \openout5 = `main.out'.
 
 \c@lstlisting=\count397
-<figs/logo.jpg, id=147, 2537.48pt x 2047.65pt>
+<figs/logo.jpg, id=151, 2537.48pt x 2047.65pt>
 File: figs/logo.jpg Graphic file (type jpg)
 <use figs/logo.jpg>
 Package pdftex.def Info: figs/logo.jpg  used on input line 47.
@@ -1942,7 +1942,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25])
 (./cbse/hd.tex
-<cbse/figs/kites.jpeg, id=689, 296.10625pt x 210.7875pt>
+<cbse/figs/kites.jpeg, id=694, 296.10625pt x 210.7875pt>
 File: cbse/figs/kites.jpeg Graphic file (type jpg)
 <use cbse/figs/kites.jpeg>
 Package pdftex.def Info: cbse/figs/kites.jpeg  used on input line 6.
@@ -1951,7 +1951,7 @@ Package pdftex.def Info: cbse/figs/kites.jpeg  used on input line 6.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [26]
-<cbse/figs/as.jpeg, id=708, 261.97874pt x 182.6825pt>
+<cbse/figs/as.jpeg, id=713, 261.97874pt x 182.6825pt>
 File: cbse/figs/as.jpeg Graphic file (type jpg)
 <use cbse/figs/as.jpeg>
 Package pdftex.def Info: cbse/figs/as.jpeg  used on input line 18.
@@ -1960,7 +1960,7 @@ Package pdftex.def Info: cbse/figs/as.jpeg  used on input line 18.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [27 <./cbse/figs/kites.jpeg>]
-<cbse/figs/ak.jpeg, id=718, 418.56375pt x 315.1775pt>
+<cbse/figs/ak.jpeg, id=723, 418.56375pt x 315.1775pt>
 File: cbse/figs/ak.jpeg Graphic file (type jpg)
 <use cbse/figs/ak.jpeg>
 Package pdftex.def Info: cbse/figs/ak.jpeg  used on input line 29.
@@ -1969,7 +1969,7 @@ Package pdftex.def Info: cbse/figs/ak.jpeg  used on input line 29.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [28 <./cbse/figs/as.jpeg>]
-<cbse/figs/su.jpeg, id=729, 336.25626pt x 181.67876pt>
+<cbse/figs/su.jpeg, id=734, 336.25626pt x 181.67876pt>
 File: cbse/figs/su.jpeg Graphic file (type jpg)
 <use cbse/figs/su.jpeg>
 Package pdftex.def Info: cbse/figs/su.jpeg  used on input line 42.
@@ -1978,7 +1978,7 @@ Package pdftex.def Info: cbse/figs/su.jpeg  used on input line 42.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [29 <./cbse/figs/ak.jpeg>]
-<cbse/figs/boat.edit.jpeg, id=739, 432.61626pt x 263.98625pt>
+<cbse/figs/boat.edit.jpeg, id=744, 432.61626pt x 263.98625pt>
 File: cbse/figs/boat.edit.jpeg Graphic file (type jpg)
 <use cbse/figs/boat.edit.jpeg>
 Package pdftex.def Info: cbse/figs/boat.edit.jpeg  used on input line 51.
@@ -1987,14 +1987,14 @@ Package pdftex.def Info: cbse/figs/boat.edit.jpeg  used on input line 51.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [31]
-<cbse/figs/Problem.png, id=767, 580.1675pt x 341.275pt>
+<cbse/figs/Problem.png, id=772, 580.1675pt x 341.275pt>
 File: cbse/figs/Problem.png Graphic file (type png)
 <use cbse/figs/Problem.png>
 Package pdftex.def Info: cbse/figs/Problem.png  used on input line 104.
 (pdftex.def)             Requested size: 273.14647pt x 160.67526pt.
 
 [32 <./cbse/figs/Problem.png>]
-<cbse/figs/Fig-4.png, id=785, 249.93375pt x 177.66376pt>
+<cbse/figs/Fig-4.png, id=790, 249.93375pt x 177.66376pt>
 File: cbse/figs/Fig-4.png Graphic file (type png)
 <use cbse/figs/Fig-4.png>
 Package pdftex.def Info: cbse/figs/Fig-4.png  used on input line 142.
@@ -2003,7 +2003,7 @@ Package pdftex.def Info: cbse/figs/Fig-4.png  used on input line 142.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [34]
-<cbse/figs/cbse_30_3_1.png, id=828, 269.005pt x 169.63374pt>
+<cbse/figs/cbse_30_3_1.png, id=833, 269.005pt x 169.63374pt>
 File: cbse/figs/cbse_30_3_1.png Graphic file (type png)
 <use cbse/figs/cbse_30_3_1.png>
 Package pdftex.def Info: cbse/figs/cbse_30_3_1.png  used on input line 190.
@@ -2034,44 +2034,43 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [44]
 (./figs/tri/tri-rect.tex)) (./cbse/tri.tex
-<cbse/figs/rightangled.jpg, id=1025, 745.78625pt x 209.78375pt>
+<cbse/figs/rightangled.jpg, id=1030, 745.78625pt x 209.78375pt>
 File: cbse/figs/rightangled.jpg Graphic file (type jpg)
 <use cbse/figs/rightangled.jpg>
 Package pdftex.def Info: cbse/figs/rightangled.jpg  used on input line 10.
 (pdftex.def)             Requested size: 364.1953pt x 102.44281pt.
  [45]) (./JEE/tri.tex [46 <./cbse/figs/rightangled.jpg>] [47] [48]
-Underfull \hbox (badness 2359) in paragraph at lines 159--162
+<figs/figure.png, id=1156, 238.8925pt x 190.7125pt>
+File: figs/figure.png Graphic file (type png)
+<use figs/figure.png>
+Package pdftex.def Info: figs/figure.png  used on input line 198.
+(pdftex.def)             Requested size: 71.13188pt x 56.7835pt.
+ [49 <./figs/figure.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [50])
+(./ncert/circle.tex [51]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [52]
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 81.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 81.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 81.
+
+) (./JEE/circle.tex [53]
+Underfull \hbox (badness 2359) in paragraph at lines 41--44
 []\OT1/txr/m/n/10 In a tri-an-gle $\OML/txmi/m/it/10 XYZ$\OT1/txr/m/n/10 , let 
 $\OML/txmi/m/it/10 x; y; z$ \OT1/txr/m/n/10 be the lengths of sides op-po-site 
 to an-gles
  []
 
-[49] [50]
-<figs/figure.png, id=1220, 238.8925pt x 190.7125pt>
-File: figs/figure.png Graphic file (type png)
-<use figs/figure.png>
-Package pdftex.def Info: figs/figure.png  used on input line 270.
-(pdftex.def)             Requested size: 71.13188pt x 56.7835pt.
- [51 <./figs/figure.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [52])
-(./JEE/zchapters/properties-of-triangle.tex) (./chapters/trig/circle.tex
-[53]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [54]
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 81.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 81.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 81.
-
-) (./olympiad/tri.tex [55]
-<olympiad/figs/permo.jpg, id=1348, 679.53876pt x 232.87pt>
+[54]) (./olympiad/tri.tex [55]
+<olympiad/figs/permo.jpg, id=1350, 679.53876pt x 232.87pt>
 File: olympiad/figs/permo.jpg Graphic file (type jpg)
 <use olympiad/figs/permo.jpg>
 Package pdftex.def Info: olympiad/figs/permo.jpg  used on input line 18.
@@ -2093,22 +2092,21 @@ LaTeX Font Info:    Font shape `OML/txr/m/n' in size <10> not available
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [58]
-
-LaTeX Warning: Command \textless invalid in math mode on input line 130.
-
-
-LaTeX Warning: Command \textless invalid in math mode on input line 130.
-
-
-LaTeX Warning: Command \textless invalid in math mode on input line 130.
-
-
-LaTeX Warning: Command \textless invalid in math mode on input line 130.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [59]
+
+LaTeX Warning: Command \textless invalid in math mode on input line 130.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 130.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 130.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 130.
+
 
 LaTeX Warning: Command \textgreater invalid in math mode on input line 132.
 
@@ -2416,8 +2414,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [98])
 (./JEE/Trigonometric-Functions-Equations/true-false/1-2/main.tex))
-(./chapters/trig/ineq.tex) (./JEE/zchapters/inverse-trigonometric-functions.tex
-(./JEE/Inverse-Trigonometric-Functions/fitb/1-3/main.tex [99]
+(./chapters/trig/ineq.tex [99])
+(./JEE/zchapters/inverse-trigonometric-functions.tex
+(./JEE/Inverse-Trigonometric-Functions/fitb/1-3/main.tex
 Underfull \hbox (badness 10000) in paragraph at lines 12--14
 []\OT1/txr/m/n/10 The nu-mer-i-cal value of $[] []$ is equal to []
  []
@@ -2490,13 +2489,13 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A495DF0947BF5DC641446550980BFF30;2956.
+(rerunfilecheck)             Checksum: 5566239D2C1EC6467363E2AF2E3262F2;2994.
  ) 
 Here is how much of TeX's memory you used:
- 56014 strings out of 474104
- 1325188 string characters out of 5729886
+ 56013 strings out of 474104
+ 1324998 string characters out of 5729886
  1961493 words of memory out of 5000000
- 75557 multiletter control sequences out of 15000+600000
+ 75558 multiletter control sequences out of 15000+600000
  628985 words of font info for 177 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  109i,16n,149p,1194b,1482s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2514,10 +2513,10 @@ syc.pfb></data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/fonts/ty
 pe1/urw/times/utmb8a.pfb></data/data/com.termux/files/usr/share/texlive/2024/te
 xmf-dist/fonts/type1/urw/times/utmr8a.pfb></data/data/com.termux/files/usr/shar
 e/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (105 pages, 1014481 bytes).
+Output written on main.pdf (105 pages, 1014442 bytes).
 PDF statistics:
- 2955 PDF objects out of 2984 (max. 8388607)
- 2732 compressed objects within 28 object streams
- 1837 named destinations out of 2073 (max. 500000)
- 401 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2956 PDF objects out of 2984 (max. 8388607)
+ 2733 compressed objects within 28 object streams
+ 1836 named destinations out of 2073 (max. 500000)
+ 409 words of extra memory for PDF output out of 10000 (max. 10000000)
 
