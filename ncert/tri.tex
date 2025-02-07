@@ -1,0 +1,193 @@
+\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
+
+\item  $D$ is a point on the side $BC$ of a $\triangle ABC$ such that  $\angle  ADC =  \angle  BAC$. Show that 
+\begin{align}
+	\label{eq:tri-sim}	
+	CA^2 = CB.CD
+\end{align}
+%
+	\\
+		\solution
+	See \figref{fig:tri-sim}.	
+\begin{align}
+	\frac{x}{\sin\brak{A+C}} &= 
+	\frac{b}{\sin A}  
+\quad 
+		\brak{\triangle ADC},
+		\\
+	\implies	\frac{x}{\sin B} &= 
+	\frac{b}{\sin A}  
+	\\
+\implies	\frac{x}{b} = 
+	\frac{\sin B}{\sin A}  &= 
+	\frac{b}{a}  \quad \brak{\text{ sine formula }}
+\end{align}
+yielding
+	\eqref{eq:tri-sim}.	
+\begin{figure}[H]
+	\begin{center}
+			\resizebox{0.6\columnwidth}{!}{\input{figs/tri/tri-sim.tex}}
+	\end{center}
+	\caption{}
+	\label{fig:tri-sim}	
+\end{figure}
+\item   $D$ is a point on side $BC$ of  $\triangle  ABC$ such that
+$\frac{BD}{CD}= \frac{AB}{AC}  $.  Prove that $AD$ is the bisector of  $\angle  BAC$.
+\\
+\solution 
+	See \figref{fig:tri-ang-bis}.	
+\begin{align}
+	\frac{x}{a-x} &= 
+	\frac{c}{b}  \quad \brak{\text{ given }}
+	\\
+	\frac{c}{\sin\phi} &= 
+	\frac{x}{\sin \theta}  \quad \brak{\triangle ABD}
+	\\
+	\frac{a-x}{\sin\brak{A-\theta}} &= 
+	\frac{b}{\sin 180-\phi}  \quad \brak{\triangle ACD}
+	\\
+	&=\frac{b}{\sin \phi}
+\end{align}
+using the sine formula.  Multiplying all the above equations yields
+\begin{align}
+	\sin \brak{A-\theta}
+	=\sin \theta \implies \theta = \frac{A}{2}
+\end{align}
+\begin{figure}[H]
+	\begin{center}
+			\resizebox{0.6\columnwidth}{!}{\input{figs/tri/tri-ang-bis.tex}}
+	\end{center}
+	\caption{}
+	\label{fig:tri-ang-bis}	
+\end{figure}
+%
+\item  $ABC$ is a triangle in which  $\angle  ABC > 90\degree$ and $AD  \perp  CB$ produced. Prove that
+\begin{align}
+	\label{eq:tri-obtuse}
+ AC^2= AB^2 + BC^2 + 2 BC . BD.
+\end{align}
+\solution
+	See \figref{fig:tri-obtuse}.	
+\begin{align}
+	\label{eq:tri-obtuse-1}
+	\cos B &= \frac{x}{c} \quad \brak{\triangle ADB}
+	\\
+	b^2 &= a^2 + c^2 -2ac \cos \brak{180-B} \quad \brak{\triangle ABC}
+	\\
+	&= a^2 + c^2 +2ac \cos B 
+	\label{eq:tri-obtuse-2}
+\end{align}
+using the cosine formula.
+Substituting from 
+	\eqref{eq:tri-obtuse-1}
+	in
+	\eqref{eq:tri-obtuse-2}
+	yields 
+	\eqref{eq:tri-obtuse}.
+\begin{figure}[H]
+	\begin{center}
+			\resizebox{0.6\columnwidth}{!}{\input{figs/tri/tri-obtuse.tex}}
+	\end{center}
+	\caption{}
+	\label{fig:tri-obtuse}	
+\end{figure}
+\item In a right triangle, prove that the line-segment joining the mid-point of the hypotenuse to the opposite vertex is half the hypotenuse.
+	\\
+	\solution
+	In \figref{fig:tri-hyp}	
+\begin{align}
+	\label{eq:tri-hyp}	
+	\frac{x}{\sin C} &= \frac{b/2}{\sin \theta} \quad \brak{\triangle BDC}
+	\\
+	\frac{x}{\sin A} &= \frac{b/2}{\sin \brak{90-\theta}} \quad \brak{\triangle BDA}
+	\\
+\implies	\frac{x}{\cos C} &= \frac{b/2}{\cos \theta} 
+	\label{eq:tri-hyp-1}	
+\end{align}
+From 
+	\eqref{eq:tri-hyp}	
+	and
+	\eqref{eq:tri-hyp-1},
+\begin{align}
+	\brak{\frac{\sin C}{x}}^2
+	+
+	\brak{\frac{\cos C}{x}}^2
+	&= 
+	\brak{\frac{\cos \theta}{\frac{b}{2}}}^2
+	+
+	\brak{\frac{\sin \theta}{\frac{b}{2}}}^2
+	\\
+	\implies x &= \frac{b}{2} 
+\end{align}
+using \eqref{eq:tri_sin_cos_id}.
+\begin{figure}[H]
+	\begin{center}
+			\resizebox{0.6\columnwidth}{!}{\input{figs/tri/tri-hyp.tex}}
+	\end{center}
+	\caption{}
+	\label{fig:tri-hyp}	
+\end{figure}
+\item $ABCD$ is a trapezium in which $AB  \parallel  DC$ and its diagonals intersect each other at the point $O$. Show
+that
+\begin{align}
+	\label{eq:tri-trap}	
+\frac{AO}{ BO}=\frac{CO}{  DO}
+\end{align}
+\\
+\solution 
+	In \figref{fig:tri-trap}, $\because AB \parallel CD$	
+\begin{align}
+	\frac{AO}{\sin \phi} &= \frac{BO}{\sin \theta} \quad \brak{\triangle OAB}
+	\\
+	\frac{CO}{\sin \phi} &= \frac{DO}{\sin \theta} \quad \brak{\triangle ODC}
+\end{align}
+yielding
+	\eqref{eq:tri-trap}	
+	after simplification.
+\begin{figure}[H]
+	\begin{center}
+			\resizebox{0.6\columnwidth}{!}{\input{figs/tri/tri-trap.tex}}
+	\end{center}
+	\caption{}
+	\label{fig:tri-trap}	
+\end{figure}
+\item $O$ is any point inside a rectangle $ABCD$. Prove that 
+\begin{align}
+	OB^2+OD^2 = OA^2+OC^2
+	\label{eq:tri-rect}	
+\end{align}
+	\solution
+	In 
+	\figref{fig:tri-rect},	
+from \eqref{ch1_budh_basic}
+\begin{align}
+	p \cos \theta_1+q \sin \theta_2 = a \quad \brak{\triangle OAB}
+	\\
+	r \cos \theta_3+s \sin \theta_4 = a \quad \brak{\triangle OAB}
+	\\
+	p \cos \theta_1+s \sin \theta_4 = b \quad \brak{\triangle OAB}
+	\\
+	r \cos \theta_3+q \sin \theta_2 = b \quad \brak{\triangle OAB}
+\end{align}
+Subtracting the first two and second two equations respectively,
+\begin{align}
+	p \cos \theta_1 
+	-s \sin \theta_4  
+= r \cos \theta_3-q \sin \theta_2
+\\
+	p \cos \theta_1+s \sin \theta_4 = 
+	r \cos \theta_3+q \sin \theta_2  
+\end{align}
+Squaring and adding and using 
+\eqref{eq:tri_sin_cos_id}
+yields
+	\eqref{eq:tri-rect}.	
+\begin{figure}[H]
+	\begin{center}
+			\resizebox{0.6\columnwidth}{!}{\input{figs/tri/tri-rect.tex}}
+	\end{center}
+	\caption{}
+	\label{fig:tri-rect}	
+\end{figure}
+\item  In  $\triangle  ABC, AB = 6\sqrt{3} cm, AC = 12 cm$ and $BC = 6 cm$. Find the angle $B$.
+\end{enumerate}
