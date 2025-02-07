@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2024.4.5)  7 FEB 2025 12:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2024.4.5)  7 FEB 2025 12:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1823,7 +1823,7 @@ Package hyperref Info: Link coloring OFF on input line 20.
 \openout5 = `main.out'.
 
 \c@lstlisting=\count397
-<figs/logo.jpg, id=151, 2537.48pt x 2047.65pt>
+<figs/logo.jpg, id=147, 2537.48pt x 2047.65pt>
 File: figs/logo.jpg Graphic file (type jpg)
 <use figs/logo.jpg>
 Package pdftex.def Info: figs/logo.jpg  used on input line 47.
@@ -1942,7 +1942,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25])
 (./cbse/hd.tex
-<cbse/figs/kites.jpeg, id=694, 296.10625pt x 210.7875pt>
+<cbse/figs/kites.jpeg, id=689, 296.10625pt x 210.7875pt>
 File: cbse/figs/kites.jpeg Graphic file (type jpg)
 <use cbse/figs/kites.jpeg>
 Package pdftex.def Info: cbse/figs/kites.jpeg  used on input line 6.
@@ -1951,7 +1951,7 @@ Package pdftex.def Info: cbse/figs/kites.jpeg  used on input line 6.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [26]
-<cbse/figs/as.jpeg, id=713, 261.97874pt x 182.6825pt>
+<cbse/figs/as.jpeg, id=708, 261.97874pt x 182.6825pt>
 File: cbse/figs/as.jpeg Graphic file (type jpg)
 <use cbse/figs/as.jpeg>
 Package pdftex.def Info: cbse/figs/as.jpeg  used on input line 18.
@@ -1960,7 +1960,7 @@ Package pdftex.def Info: cbse/figs/as.jpeg  used on input line 18.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [27 <./cbse/figs/kites.jpeg>]
-<cbse/figs/ak.jpeg, id=723, 418.56375pt x 315.1775pt>
+<cbse/figs/ak.jpeg, id=718, 418.56375pt x 315.1775pt>
 File: cbse/figs/ak.jpeg Graphic file (type jpg)
 <use cbse/figs/ak.jpeg>
 Package pdftex.def Info: cbse/figs/ak.jpeg  used on input line 29.
@@ -1969,7 +1969,7 @@ Package pdftex.def Info: cbse/figs/ak.jpeg  used on input line 29.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [28 <./cbse/figs/as.jpeg>]
-<cbse/figs/su.jpeg, id=734, 336.25626pt x 181.67876pt>
+<cbse/figs/su.jpeg, id=729, 336.25626pt x 181.67876pt>
 File: cbse/figs/su.jpeg Graphic file (type jpg)
 <use cbse/figs/su.jpeg>
 Package pdftex.def Info: cbse/figs/su.jpeg  used on input line 42.
@@ -1978,7 +1978,7 @@ Package pdftex.def Info: cbse/figs/su.jpeg  used on input line 42.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [29 <./cbse/figs/ak.jpeg>]
-<cbse/figs/boat.edit.jpeg, id=744, 432.61626pt x 263.98625pt>
+<cbse/figs/boat.edit.jpeg, id=739, 432.61626pt x 263.98625pt>
 File: cbse/figs/boat.edit.jpeg Graphic file (type jpg)
 <use cbse/figs/boat.edit.jpeg>
 Package pdftex.def Info: cbse/figs/boat.edit.jpeg  used on input line 51.
@@ -1987,14 +1987,14 @@ Package pdftex.def Info: cbse/figs/boat.edit.jpeg  used on input line 51.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [31]
-<cbse/figs/Problem.png, id=772, 580.1675pt x 341.275pt>
+<cbse/figs/Problem.png, id=767, 580.1675pt x 341.275pt>
 File: cbse/figs/Problem.png Graphic file (type png)
 <use cbse/figs/Problem.png>
 Package pdftex.def Info: cbse/figs/Problem.png  used on input line 104.
 (pdftex.def)             Requested size: 273.14647pt x 160.67526pt.
 
 [32 <./cbse/figs/Problem.png>]
-<cbse/figs/Fig-4.png, id=790, 249.93375pt x 177.66376pt>
+<cbse/figs/Fig-4.png, id=785, 249.93375pt x 177.66376pt>
 File: cbse/figs/Fig-4.png Graphic file (type png)
 <use cbse/figs/Fig-4.png>
 Package pdftex.def Info: cbse/figs/Fig-4.png  used on input line 142.
@@ -2003,7 +2003,7 @@ Package pdftex.def Info: cbse/figs/Fig-4.png  used on input line 142.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [34]
-<cbse/figs/cbse_30_3_1.png, id=833, 269.005pt x 169.63374pt>
+<cbse/figs/cbse_30_3_1.png, id=828, 269.005pt x 169.63374pt>
 File: cbse/figs/cbse_30_3_1.png Graphic file (type png)
 <use cbse/figs/cbse_30_3_1.png>
 Package pdftex.def Info: cbse/figs/cbse_30_3_1.png  used on input line 190.
@@ -2027,7 +2027,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [41]
 (./figs/tri/tri-rect.tex)) (./cbse/tri.tex
-<cbse/figs/rightangled.jpg, id=956, 745.78625pt x 209.78375pt>
+<cbse/figs/rightangled.jpg, id=951, 745.78625pt x 209.78375pt>
 File: cbse/figs/rightangled.jpg Graphic file (type jpg)
 <use cbse/figs/rightangled.jpg>
 Package pdftex.def Info: cbse/figs/rightangled.jpg  used on input line 10.
@@ -2045,7 +2045,7 @@ to an-gles
 
 ) (./JEE/Properties-Triangle/mcq-single/1-4/main.tex [47])
 (./JEE/Properties-Triangle/mcq-single/5-19/mcq-single.tex [48]
-<figs/figure.png, id=1187, 238.8925pt x 190.7125pt>
+<figs/figure.png, id=1182, 238.8925pt x 190.7125pt>
 File: figs/figure.png Graphic file (type png)
 <use figs/figure.png>
 Package pdftex.def Info: figs/figure.png  used on input line 129.
@@ -2075,7 +2075,7 @@ LaTeX Warning: Command \textendash invalid in math mode on input line 81.
 LaTeX Warning: Command \textendash invalid in math mode on input line 81.
 
 ) (./olympiad/tri.tex [55]
-<olympiad/figs/permo.jpg, id=1360, 679.53876pt x 232.87pt>
+<olympiad/figs/permo.jpg, id=1355, 679.53876pt x 232.87pt>
 File: olympiad/figs/permo.jpg Graphic file (type jpg)
 <use olympiad/figs/permo.jpg>
 Package pdftex.def Info: olympiad/figs/permo.jpg  used on input line 18.
@@ -2208,13 +2208,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [80]
-[81]) (./ncert/eq.tex) (./cbse/eq.tex [82]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [83])
+[81]) (./ncert/eq.tex) (./cbse/eq.tex [82] [83])
 (./JEE/zchapters/trigonometric-functions-equations.tex
-(./JEE/Trigonometric-Functions-Equations/fitb/1-9/main.tex)
-(./JEE/Trigonometric-Functions-Equations/integer/6-7/main.tex) [84]
+(./JEE/Trigonometric-Functions-Equations/fitb/1-9/main.tex [84])
+(./JEE/Trigonometric-Functions-Equations/integer/6-7/main.tex)
 (./JEE/Trigonometric-Functions-Equations/mains/1-13/main.tex [85])
 (./JEE/Trigonometric-Functions-Equations/mains/14-21/14-21.tex
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
@@ -2226,12 +2223,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--11
 
  []
 
-
+[86]
 Underfull \hbox (badness 10000) in paragraph at lines 19--21
 
  []
 
-[86]
+
 Underfull \hbox (badness 10000) in paragraph at lines 28--30
 
  []
@@ -2272,6 +2269,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--59
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [87]
 Underfull \hbox (badness 10000) in paragraph at lines 60--62
 
  []
@@ -2297,9 +2297,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--66
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [87]
 Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
@@ -2339,6 +2336,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--85
 Package multicol Warning: Using `1' columns doesn't seem a good idea.
  I therefore use two columns instead on input line 15.
 
+[88]
 
 Package multicol Warning: Using `1' columns doesn't seem a good idea.
  I therefore use two columns instead on input line 20.
@@ -2347,7 +2345,6 @@ Package multicol Warning: Using `1' columns doesn't seem a good idea.
 Package multicol Warning: Using `1' columns doesn't seem a good idea.
  I therefore use two columns instead on input line 33.
 
-[88]
 
 Package multicol Warning: Using `1' columns doesn't seem a good idea.
  I therefore use two columns instead on input line 38.
@@ -2384,24 +2381,17 @@ Package multicol Warning: Using `1' columns doesn't seem a good idea.
 Package multicol Warning: Using `1' columns doesn't seem a good idea.
  I therefore use two columns instead on input line 91.
 
-) (./JEE/Trigonometric-Functions-Equations/mcq-multiple/6-15/main.tex [89]
+[89]) (./JEE/Trigonometric-Functions-Equations/mcq-multiple/6-15/main.tex
 Overfull \hbox (34.48985pt too wide) in paragraph at lines 30--33
 []\OT1/txr/m/n/10 For a pos-i-tive in-te-ger $\OML/txmi/m/it/10 n$\OT1/txr/m/n/
 10 , let  $\OML/txmi/m/it/10 f[] [] \OT1/txr/m/n/10 = [] [] [] [] [] [] \OML/tx
 mi/m/it/10 :$ 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [90])
-(./JEE/Trigonometric-Functions-Equations/mcq-single/1-6/main.tex)
-(./JEE/Trigonometric-Functions-Equations/mcq-single/20-29/main.tex [91]
-[92]) (./JEE/Trigonometric-Functions-Equations/mcq-single/5-19/main.tex
-[93]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [94]
+[90]) (./JEE/Trigonometric-Functions-Equations/mcq-single/1-6/main.tex [91])
+(./JEE/Trigonometric-Functions-Equations/mcq-single/20-29/main.tex [92]
+[93]) (./JEE/Trigonometric-Functions-Equations/mcq-single/5-19/main.tex
+[94]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [95])
@@ -2415,21 +2405,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--11
 
  []
 
-) (./JEE/Trigonometric-Functions-Equations/subjective/(1-6)/main.tex)
-(./JEE/Trigonometric-Functions-Equations/subjective/6-20/main.tex [96]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [97])
+[96]) (./JEE/Trigonometric-Functions-Equations/subjective/(1-6)/main.tex)
+(./JEE/Trigonometric-Functions-Equations/subjective/6-20/main.tex [97])
 (./JEE/Trigonometric-Functions-Equations/true-false/1-2/main.tex))
-(./chapters/trig/ineq.tex) (./cbse/appl.tex [98])
+(./chapters/trig/ineq.tex [98])
 (./JEE/zchapters/inverse-trigonometric-functions.tex
 (./JEE/Inverse-Trigonometric-Functions/fitb/1-3/main.tex
 Underfull \hbox (badness 10000) in paragraph at lines 12--14
 []\OT1/txr/m/n/10 The nu-mer-i-cal value of $[] []$ is equal to []
  []
 
-) (./JEE/Inverse-Trigonometric-Functions/integer/1-2/main.tex)
-(./JEE/Inverse-Trigonometric-Functions/mains/1-8/main.tex [99])
+) (./JEE/Inverse-Trigonometric-Functions/integer/1-2/main.tex [99])
+(./JEE/Inverse-Trigonometric-Functions/mains/1-8/main.tex [100])
 (./JEE/Inverse-Trigonometric-Functions/matrix-match/1-3/main.tex
 Underfull \hbox (badness 10000) in paragraph at lines 77--79
 
@@ -2440,7 +2427,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--86
 
  []
 
-[100]
+
 Underfull \hbox (badness 10000) in paragraph at lines 111--113
 
  []
@@ -2477,18 +2464,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--128
 
  []
 
-
+[101]
 Underfull \hbox (badness 10000) in paragraph at lines 134--144
 
  []
 
-) (./JEE/Inverse-Trigonometric-Functions/mcq-multiple/1-3/main.tex [101])
+) (./JEE/Inverse-Trigonometric-Functions/mcq-multiple/1-3/main.tex)
 (./JEE/Inverse-Trigonometric-Functions/mcq-single/1-7/main.tex [102]
 Underfull \hbox (badness 10000) detected at line 95
  []$[]  [][] [][]  $ 
  []
 
-) (./JEE/Inverse-Trigonometric-Functions/subjective/1-2/main.tex [103])
+[103]) (./JEE/Inverse-Trigonometric-Functions/subjective/1-2/main.tex)
 (./JEE/Inverse-Trigonometric-Functions/subjective/3/main.tex)) [104]
 (./main.aux)
  ***********
@@ -2496,13 +2483,13 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 83330D18F48080CE885038D0E590121E;3034.
+(rerunfilecheck)             Checksum: A495DF0947BF5DC641446550980BFF30;2956.
  ) 
 Here is how much of TeX's memory you used:
- 56058 strings out of 474104
- 1327367 string characters out of 5729886
+ 56050 strings out of 474104
+ 1327241 string characters out of 5729886
  1961493 words of memory out of 5000000
- 75576 multiletter control sequences out of 15000+600000
+ 75572 multiletter control sequences out of 15000+600000
  628985 words of font info for 177 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  109i,16n,149p,1194b,1482s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2520,10 +2507,10 @@ syc.pfb></data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/fonts/ty
 pe1/urw/times/utmb8a.pfb></data/data/com.termux/files/usr/share/texlive/2024/te
 xmf-dist/fonts/type1/urw/times/utmr8a.pfb></data/data/com.termux/files/usr/shar
 e/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (104 pages, 1013277 bytes).
+Output written on main.pdf (104 pages, 1013391 bytes).
 PDF statistics:
- 2961 PDF objects out of 2984 (max. 8388607)
- 2739 compressed objects within 28 object streams
- 1842 named destinations out of 2073 (max. 500000)
- 409 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2956 PDF objects out of 2984 (max. 8388607)
+ 2734 compressed objects within 28 object streams
+ 1841 named destinations out of 2073 (max. 500000)
+ 401 words of extra memory for PDF output out of 10000 (max. 10000000)
 
