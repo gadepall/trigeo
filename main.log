@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2024.4.5)  7 FEB 2025 12:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2024.4.5)  7 FEB 2025 12:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2198,10 +2198,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [73]
-[74] [75] [76]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [77]
+[74] [75] [76] [77]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [78]
@@ -2523,7 +2520,7 @@ syc.pfb></data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/fonts/ty
 pe1/urw/times/utmb8a.pfb></data/data/com.termux/files/usr/share/texlive/2024/te
 xmf-dist/fonts/type1/urw/times/utmr8a.pfb></data/data/com.termux/files/usr/shar
 e/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (104 pages, 1013212 bytes).
+Output written on main.pdf (104 pages, 1013277 bytes).
 PDF statistics:
  2961 PDF objects out of 2984 (max. 8388607)
  2739 compressed objects within 28 object streams
