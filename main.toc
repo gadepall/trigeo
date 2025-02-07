@@ -21,9 +21,9 @@
 \contentsline {section}{\numberline {5}Equations}{82}{section.5}%
 \contentsline {subsection}{\numberline {5.1}NCERT}{82}{subsection.5.1}%
 \contentsline {subsection}{\numberline {5.2}CBSE}{83}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}JEE}{84}{subsection.5.3}%
-\contentsline {section}{\numberline {6}Inequalities}{98}{section.6}%
-\contentsline {section}{\numberline {7}Applications}{99}{section.7}%
-\contentsline {subsection}{\numberline {7.1}NCERT}{99}{subsection.7.1}%
-\contentsline {section}{\numberline {8}Inverse Trigonometric Functions}{99}{section.8}%
-\contentsline {subsection}{\numberline {8.1}JEE}{99}{subsection.8.1}%
+\contentsline {subsection}{\numberline {5.3}JEE}{85}{subsection.5.3}%
+\contentsline {section}{\numberline {6}Inequalities}{99}{section.6}%
+\contentsline {section}{\numberline {7}Applications}{100}{section.7}%
+\contentsline {subsection}{\numberline {7.1}NCERT}{100}{subsection.7.1}%
+\contentsline {section}{\numberline {8}Inverse Trigonometric Functions}{100}{section.8}%
+\contentsline {subsection}{\numberline {8.1}JEE}{100}{subsection.8.1}%
