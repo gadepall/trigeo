@@ -27,6 +27,6 @@
 \contentsline {subsection}{\numberline {6.3}JEE}{89}{subsection.6.3}%
 \contentsline {section}{\numberline {7}Inequalities}{96}{section.7}%
 \contentsline {subsection}{\numberline {7.1}NCERT}{96}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}NCERT}{97}{subsection.7.2}%
-\contentsline {section}{\numberline {8}Inverse Trigonometric Functions}{99}{section.8}%
-\contentsline {subsection}{\numberline {8.1}JEE}{99}{subsection.8.1}%
+\contentsline {subsection}{\numberline {7.2}NCERT}{96}{subsection.7.2}%
+\contentsline {section}{\numberline {8}Inverse Trigonometric Functions}{98}{section.8}%
+\contentsline {subsection}{\numberline {8.1}JEE}{98}{subsection.8.1}%
