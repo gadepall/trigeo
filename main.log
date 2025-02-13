@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2024.4.5)  13 FEB 2025 10:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2024.4.5)  13 FEB 2025 22:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2194,75 +2194,69 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [87])
 (./JEE/eq.tex [88] [89] [90] [91] [92] [93]) (./chapters/trig/ineq.tex [94])
-(./JEE/ineq.tex [95]) (./JEE/zchapters/inverse-trigonometric-functions.tex
-(./JEE/Inverse-Trigonometric-Functions/fitb/1-3/main.tex
-Underfull \hbox (badness 10000) in paragraph at lines 12--14
+(./JEE/ineq.tex [95]) (./JEE/inv.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--10
 []\OT1/txr/m/n/10 The nu-mer-i-cal value of $[] []$ is equal to []
  []
 
-[96]) (./JEE/Inverse-Trigonometric-Functions/integer/1-2/main.tex)
-(./JEE/Inverse-Trigonometric-Functions/mains/1-8/main.tex [97])
-(./JEE/Inverse-Trigonometric-Functions/matrix-match/1-3/main.tex
-Underfull \hbox (badness 10000) in paragraph at lines 77--79
+[96] [97]
+Underfull \hbox (badness 10000) in paragraph at lines 138--140
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--86
+Underfull \hbox (badness 10000) in paragraph at lines 145--147
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--113
-
- []
-
-[98]
-Underfull \hbox (badness 10000) in paragraph at lines 118--120
+Underfull \hbox (badness 10000) in paragraph at lines 172--174
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
+Underfull \hbox (badness 10000) in paragraph at lines 179--181
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
 []$[][]$
  []
 
 
-Overfull \hbox (3.30533pt too wide) in paragraph at lines 122--123
+Overfull \hbox (3.30533pt too wide) in paragraph at lines 183--184
 []\OT1/txr/m/n/10 If $[] [] [] 2\OML/txmi/m/it/10 x \OT1/txr/m/n/10 + [] \OML/t
 xmi/m/it/10 x [] \OT1/txr/m/n/10 2\OML/txmi/m/it/10 x [] x \OT1/txr/m/n/10 =
  []
 
 
-Underfull \hbox (badness 5970) in paragraph at lines 122--123
+Underfull \hbox (badness 5970) in paragraph at lines 183--184
 [] \OML/txmi/m/it/10 x [] \OT1/txr/m/n/10 2\OML/txmi/m/it/10 x [] x \OT1/txr/m/
 n/10 + [] [] [] 2\OML/txmi/m/it/10 x$
  []
 
 
-Overfull \hbox (29.57672pt too wide) in paragraph at lines 123--124
+Overfull \hbox (29.57672pt too wide) in paragraph at lines 184--185
 []\OT1/txr/m/n/10 If $[] [] = [] [] \OML/txmi/m/it/10 ; x \U/txsyc/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--128
+Underfull \hbox (badness 10000) in paragraph at lines 187--189
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--144
+[98]
+Underfull \hbox (badness 10000) in paragraph at lines 195--205
 
  []
 
-) (./JEE/Inverse-Trigonometric-Functions/mcq-multiple/1-3/main.tex [99])
-(./JEE/Inverse-Trigonometric-Functions/mcq-single/1-7/main.tex [100]
-Underfull \hbox (badness 10000) detected at line 95
+[99]
+Underfull \hbox (badness 10000) detected at line 334
  []$[]  [][] [][]  $ 
  []
 
-) (./JEE/Inverse-Trigonometric-Functions/subjective/1-2/main.tex)
-(./JEE/Inverse-Trigonometric-Functions/subjective/3/main.tex)) [101]
-(./main.aux)
+[100]) [101] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -2271,31 +2265,30 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 202A31D876FC23F206A5DD801942CC21;3140.
  ) 
 Here is how much of TeX's memory you used:
- 55924 strings out of 474104
- 1319747 string characters out of 5729886
+ 55868 strings out of 474104
+ 1316526 string characters out of 5729886
  1961493 words of memory out of 5000000
- 75527 multiletter control sequences out of 15000+600000
+ 75503 multiletter control sequences out of 15000+600000
  627635 words of font info for 175 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  109i,16n,149p,1194b,1482s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/fonts/type1/pu
-blic/txfonts/rtxi.pfb></data/data/com.termux/files/usr/share/texlive/2024/texmf
--dist/fonts/type1/public/txfonts/rtxmi.pfb></data/data/com.termux/files/usr/sha
-re/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></data/data/com.
-termux/files/usr/share/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxsc
+blic/txfonts/rtxmi.pfb></data/data/com.termux/files/usr/share/texlive/2024/texm
+f-dist/fonts/type1/public/txfonts/rtxr.pfb></data/data/com.termux/files/usr/sha
+re/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></data/data/com
+.termux/files/usr/share/texlive/2024/texmf-dist/fonts/type1/public/txfonts/txex
 .pfb></data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/fonts/type1
-/public/txfonts/txex.pfb></data/data/com.termux/files/usr/share/texlive/2024/te
-xmf-dist/fonts/type1/public/txfonts/txsy.pfb></data/data/com.termux/files/usr/s
-hare/texlive/2024/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></data/data/c
-om.termux/files/usr/share/texlive/2024/texmf-dist/fonts/type1/public/txfonts/tx
-syc.pfb></data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/fonts/ty
-pe1/urw/times/utmb8a.pfb></data/data/com.termux/files/usr/share/texlive/2024/te
-xmf-dist/fonts/type1/urw/times/utmr8a.pfb></data/data/com.termux/files/usr/shar
-e/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (101 pages, 1009146 bytes).
+/public/txfonts/txsy.pfb></data/data/com.termux/files/usr/share/texlive/2024/te
+xmf-dist/fonts/type1/public/txfonts/txsya.pfb></data/data/com.termux/files/usr/
+share/texlive/2024/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></data/data/
+com.termux/files/usr/share/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a
+.pfb></data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/fonts/type1
+/urw/times/utmr8a.pfb></data/data/com.termux/files/usr/share/texlive/2024/texmf
+-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (101 pages, 1006488 bytes).
 PDF statistics:
- 2929 PDF objects out of 2984 (max. 8388607)
- 2710 compressed objects within 28 object streams
- 1817 named destinations out of 2073 (max. 500000)
+ 2915 PDF objects out of 2984 (max. 8388607)
+ 2699 compressed objects within 27 object streams
+ 1810 named destinations out of 2073 (max. 500000)
  425 words of extra memory for PDF output out of 10000 (max. 10000000)
 
