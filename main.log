@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2024.4.5)  13 FEB 2025 10:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2024.4.5)  13 FEB 2025 10:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2194,22 +2194,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [87])
 (./JEE/eq.tex [88] [89] [90] [91] [92] [93]) (./chapters/trig/ineq.tex [94])
-(./JEE/ineq.tex
-
-Package multicol Warning: Using `1' columns doesn't seem a good idea.
- I therefore use two columns instead on input line 6.
-
-
-Package multicol Warning: Using `1' columns doesn't seem a good idea.
- I therefore use two columns instead on input line 11.
-
-[95] [96]) (./JEE/zchapters/inverse-trigonometric-functions.tex
+(./JEE/ineq.tex [95]) (./JEE/zchapters/inverse-trigonometric-functions.tex
 (./JEE/Inverse-Trigonometric-Functions/fitb/1-3/main.tex
 Underfull \hbox (badness 10000) in paragraph at lines 12--14
 []\OT1/txr/m/n/10 The nu-mer-i-cal value of $[] []$ is equal to []
  []
 
-) (./JEE/Inverse-Trigonometric-Functions/integer/1-2/main.tex)
+[96]) (./JEE/Inverse-Trigonometric-Functions/integer/1-2/main.tex)
 (./JEE/Inverse-Trigonometric-Functions/mains/1-8/main.tex [97])
 (./JEE/Inverse-Trigonometric-Functions/matrix-match/1-3/main.tex
 Underfull \hbox (badness 10000) in paragraph at lines 77--79
@@ -2221,12 +2212,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--86
 
  []
 
-[98]
+
 Underfull \hbox (badness 10000) in paragraph at lines 111--113
 
  []
 
-
+[98]
 Underfull \hbox (badness 10000) in paragraph at lines 118--120
 
  []
@@ -2269,19 +2260,19 @@ Underfull \hbox (badness 10000) detected at line 95
  []$[]  [][] [][]  $ 
  []
 
-) (./JEE/Inverse-Trigonometric-Functions/subjective/1-2/main.tex [101])
-(./JEE/Inverse-Trigonometric-Functions/subjective/3/main.tex)) [102]
+) (./JEE/Inverse-Trigonometric-Functions/subjective/1-2/main.tex)
+(./JEE/Inverse-Trigonometric-Functions/subjective/3/main.tex)) [101]
 (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6FC9DE7DE6D249D2987BABDA54FF66F2;3150.
+(rerunfilecheck)             Checksum: 202A31D876FC23F206A5DD801942CC21;3140.
  ) 
 Here is how much of TeX's memory you used:
- 55925 strings out of 474104
- 1319755 string characters out of 5729886
+ 55924 strings out of 474104
+ 1319747 string characters out of 5729886
  1961493 words of memory out of 5000000
  75527 multiletter control sequences out of 15000+600000
  627635 words of font info for 175 fonts, out of 8000000 for 9000
@@ -2301,10 +2292,10 @@ syc.pfb></data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/fonts/ty
 pe1/urw/times/utmb8a.pfb></data/data/com.termux/files/usr/share/texlive/2024/te
 xmf-dist/fonts/type1/urw/times/utmr8a.pfb></data/data/com.termux/files/usr/shar
 e/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (102 pages, 1009639 bytes).
+Output written on main.pdf (101 pages, 1009146 bytes).
 PDF statistics:
- 2933 PDF objects out of 2984 (max. 8388607)
- 2713 compressed objects within 28 object streams
- 1818 named destinations out of 2073 (max. 500000)
+ 2929 PDF objects out of 2984 (max. 8388607)
+ 2710 compressed objects within 28 object streams
+ 1817 named destinations out of 2073 (max. 500000)
  425 words of extra memory for PDF output out of 10000 (max. 10000000)
 
