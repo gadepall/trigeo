@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2024.4.5)  16 FEB 2025 16:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2024.4.5)  16 FEB 2025 16:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2082,7 +2082,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [65]
-<olympiad/figs/permo.jpg, id=1531, 679.53876pt x 232.87pt>
+<olympiad/figs/permo.jpg, id=1530, 679.53876pt x 232.87pt>
 File: olympiad/figs/permo.jpg Graphic file (type jpg)
 <use olympiad/figs/permo.jpg>
 Package pdftex.def Info: olympiad/figs/permo.jpg  used on input line 153.
@@ -2142,8 +2142,8 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 657B98E7F3F733319F390A2F8A6861C9;2960.
  ) 
 Here is how much of TeX's memory you used:
- 55815 strings out of 474104
- 1315832 string characters out of 5729886
+ 55813 strings out of 474104
+ 1315803 string characters out of 5729886
  1961493 words of memory out of 5000000
  75508 multiletter control sequences out of 15000+600000
  641387 words of font info for 210 fonts, out of 8000000 for 9000
@@ -2163,10 +2163,10 @@ xsyc.pfb></data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/fonts/t
 ype1/urw/times/utmb8a.pfb></data/data/com.termux/files/usr/share/texlive/2024/t
 exmf-dist/fonts/type1/urw/times/utmr8a.pfb></data/data/com.termux/files/usr/sha
 re/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (96 pages, 985151 bytes).
+Output written on main.pdf (96 pages, 985038 bytes).
 PDF statistics:
- 2826 PDF objects out of 2984 (max. 8388607)
- 2613 compressed objects within 27 object streams
- 1748 named destinations out of 2073 (max. 500000)
+ 2823 PDF objects out of 2984 (max. 8388607)
+ 2610 compressed objects within 27 object streams
+ 1746 named destinations out of 2073 (max. 500000)
  417 words of extra memory for PDF output out of 10000 (max. 10000000)
 
