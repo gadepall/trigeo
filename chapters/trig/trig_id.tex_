@@ -6,7 +6,7 @@
 A right angled triangle looks like Fig. \ref{fig:tri_right_angle}.
 \begin{figure}[!ht]
 \centering
-{\includegraphics[width=0.6\columnwidth]{figs/trig_id/right/tri_right_angle.pdf}}
+\resizebox{0.6\columnwidth}{!}{\input{figs/trig_id/right/tri_right_angle.tex}}
 \caption{Right Angled Triangle}
 \label{fig:tri_right_angle}	
 \end{figure}
@@ -37,7 +37,7 @@ b = a \cos \theta + c \sin \theta
 %
 \begin{figure}[!ht]
 	\begin{center}
-		{\includegraphics[width=0.6\columnwidth]{figs/trig_id/right/tri_baudh.pdf}}
+		\resizebox{0.6\columnwidth}{!}{\input{figs/trig_id/right/tri_baudh.tex}}
 	\end{center}
 	\caption{Baudhayana Theorem}
 	\label{fig:tri_baudh}	
@@ -113,7 +113,7 @@ b &= a\frac{a}{b} + c \frac{c}{b} \quad \brak{\text{from} \quad \eqref{eq:tri_tr
 \end{align}
 \begin{figure}[H]
 	\centering
-		{\includegraphics[width=0.6\columnwidth]{figs/trig_id/right/tri_isoc-alt.pdf}}
+		\resizebox{0.6\columnwidth}{!}{\input{figs/trig_id/right/tri_isoc-alt.tex}}
 	\caption{$B = C$}
 	\label{fig:tri_isoc-alt}
 \end{figure}
@@ -139,7 +139,7 @@ $AB = AC$.
 	Show that the area of $\Delta ABC$ in Fig. 	\ref{fig:tri_sss}	is $\frac{1}{2}ab \sin C$.
 \begin{figure}[!ht]
 	\begin{center}
-			{\includegraphics[width=0.6\columnwidth]{figs/trig_id/right/tri_sss.pdf}}
+			\resizebox{0.6\columnwidth}{!}{\input{figs/trig_id/right/tri_sss.tex}}
 	\end{center}
 	\caption{Area of a Triangle}
 	\label{fig:tri_sss}	
@@ -180,7 +180,7 @@ This is known as the sine formula.
 \end{align}
 \begin{figure}[H]
 	\centering
-		{\includegraphics[width=0.6\columnwidth]{figs/trig_id/right/tri_isoc.pdf}}
+		\resizebox{0.6\columnwidth}{!}{\input{figs/trig_id/right/tri_isoc.tex}}
 	\caption{}
 	\label{fig:tri_isoc}
 \end{figure}
@@ -222,7 +222,7 @@ c
 		
 		%\includegraphics[width=0.6\columnwidth]{figs/ch2_triang_ar}
 		%\vspace*{-10cm}
-		{\includegraphics[width=0.6\columnwidth]{figs/trig_id/sincos/tri_cosine_formula.pdf}}
+		\resizebox{0.6\columnwidth}{!}{\input{figs/trig_id/sincos/tri_cosine_formula.tex}}
 	\end{center}
 	\caption{The cosine formula}
 	\label{fig:tri_cosine_formula}	
@@ -328,7 +328,7 @@ This is known as Hero's formula.
 		
 		%\includegraphics[width=\columnwidth]{figs/fig:tri_sin_inc}
 		%\vspace*{-10cm}
-		{\includegraphics[width=0.6\columnwidth]{figs/trig_id/sincos/tri_sin_inc.pdf}}
+		\resizebox{0.6\columnwidth}{!}{\input{figs/trig_id/sincos/tri_sin_inc.tex}}
 	\end{center}
 	\caption{}
 	%\caption{$\sin \brak{\theta_1+\theta_2} = \sin\theta_1\cos\theta_2 + \cos\theta_1\sin\theta_2$}
@@ -373,7 +373,7 @@ show that
 		
 		%\includegraphics[width=0.6\columnwidth]{figs/trig_id_sin_theta}
 		%\vspace*{-10cm}
-		{\includegraphics[width=0.6\columnwidth]{figs/trig_id/sincos/tri_sin_inc.pdf}}
+		\resizebox{0.6\columnwidth}{!}{\input{figs/trig_id/sincos/tri_sin_inc.tex}}
 	\end{center}
 	\caption{$\sin \brak{\theta_1+\theta_2} = \sin\theta_1\cos\theta_2 + \cos\theta_1\sin\theta_2$}
 	\label{trig_id_sin_theta}	
@@ -567,7 +567,7 @@ Show that $IA$ bisects $\angle A$.
 \begin{figure}[!ht]
 	\begin{center}
 		
-		{\includegraphics[width=0.6\columnwidth]{figs/trig_id/angbis/tri-icentre.pdf}}
+		\resizebox{0.6\columnwidth}{!}{\input{figs/trig_id/angbis/tri-icentre.tex}}
 	\end{center}
 	\caption{Incentre $I$ of $\triangle ABC$}
 	\label{fig:tri_icentre}	
@@ -615,7 +615,7 @@ in
   \end{align}
 		\begin{figure}[!ht]
 	\begin{center}
-		{\includegraphics[width=0.6\columnwidth]{figs/trig_id/angbis/tri-iradius.pdf}}
+		\resizebox{0.6\columnwidth}{!}{\input{figs/trig_id/angbis/tri-iradius.tex}}
 	\end{center}
 	\caption{Inradius $r$ of $\triangle ABC$}
 	\label{fig:tri_iradius}	
@@ -650,7 +650,7 @@ IF = IE=  \frac{l_1}{\sin\frac{A}{2}}
 is known as the {\em incircle}. 
 \begin{figure}[!ht]
 	\begin{center}
-		{\includegraphics[width=0.6\columnwidth]{figs/trig_id/angbis/tri_icircle.pdf}}
+		\resizebox{0.6\columnwidth}{!}{\input{figs/trig_id/angbis/tri_icircle.tex}}
 	\end{center}
 	\caption{Incircle of $\triangle ABC$}
 	\label{fig:tri_icircle}	
@@ -663,7 +663,7 @@ BE = CF
 \end{align}
 \begin{figure}[H]
 	\centering
-		{\includegraphics[width=0.6\columnwidth]{figs/trig_id/angbis/tri_isoc_ang_bsect.pdf}}
+		\resizebox{0.6\columnwidth}{!}{\input{figs/trig_id/angbis/tri_isoc_ang_bsect.tex}}
 	\caption{}
 	\label{fig:tri_isoc_ang_bsect}
 \end{figure}
@@ -794,7 +794,7 @@ which is impossible.  Hence, the only possible solution is
 	\figref{fig:tri-isosc},	
 \begin{figure}[!ht]
 	\begin{center}
-		{\includegraphics[width=0.6\columnwidth]{figs/trig_id/ccircle/tri_isosc.pdf}}
+		\resizebox{0.6\columnwidth}{!}{\input{figs/trig_id/ccircle/tri_isosc.tex}}
 	\end{center}
 	\caption{Isosceles Triangle}
 	\label{fig:tri-isosc}	
@@ -844,7 +844,7 @@ Show that $OD \perp BC$.
 \begin{figure}[!ht]
 	\begin{center}
 		
-		{\includegraphics[width=0.6\columnwidth]{figs/trig_id/ccircle/tri-perp-bis.pdf}}
+		\resizebox{0.6\columnwidth}{!}{\input{figs/trig_id/ccircle/tri-perp-bis.tex}}
 	\end{center}
 	\caption{Perpendicular bisector.}
 	\label{fig:tri-perp-bis}	
@@ -857,7 +857,7 @@ $OA = R$.
 \begin{figure}[!ht]
 	\begin{center}
 		
-		{\includegraphics[width=0.6\columnwidth]{figs/trig_id/ccircle/tri_ccentre.pdf}}
+		\resizebox{0.6\columnwidth}{!}{\input{figs/trig_id/ccircle/tri_ccentre.tex}}
 	\end{center}
 	\caption{ Perpendicular bisectors of $\triangle ABC$ meet at $\vec{O}$.}
 	\label{fig:tri_ccentre}	
@@ -885,7 +885,7 @@ and
   shows the {\em circumcircle} of $\triangle ABC$.
 \begin{figure}[!ht]
 	\begin{center}
-		{\includegraphics[width=0.6\columnwidth]{figs/trig_id/ccircle/tri_ccircle.pdf}}
+		\resizebox{0.6\columnwidth}{!}{\input{figs/trig_id/ccircle/tri_ccircle.tex}}
 	\end{center}
 	\caption{Circumcircle of $\triangle ABC$}
 	\label{fig:tri_ccircle-ang}	
@@ -1052,7 +1052,7 @@ and
 			
 			%\includegraphics[width=0.6\columnwidth]{figs/fig:circ_tang_icept}
 			%\vspace*{-10cm}
-			{\includegraphics[width=0.6\columnwidth]{figs/trig_id/ccircle/circ_tang_icept.pdf}}
+			\resizebox{0.6\columnwidth}{!}{\input{figs/trig_id/ccircle/circ_tang_icept.tex}}
 		\end{center}
 		\caption{$\theta= \alpha$.}
 		\label{fig:circ_tang_icept}	
@@ -1093,7 +1093,7 @@ $\triangle$s $APC$ and $BPC$ are said to be {\em similar}.
 \end{align}
 \begin{figure}[!ht]
 	\begin{center}
-		{\includegraphics[width=0.6\columnwidth]{figs/trig_id/median/tri_med.pdf}}
+		\resizebox{0.6\columnwidth}{!}{\input{figs/trig_id/median/tri_med.tex}}
 	\end{center}
 	\caption{$k_1=k_2$.}
 	\label{fig:tri_med}	
@@ -1143,7 +1143,7 @@ yielding
 \end{align}
 \begin{figure}[!ht]
 	\begin{center}
-		{\includegraphics[width=0.6\columnwidth]{figs/trig_id/median/tri_med_isect.pdf}}
+		\resizebox{0.6\columnwidth}{!}{\input{figs/trig_id/median/tri_med_isect.tex}}
 	\end{center}
 	\caption{Equal areas.}
 	\label{fig:tri_med_isect}	
@@ -1200,7 +1200,7 @@ Thus,
 %
 \begin{figure}[H]
 	\begin{center}
-		{\includegraphics[width=0.6\columnwidth]{figs/trig_id/median/tri_med_meet.pdf}}
+		\resizebox{0.6\columnwidth}{!}{\input{figs/trig_id/median/tri_med_meet.tex}}
 	\end{center}
 	\caption{$k_3=k$.}
 	\label{fig:tri_med_meet}	
@@ -1219,7 +1219,7 @@ Thus,
 $\because \triangle EGF \sim \triangle BGC, k = 2$.
 \begin{figure}[H]
 	\begin{center}
-		{\includegraphics[width=0.6\columnwidth]{figs/trig_id/median/tri_med_sim.pdf}}
+		\resizebox{0.6\columnwidth}{!}{\input{figs/trig_id/median/tri_med_sim.tex}}
 	\end{center}
 	\caption{k = 2}
 	\label{fig:tri_med_sim}

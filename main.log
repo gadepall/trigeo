@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2024.4.5)  2 MAR 2025 10:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2024.4.5)  21 MAR 2025 21:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1873,76 +1873,212 @@ File: utxsyc.fd 2000/12/15 v3.1
 \openout6 = `main.toc'.
 
  [3] (./chapters/trig/trig_id.tex
-(./figs/trig_id/right/tri_right_angle.tex) (./figs/trig_id/right/tri_baudh.tex)
+<figs/trig_id/right/tri_right_angle.pdf, id=208, 345.01195pt x 258.90428pt>
+File: figs/trig_id/right/tri_right_angle.pdf Graphic file (type pdf)
+<use figs/trig_id/right/tri_right_angle.pdf>
+Package pdftex.def Info: figs/trig_id/right/tri_right_angle.pdf  used on input 
+line 9.
+(pdftex.def)             Requested size: 218.5194pt x 163.98363pt.
+<figs/trig_id/right/tri_baudh.pdf, id=210, 345.00693pt x 312.01067pt>
+File: figs/trig_id/right/tri_baudh.pdf Graphic file (type pdf)
+<use figs/trig_id/right/tri_baudh.pdf>
+Package pdftex.def Info: figs/trig_id/right/tri_baudh.pdf  used on input line 4
+0.
+(pdftex.def)             Requested size: 218.5194pt x 197.61992pt.
 
-Underfull \vbox (badness 3861) has occurred while \output is active []
+Underfull \vbox (badness 4328) has occurred while \output is active []
 
  [4
 
-]
+ <./figs/trig_id/right/tri_right_angle.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5]
-(./figs/trig_id/right/tri_isoc-alt.tex) (./figs/trig_id/right/tri_sss.tex)
-[6] (./figs/trig_id/right/tri_isoc.tex)
-(./figs/trig_id/sincos/tri_cosine_formula.tex)
-Underfull \vbox (badness 1490) has occurred while \output is active []
+ [5 <./figs/trig_id/right/tri_baudh.pdf>]
+<figs/trig_id/right/tri_isoc-alt.pdf, id=313, 345.01195pt x 234.6918pt>
+File: figs/trig_id/right/tri_isoc-alt.pdf Graphic file (type pdf)
+<use figs/trig_id/right/tri_isoc-alt.pdf>
+Package pdftex.def Info: figs/trig_id/right/tri_isoc-alt.pdf  used on input lin
+e 116.
+(pdftex.def)             Requested size: 218.5194pt x 148.64803pt.
+<figs/trig_id/right/tri_sss.pdf, id=316, 345.00595pt x 199.143pt>
+File: figs/trig_id/right/tri_sss.pdf Graphic file (type pdf)
+<use figs/trig_id/right/tri_sss.pdf>
+Package pdftex.def Info: figs/trig_id/right/tri_sss.pdf  used on input line 142
+.
+(pdftex.def)             Requested size: 218.5194pt x 126.1323pt.
+ [6 <./figs/trig_id/right/tri_isoc-alt.pdf> <./figs/trig_id/right/tri_sss.pdf>]
+<figs/trig_id/right/tri_isoc.pdf, id=350, 345.01195pt x 234.6918pt>
+File: figs/trig_id/right/tri_isoc.pdf Graphic file (type pdf)
+<use figs/trig_id/right/tri_isoc.pdf>
+Package pdftex.def Info: figs/trig_id/right/tri_isoc.pdf  used on input line 18
+3.
+(pdftex.def)             Requested size: 218.5194pt x 148.64803pt.
+<figs/trig_id/sincos/tri_cosine_formula.pdf, id=352, 345.00595pt x 199.143pt>
+File: figs/trig_id/sincos/tri_cosine_formula.pdf Graphic file (type pdf)
+<use figs/trig_id/sincos/tri_cosine_formula.pdf>
+Package pdftex.def Info: figs/trig_id/sincos/tri_cosine_formula.pdf  used on in
+put line 225.
+(pdftex.def)             Requested size: 218.5194pt x 126.1323pt.
 
- [7]
+Underfull \vbox (badness 1859) has occurred while \output is active []
+
+ [7 <./figs/trig_id/right/tri_isoc.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8]
-(./figs/trig_id/sincos/tri_sin_inc.tex
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-) [9]
+ [8 <./figs/trig_id/sincos/tri_cosine_formula.pdf>]
+<figs/trig_id/sincos/tri_sin_inc.pdf, id=418, 345.019pt x 341.88026pt>
+File: figs/trig_id/sincos/tri_sin_inc.pdf Graphic file (type pdf)
+<use figs/trig_id/sincos/tri_sin_inc.pdf>
+Package pdftex.def Info: figs/trig_id/sincos/tri_sin_inc.pdf  used on input lin
+e 331.
+(pdftex.def)             Requested size: 218.5194pt x 216.52815pt.
+ [9]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10]
+ [10 <./figs/trig_id/sincos/tri_sin_inc.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11]
-(./figs/trig_id/angbis/tri-icentre.tex) [12]
-(./figs/trig_id/angbis/tri-iradius.tex) [13]
-(./figs/trig_id/angbis/tri_icircle.tex)
-(./figs/trig_id/angbis/tri_isoc_ang_bsect.tex)
+<figs/trig_id/angbis/tri-icentre.pdf, id=507, 345.01195pt x 275.42299pt>
+File: figs/trig_id/angbis/tri-icentre.pdf Graphic file (type pdf)
+<use figs/trig_id/angbis/tri-icentre.pdf>
+Package pdftex.def Info: figs/trig_id/angbis/tri-icentre.pdf  used on input lin
+e 570.
+(pdftex.def)             Requested size: 218.5194pt x 174.44617pt.
+
+[12 <./figs/trig_id/angbis/tri-icentre.pdf>]
+<figs/trig_id/angbis/tri-iradius.pdf, id=540, 345.01195pt x 275.71004pt>
+File: figs/trig_id/angbis/tri-iradius.pdf Graphic file (type pdf)
+<use figs/trig_id/angbis/tri-iradius.pdf>
+Package pdftex.def Info: figs/trig_id/angbis/tri-iradius.pdf  used on input lin
+e 618.
+(pdftex.def)             Requested size: 218.5194pt x 174.62799pt.
+ [13 <./figs/trig_id/angbis/tri-iradius.pdf>]
+<figs/trig_id/angbis/tri_icircle.pdf, id=574, 345.01195pt x 277.9203pt>
+File: figs/trig_id/angbis/tri_icircle.pdf Graphic file (type pdf)
+<use figs/trig_id/angbis/tri_icircle.pdf>
+Package pdftex.def Info: figs/trig_id/angbis/tri_icircle.pdf  used on input lin
+e 653.
+(pdftex.def)             Requested size: 218.5194pt x 176.02791pt.
+<figs/trig_id/angbis/tri_isoc_ang_bsect.pdf, id=575, 345.01195pt x 234.6918pt>
+File: figs/trig_id/angbis/tri_isoc_ang_bsect.pdf Graphic file (type pdf)
+<use figs/trig_id/angbis/tri_isoc_ang_bsect.pdf>
+Package pdftex.def Info: figs/trig_id/angbis/tri_isoc_ang_bsect.pdf  used on in
+put line 666.
+(pdftex.def)             Requested size: 218.5194pt x 148.64803pt.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14]
+ [14 <./figs/trig_id/angbis/tri_icircle.pdf> <./figs/trig_id/angbis/tri_isoc_an
+g_bsect.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [15]
-(./figs/trig_id/ccircle/tri_isosc.tex) [16]
-(./figs/trig_id/ccircle/tri-perp-bis.tex)
-(./figs/trig_id/ccircle/tri_ccentre.tex)
-(./figs/trig_id/ccircle/tri_ccircle.tex)
-Underfull \vbox (badness 5161) has occurred while \output is active []
+<figs/trig_id/ccircle/tri_isosc.pdf, id=630, 345.01195pt x 135.77425pt>
+File: figs/trig_id/ccircle/tri_isosc.pdf Graphic file (type pdf)
+<use figs/trig_id/ccircle/tri_isosc.pdf>
+Package pdftex.def Info: figs/trig_id/ccircle/tri_isosc.pdf  used on input line
+ 797.
+(pdftex.def)             Requested size: 218.5194pt x 85.99608pt.
 
- [17]
+[16 <./figs/trig_id/ccircle/tri_isosc.pdf>]
+<figs/trig_id/ccircle/tri-perp-bis.pdf, id=659, 345.01195pt x 136.06133pt>
+File: figs/trig_id/ccircle/tri-perp-bis.pdf Graphic file (type pdf)
+<use figs/trig_id/ccircle/tri-perp-bis.pdf>
+Package pdftex.def Info: figs/trig_id/ccircle/tri-perp-bis.pdf  used on input l
+ine 847.
+(pdftex.def)             Requested size: 218.5194pt x 86.17789pt.
+<figs/trig_id/ccircle/tri_ccentre.pdf, id=661, 345.01398pt x 281.00984pt>
+File: figs/trig_id/ccircle/tri_ccentre.pdf Graphic file (type pdf)
+<use figs/trig_id/ccircle/tri_ccentre.pdf>
+Package pdftex.def Info: figs/trig_id/ccircle/tri_ccentre.pdf  used on input li
+ne 860.
+(pdftex.def)             Requested size: 218.5194pt x 177.98474pt.
+<figs/trig_id/ccircle/tri_ccircle.pdf, id=666, 345.01997pt x 341.71365pt>
+File: figs/trig_id/ccircle/tri_ccircle.pdf Graphic file (type pdf)
+<use figs/trig_id/ccircle/tri_ccircle.pdf>
+Package pdftex.def Info: figs/trig_id/ccircle/tri_ccircle.pdf  used on input li
+ne 888.
+(pdftex.def)             Requested size: 218.5194pt x 216.42262pt.
+
+Underfull \vbox (badness 5504) has occurred while \output is active []
+
+ [17 <./figs/trig_id/ccircle/tri-perp-bis.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18]
+ [18 <./figs/trig_id/ccircle/tri_ccentre.pdf> <./figs/trig_id/ccircle/tri_ccirc
+le.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19]
-(./figs/trig_id/ccircle/circ_tang_icept.tex) [20]
-(./figs/trig_id/median/tri_med.tex) [21]
-(./figs/trig_id/median/tri_med_isect.tex)
+<figs/trig_id/ccircle/circ_tang_icept.pdf, id=757, 345.01297pt x 238.1718pt>
+File: figs/trig_id/ccircle/circ_tang_icept.pdf Graphic file (type pdf)
+<use figs/trig_id/ccircle/circ_tang_icept.pdf>
+Package pdftex.def Info: figs/trig_id/ccircle/circ_tang_icept.pdf  used on inpu
+t line 1055.
+(pdftex.def)             Requested size: 218.5194pt x 150.85217pt.
+
+[20]
+<figs/trig_id/median/tri_med.pdf, id=782, 345.01195pt x 246.65651pt>
+File: figs/trig_id/median/tri_med.pdf Graphic file (type pdf)
+<use figs/trig_id/median/tri_med.pdf>
+Package pdftex.def Info: figs/trig_id/median/tri_med.pdf  used on input line 10
+96.
+(pdftex.def)             Requested size: 218.5194pt x 156.22618pt.
+ [21 <./figs/trig_id/ccircle/circ_tang_icept.pdf> <./figs/trig_id/median/tri_me
+d.pdf>]
+<figs/trig_id/median/tri_med_isect.pdf, id=823, 345.01195pt x 246.65651pt>
+File: figs/trig_id/median/tri_med_isect.pdf Graphic file (type pdf)
+<use figs/trig_id/median/tri_med_isect.pdf>
+Package pdftex.def Info: figs/trig_id/median/tri_med_isect.pdf  used on input l
+ine 1146.
+(pdftex.def)             Requested size: 218.5194pt x 156.22618pt.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22]
-(./figs/trig_id/median/tri_med_meet.tex) (./figs/trig_id/median/tri_med_sim.tex
+ [22 <./figs/trig_id/median/tri_med_isect.pdf>]
+<figs/trig_id/median/tri_med_meet.pdf, id=864, 345.01195pt x 246.65651pt>
+File: figs/trig_id/median/tri_med_meet.pdf Graphic file (type pdf)
+<use figs/trig_id/median/tri_med_meet.pdf>
+Package pdftex.def Info: figs/trig_id/median/tri_med_meet.pdf  used on input li
+ne 1203.
+(pdftex.def)             Requested size: 218.5194pt x 156.22618pt.
+<figs/trig_id/median/tri_med_sim.pdf, id=866, 345.01195pt x 246.65651pt>
+File: figs/trig_id/median/tri_med_sim.pdf Graphic file (type pdf)
+<use figs/trig_id/median/tri_med_sim.pdf>
+Package pdftex.def Info: figs/trig_id/median/tri_med_sim.pdf  used on input lin
+e 1222.
+(pdftex.def)             Requested size: 218.5194pt x 156.22618pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23 <./figs/trig_id/median/tri_med_meet.pdf>]) (./ncert/hd.tex (./tables/ncert
+/1.tex
+\gnumericTableWidth=\skip82
+\gnumericTableWidthComplete=\skip83
+\gnumericMultiRowLength=\skip84
+\gnumericColA=\skip85
+\gnumericColB=\skip86
+\gnumericColC=\skip87
+\gnumericColD=\skip88
 )
+
+pdfTeX warning: pdflatex (file ./figs/ncert/1.pdf): PDF inclusion: found PDF ve
+rsion <1.7>, but at most version <1.5> allowed
+<figs/ncert/1.pdf, id=898, 277.57703pt x 233.39195pt>
+File: figs/ncert/1.pdf Graphic file (type pdf)
+<use figs/ncert/1.pdf>
+Package pdftex.def Info: figs/ncert/1.pdf  used on input line 22.
+(pdftex.def)             Requested size: 218.5194pt x 183.7437pt.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23])
-(./ncert/hd.tex [24]
+ [24 <./figs/trig_id/median/tri_med_sim.pdf>] [25 <./figs/ncert/1.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25])
+ [26])
 (./cbse/hd.tex
-<cbse/figs/kites.jpeg, id=699, 296.10625pt x 210.7875pt>
+<cbse/figs/kites.jpeg, id=959, 296.10625pt x 210.7875pt>
 File: cbse/figs/kites.jpeg Graphic file (type jpg)
 <use cbse/figs/kites.jpeg>
 Package pdftex.def Info: cbse/figs/kites.jpeg  used on input line 6.
@@ -1950,8 +2086,8 @@ Package pdftex.def Info: cbse/figs/kites.jpeg  used on input line 6.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26]
-<cbse/figs/as.jpeg, id=718, 261.97874pt x 182.6825pt>
+ [27]
+<cbse/figs/as.jpeg, id=972, 261.97874pt x 182.6825pt>
 File: cbse/figs/as.jpeg Graphic file (type jpg)
 <use cbse/figs/as.jpeg>
 Package pdftex.def Info: cbse/figs/as.jpeg  used on input line 18.
@@ -1959,8 +2095,8 @@ Package pdftex.def Info: cbse/figs/as.jpeg  used on input line 18.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27 <./cbse/figs/kites.jpeg>]
-<cbse/figs/ak.jpeg, id=728, 418.56375pt x 315.1775pt>
+ [28 <./cbse/figs/kites.jpeg>]
+<cbse/figs/ak.jpeg, id=982, 418.56375pt x 315.1775pt>
 File: cbse/figs/ak.jpeg Graphic file (type jpg)
 <use cbse/figs/ak.jpeg>
 Package pdftex.def Info: cbse/figs/ak.jpeg  used on input line 29.
@@ -1968,8 +2104,8 @@ Package pdftex.def Info: cbse/figs/ak.jpeg  used on input line 29.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28 <./cbse/figs/as.jpeg>]
-<cbse/figs/su.jpeg, id=739, 336.25626pt x 181.67876pt>
+ [29 <./cbse/figs/as.jpeg>]
+<cbse/figs/su.jpeg, id=993, 336.25626pt x 181.67876pt>
 File: cbse/figs/su.jpeg Graphic file (type jpg)
 <use cbse/figs/su.jpeg>
 Package pdftex.def Info: cbse/figs/su.jpeg  used on input line 42.
@@ -1977,33 +2113,33 @@ Package pdftex.def Info: cbse/figs/su.jpeg  used on input line 42.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29 <./cbse/figs/ak.jpeg>]
-<cbse/figs/boat.edit.jpeg, id=749, 432.61626pt x 263.98625pt>
+ [30 <./cbse/figs/ak.jpeg>]
+<cbse/figs/boat.edit.jpeg, id=1003, 432.61626pt x 263.98625pt>
 File: cbse/figs/boat.edit.jpeg Graphic file (type jpg)
 <use cbse/figs/boat.edit.jpeg>
 Package pdftex.def Info: cbse/figs/boat.edit.jpeg  used on input line 51.
 (pdftex.def)             Requested size: 364.1953pt x 222.24239pt.
- [30 <./cbse/figs/su.jpeg> <./cbse/figs/boat.edit.jpeg>]
+ [31 <./cbse/figs/su.jpeg> <./cbse/figs/boat.edit.jpeg>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31]
-<cbse/figs/Problem.png, id=777, 580.1675pt x 341.275pt>
+ [32]
+<cbse/figs/Problem.png, id=1030, 580.1675pt x 341.275pt>
 File: cbse/figs/Problem.png Graphic file (type png)
 <use cbse/figs/Problem.png>
 Package pdftex.def Info: cbse/figs/Problem.png  used on input line 104.
 (pdftex.def)             Requested size: 273.14647pt x 160.67526pt.
 
-[32 <./cbse/figs/Problem.png>]
-<cbse/figs/Fig-4.png, id=795, 249.93375pt x 177.66376pt>
+[33 <./cbse/figs/Problem.png>]
+<cbse/figs/Fig-4.png, id=1048, 249.93375pt x 177.66376pt>
 File: cbse/figs/Fig-4.png Graphic file (type png)
 <use cbse/figs/Fig-4.png>
 Package pdftex.def Info: cbse/figs/Fig-4.png  used on input line 142.
 (pdftex.def)             Requested size: 273.14647pt x 194.1837pt.
- [33 <./cbse/figs/Fig-4.png>]
+ [34 <./cbse/figs/Fig-4.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34]
-<cbse/figs/cbse_30_3_1.png, id=838, 269.005pt x 169.63374pt>
+ [35]
+<cbse/figs/cbse_30_3_1.png, id=1092, 269.005pt x 169.63374pt>
 File: cbse/figs/cbse_30_3_1.png Graphic file (type png)
 <use cbse/figs/cbse_30_3_1.png>
 Package pdftex.def Info: cbse/figs/cbse_30_3_1.png  used on input line 190.
@@ -2011,65 +2147,60 @@ Package pdftex.def Info: cbse/figs/cbse_30_3_1.png  used on input line 190.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35]
-[36 <./cbse/figs/cbse_30_3_1.png>]
+ [36]
+[37 <./cbse/figs/cbse_30_3_1.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37])
-(./JEE/hd.tex [38] [39]) (./ncert/tri.tex
+ [38])
+(./JEE/hd.tex [39] [40]) (./ncert/tri.tex [41] (./figs/tri/tri-sim.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [40]
-(./figs/tri/tri-sim.tex) (./figs/tri/tri-ang-bis.tex) [41]
-(./figs/tri/tri-obtuse.tex) [42] (./figs/tri/tri-hyp.tex)
-(./figs/tri/tri-trap.tex)
+ [42]
+(./figs/tri/tri-ang-bis.tex) (./figs/tri/tri-obtuse.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [43]
-(./figs/tri/tri-rect.tex)
+(./figs/tri/tri-hyp.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [44])
-(./cbse/tri.tex
-<cbse/figs/rightangled.jpg, id=1045, 745.78625pt x 209.78375pt>
+ [44]
+(./figs/tri/tri-trap.tex) [45] (./figs/tri/tri-rect.tex)) (./cbse/tri.tex
+[46]
+<cbse/figs/rightangled.jpg, id=1314, 745.78625pt x 209.78375pt>
 File: cbse/figs/rightangled.jpg Graphic file (type jpg)
 <use cbse/figs/rightangled.jpg>
 Package pdftex.def Info: cbse/figs/rightangled.jpg  used on input line 10.
 (pdftex.def)             Requested size: 364.1953pt x 102.44281pt.
- [45 <./cbse/figs/rightangled.jpg>]) (./JEE/tri.tex [46]
-[47] [48]
-<figs/figure.png, id=1172, 238.8925pt x 190.7125pt>
+) (./JEE/tri.tex [47 <./cbse/figs/rightangled.jpg>] [48] [49]
+<figs/figure.png, id=1412, 238.8925pt x 190.7125pt>
 File: figs/figure.png Graphic file (type png)
 <use figs/figure.png>
 Package pdftex.def Info: figs/figure.png  used on input line 213.
 (pdftex.def)             Requested size: 273.14647pt x 218.07216pt.
- [49 <./figs/figure.png>] [50] [51]) (./olympiad/tri.tex [52]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [53]
+ [50] [51 <./figs/figure.png>] [52]) (./olympiad/tri.tex [53]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [54]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [55])
-(./ncert/circle.tex [56]
+ [55]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [57]
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 81.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 81.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 81.
-
-) (./JEE/circle.tex [58] [59]) (./olympiad/circle.tex [60]
+ [56])
+(./ncert/circle.tex [57]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [61]
+ [58]
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 81.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 81.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 81.
+
+) (./JEE/circle.tex [59] [60]) (./olympiad/circle.tex [61]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [62]
@@ -2082,35 +2213,23 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [65]
-<olympiad/figs/permo.jpg, id=1542, 679.53876pt x 232.87pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [66]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [67]
+<olympiad/figs/permo.jpg, id=1812, 679.53876pt x 232.87pt>
 File: olympiad/figs/permo.jpg Graphic file (type jpg)
 <use olympiad/figs/permo.jpg>
 Package pdftex.def Info: olympiad/figs/permo.jpg  used on input line 153.
 (pdftex.def)             Requested size: 364.1953pt x 124.80629pt.
+)
+(./ncert/id.tex [68 <./olympiad/figs/permo.jpg>] [69] [70]) (./cbse/id.tex
+Underfull \vbox (badness 1931) has occurred while \output is active []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [66])
-(./ncert/id.tex [67 <./olympiad/figs/permo.jpg>] [68]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [69])
-(./cbse/id.tex
-Underfull \vbox (badness 1478) has occurred while \output is active []
-
- [70]
-[71]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [72]
-[73]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [74]
+ [71]
+[72] [73] [74]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [75]
@@ -2119,13 +2238,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [76]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [77])
-(./JEE/id.tex [78] [79]
+ [77]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [78]
+Underfull \vbox (badness 1776) has occurred while \output is active []
+
+ [79])
+(./JEE/id.tex [80]
 Underfull \hbox (badness 10000) detected at line 83
  []$[]   [] [] [] []  $ 
  []
 
-[80] [81] [82]
+[81] [82] [83]
 Underfull \hbox (badness 10000) in paragraph at lines 349--350
 []\OT1/txr/m/n/8 If $[] [] [] 2\OML/txmi/m/it/8 x \OT1/txr/m/n/8 + [] \OML/txmi
 /m/it/8 x [] \OT1/txr/m/n/8 2\OML/txmi/m/it/8 x [] x \OT1/txr/m/n/8 =
@@ -2137,17 +2262,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 349--350
  + [] [] [] 2\OML/txmi/m/it/8 x$ \OT1/txr/m/n/8 then
  []
 
-[83]
+[84]
 Underfull \hbox (badness 10000) detected at line 429
  []$[]  [][] [][]  $ 
  []
 
-[84]) (./ncert/eq.tex) (./cbse/eq.tex [85]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [86])
-(./JEE/eq.tex [87] [88] [89] [90] [91] [92] [93] [94])
-(./chapters/trig/ineq.tex [95]) (./JEE/ineq.tex [96] [97]) [98] (./main.aux)
+[85]) (./ncert/eq.tex [86]) (./cbse/eq.tex [87]) (./JEE/eq.tex [88] [89]
+[90] [91] [92] [93] [94] [95] [96]) (./chapters/trig/ineq.tex) (./JEE/ineq.tex
+[97] [98]) [99] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -2156,31 +2278,39 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 657B98E7F3F733319F390A2F8A6861C9;2960.
  ) 
 Here is how much of TeX's memory you used:
- 55877 strings out of 474104
- 1316429 string characters out of 5729886
- 1961493 words of memory out of 5000000
- 75510 multiletter control sequences out of 15000+600000
+ 55611 strings out of 474104
+ 1312991 string characters out of 5729886
+ 1957493 words of memory out of 5000000
+ 75298 multiletter control sequences out of 15000+600000
  641387 words of font info for 210 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 109i,16n,149p,1194b,1482s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 109i,16n,149p,1194b,1420s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/fonts/type1/pu
-blic/txfonts/rtxmi.pfb></data/data/com.termux/files/usr/share/texlive/2024/texm
-f-dist/fonts/type1/public/txfonts/rtxr.pfb></data/data/com.termux/files/usr/sha
-re/texlive/2024/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></data/data/com
-.termux/files/usr/share/texlive/2024/texmf-dist/fonts/type1/public/txfonts/txex
-.pfb></data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/fonts/type1
-/public/txfonts/txsy.pfb></data/data/com.termux/files/usr/share/texlive/2024/te
-xmf-dist/fonts/type1/public/txfonts/txsya.pfb></data/data/com.termux/files/usr/
-share/texlive/2024/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></data/data/
-com.termux/files/usr/share/texlive/2024/texmf-dist/fonts/type1/public/txfonts/t
-xsyc.pfb></data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/fonts/t
-ype1/urw/times/utmb8a.pfb></data/data/com.termux/files/usr/share/texlive/2024/t
-exmf-dist/fonts/type1/urw/times/utmr8a.pfb></data/data/com.termux/files/usr/sha
-re/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (98 pages, 997968 bytes).
+blic/amsfonts/cm/cmmi10.pfb></data/data/com.termux/files/usr/share/texlive/2024
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></data/data/com.termux/fil
+es/usr/share/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+/data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr7.pfb></data/data/com.termux/files/usr/share/texlive/2024/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></data/data/com.termux/files/u
+sr/share/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></dat
+a/data/com.termux/files/usr/share/texlive/2024/texmf-dist/fonts/type1/public/tx
+fonts/rtxmi.pfb></data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/
+fonts/type1/public/txfonts/rtxr.pfb></data/data/com.termux/files/usr/share/texl
+ive/2024/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></data/data/com.termux
+/files/usr/share/texlive/2024/texmf-dist/fonts/type1/public/txfonts/txex.pfb></
+data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/fonts/type1/public
+/txfonts/txsy.pfb></data/data/com.termux/files/usr/share/texlive/2024/texmf-dis
+t/fonts/type1/public/txfonts/txsya.pfb></data/data/com.termux/files/usr/share/t
+exlive/2024/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></data/data/com.ter
+mux/files/usr/share/texlive/2024/texmf-dist/fonts/type1/public/txfonts/txsyc.pf
+b></data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/fonts/type1/ur
+w/times/utmb8a.pfb></data/data/com.termux/files/usr/share/texlive/2024/texmf-di
+st/fonts/type1/urw/times/utmr8a.pfb></data/data/com.termux/files/usr/share/texl
+ive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (99 pages, 1113228 bytes).
 PDF statistics:
- 2906 PDF objects out of 2984 (max. 8388607)
- 2691 compressed objects within 27 object streams
- 1808 named destinations out of 2073 (max. 500000)
- 417 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3172 PDF objects out of 3580 (max. 8388607)
+ 2879 compressed objects within 29 object streams
+ 1814 named destinations out of 2073 (max. 500000)
+ 522 words of extra memory for PDF output out of 10000 (max. 10000000)
 
