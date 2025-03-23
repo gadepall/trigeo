@@ -1,10 +1,5 @@
 \begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
 
-\item A ladder is placed against a wall such that its foot is at a distance of 2.5$m$ from the wall and its top reaches a window 6$m$ above the ground. Find the length of the ladder.
-\item  A ladder 10$m$ long reaches a window 8$m$ above the ground. Find the distance of the foot of the ladder from base of the wall.
-\item  A guy wire attached to a vertical pole of height 18$m$ is 24$m$ long and has a stake attached to the other end. How far from the base of the pole should the stake be driven so that the wire will be taut?
-\item  An aeroplane leaves an airport and flies due north at a speed of 1000$km$ per hour. At the same time, another aeroplane leaves the same airport and flies due west at a speed of 1200$km$ per hour. How far apart will be the two planes after $1\frac{1}{2}$ hours?
-\item  Two poles of heights 6$m$ and 11$m$ stand on a plane ground. If the distance between the feet of the poles is $12m$, find the distance between their tops.
 \item  $D$ is a point on the side $BC$ of a $\triangle ABC$ such that  $\angle  ADC =  \angle  BAC$. Show that 
 \begin{align}
 	\label{eq:tri-sim}	
@@ -203,4 +198,31 @@ yields
 	\\
 	\implies B &= 90\degree
 \end{align}
+\item Prove that the line of centres of two intersecting circles subtends equal angles at the
+two points of intersection.
+	\\
+		\solution 
+		See 
+\tabref{tab:ncert-sss} and
+\figref{fig:ncert-sss}.
+Using the cosine formula for $\theta_1$ and $\theta_2$	
+\begin{align}
+	\cos \theta_1 =\cos \theta_1  =\frac{r_1^2+r_2^2 - \brak{r_1+r_2}^2}{2r_1r_2}	
+	\implies \theta_1 &= \theta_2 
+\end{align}
+		This shows that if corresponding sides of a triangle are equal, corresponding angles are also equal.  This is known as {\em SSS} congruence.
+\begin{table}[H]
+\centering
+\input{tables/ncert/tri/sss.tex}
+\caption{}
+\label{tab:ncert-sss}	
+\end{table}
+\begin{figure}[H]
+	\begin{center}
+		{\includegraphics[width=0.6\columnwidth]{figs/ncert/triangle/sss.png}}
+	\end{center}
+	\caption{}
+	\label{fig:ncert-sss}	
+\end{figure}
+%
 \end{enumerate}

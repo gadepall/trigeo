@@ -9,11 +9,11 @@ and \tabref{tab:ncert-1}.
 \begin{align}
 	vt &= h\tan\theta \implies v = \frac{h\tan\theta }{t}
 	\\
-	\text{or, } v = \frac{}{}
+	\text{or, } v &= \frac{3400 \tan 30}{10} = 178.02 \,m/s
 \end{align}
 \begin{table}[H]
 \centering
-\input{tables/ncert/1.tex}
+\input{tables/ncert/hd/1.tex}
 \caption{}
 \label{tab:ncert-1}	
 \end{table}
@@ -24,17 +24,140 @@ and \tabref{tab:ncert-1}.
 \label{fig:ncert-1}	
 \end{figure}
 \item A statue, 1.6$m$ tall, stands on the top of a pedestal. From a point on the ground, the angle of elevation of the top of the statue is 60$\degree$ and from the same point the angle of elevation of the top of the pedestal is 45$\degree$. Find the height of the pedestal.
-\item The angle of elevation of the top of a building from the foot of the tower is 30$\degree$ and the angle of elevation of the top of the tower from the foot of the building is 60$\degree$. If the tower is 50$m$ high, find the height of the building.
+	\\
+		\solution
+See 
+\figref{fig:ncert-2}	
+and \tabref{tab:ncert-2}.	
+\begin{align}
+	d &= h_1 \cot \theta_1
+	= h_2 \cot \theta_2
+	\\
+	\implies
+	h_2 &= 
+	 \frac{h_1 \cot \theta_1}{\theta_2} =
+	 0.92m
+\end{align}
+\begin{table}[H]
+\centering
+\input{tables/ncert/hd/2.tex}
+\caption{}
+\label{tab:ncert-2}	
+\end{table}
+\begin{figure}[H]
+\centering
+	\includegraphics[width=0.6\columnwidth]{figs/ncert/2.png}
+\caption{}
+\label{fig:ncert-2}	
+\end{figure}
 \item Two poles of equal heights are standing opposite each other on either side of the road, which is 80$m$ wide. From a point between them on the road, the angles of elevation of the top of the poles are 60$\degree$ and 30$\degree$, respectively. Find the height of the poles and the distances of the point from the poles.
+	\\
+		\solution
+See 
+\figref{fig:ncert-3}	
+and \tabref{tab:ncert-3}.	
+\begin{align}
+	d= d_1 + d_2&= h \cot \theta_1
+	+ h \cot \theta_2
+	\\
+	\implies
+	h &= 
+	 \frac{d}{ \cot \theta_1 + \cot \theta_2} 
+	 =50.72m
+\end{align}
+\begin{table}[H]
+\centering
+\input{tables/ncert/hd/3.tex}
+\caption{}
+\label{tab:ncert-3}	
+\end{table}
+\begin{figure}[H]
+\centering
+	\includegraphics[width=0.6\columnwidth]{figs/ncert/3.png}
+\caption{}
+\label{fig:ncert-3}	
+\end{figure}
 \item A TV tower stands vertically on a bank of a canal. From a point on the other bank directly opposite the tower, the angle of elevation of the top of the tower is 60$\degree$. From another point 20$m$ away from this point on the line joing this point to the foot of the tower, the angle of elevation of the top of the tower is 30$\degree$. Find the height of the tower and the width of the canal.
+	\\
+		\solution
+See 
+\figref{fig:ncert-4}	
+and \tabref{tab:ncert-4}.	
+\begin{align}
+	 d_1 + d_2&= h \cot \theta_2
+	 \\
+	d_1 &=h \cot \theta_1
+\end{align}
+which can be expressed as the matrix equation
+\begin{align}
+	\myvec{
+		\cot \theta_2 & -1 
+		\\
+ \cot \theta_1 	& -1 
+	}
+	\myvec{h \\ d_1 }
+	= d_2\myvec{1 \\ 0}
+\end{align}
+yielding
+\begin{align}
+	\myvec{h\\ d_1 } = \myvec{
+		17.32
+		\\
+	10}        
+\end{align}
+\begin{table}[H]
+\centering
+\input{tables/ncert/hd/4.tex}
+\caption{}
+\label{tab:ncert-4}	
+\end{table}
+\begin{figure}[H]
+\centering
+	\includegraphics[width=0.6\columnwidth]{figs/ncert/4.png}
+\caption{}
+\label{fig:ncert-4}	
+\end{figure}
 \item From the top of a 7$m$ high building, the angle of elevation of the top of a cable tower is 60$\degree$ and the angle of depression of its foot is 45$\degree$. Determine the height of the tower.
+	\\
+		\solution
+See 
+\figref{fig:ncert-5}	
+and \tabref{tab:ncert-5}.	
+In $\triangle ABC$, using sine formula,
+\begin{align}
+	 \frac{\sin ACB}{AB}
+	 &=\frac{\sin BAC}{BC}
+	 \implies 
+	 \frac{\cos \theta_1}{h_1 \csc \theta_2}
+	 &=\frac{\sin \brak{\theta_1+\theta_2}}{h_2}
+\end{align}
+yielding
+\begin{align}
+	h_2 = 
+	 \frac{h_1 \csc \theta_2{\sin \brak{\theta_1+\theta_2}}}{\cos \theta_1}
+	= 
+	19.12m
+\end{align}
+\begin{table}[H]
+\centering
+\input{tables/ncert/hd/5.tex}
+\caption{}
+\label{tab:ncert-5}	
+\end{table}
+\begin{figure}[H]
+\centering
+	\includegraphics[width=0.6\columnwidth]{figs/ncert/5.png}
+\caption{}
+\label{fig:ncert-5}	
+\end{figure}
 \item As observed from the top of a 75$m$ high lighthouse from the sea-level, the angles of depression of two ships are 30$\degree$ and 45$\degree$. If one ship is exactly behind the other on the same side of the lighthouse, find the distance between the two ships.
 \item A 1.2$m$ tall girl spots a balloon moving with the wind in a horizontal line at a height of 88.2$m$ from the ground. The angle of elevation of the balloon from the eyes of the girl at any instant is 60$\degree$. After some time, the angle of elevation reduces to 30$\degree$. Find the distance travelled by the balloon during the interval.
 \item A straight highway leads to the foot of a tower. A man standing at the top of the tower observes a car at an angle of depression of 30$\degree$, which is approaching the foot of the tower with a uniform speed. Six seconds later, the angle of depression of the car is found to be 60$\degree$. Find the time taken by the car to reach the foot of the tower from this point.
 \item The angles of elevation of the top of a tower from two points at a distance of 4$m$ and 9$m$ from the base of the tower and in the same straight line with it are complementary. Prove that the height of the tower is $6m$.
 \item A girl of height 90$cm$ is walking away from the base of a lamp-post at a speed of 1.2 $m/s$. If the lamp is 3.6$m$ above the ground, find the length of her shadow after 4 seconds.
-\item  Nazima is fly fishing in a stream. The tip of her fishing rod is 1.8$m$ above the surface of the water and the fly at the end of the string rests on the water 3.6$m$ away and 2.4$m$ from a point directly under the tip of the rod. Assuming that her string (from the tip of her rod to the fly) is taut, how much string does she have out? If she pulls in the string at the rate of 5$cm$ per second, what will be the horizontal distance of the fly from her after 12 seconds?
+\item  Namrata is fly fishing in a stream. The tip of her fishing rod is 1.8$m$ above the surface of the water and the fly at the end of the string rests on the water 3.6$m$ away and 2.4$m$ from a point directly under the tip of the rod. Assuming that her string (from the tip of her rod to the fly) is taut, how much string does she have out? If she pulls in the string at the rate of 5$cm$ per second, what will be the horizontal distance of the fly from her after 12 seconds?
 %
+\item The angle of elevation of the top of a building from the foot of the tower is 30$\degree$ and the angle of elevation of the top of the tower from the foot of the building is 60$\degree$. If the tower is 50$m$ high, find the height of the building.
 \item  A vertical pole of length 6$m$ casts a shadow 4$m$ long on the ground and at the same time a tower casts a shadow 28$m$ long. Find the height of the tower.
 \item A circus artist is climbing a $20m$ long rope, which is tightly stretched and tied from the top of a vertical pole to the ground.  Find the height of the pole, if the angle made by the rope with the ground level is 30$\degree$.
 %
@@ -58,4 +181,5 @@ and \tabref{tab:ncert-1}.
 \item An observer $1.5m$ tall is 28.$5m$ away from a chimney.  The angle of elevation of the top of the chimney from her eyes is 45$\degree$.  What is the height of the chimney?
 \item From a point ${P}$ on the ground the angle of elevation of the top of a 10m tall building is 30$\degree$.  A flag is hoisted at the top of the building and the angle of elevation of the top of the flagstaff from ${P}$ is $45\degree$.  Find the length of the flagstaff and the distance of the building from the point ${P}$.
 \item The shadow of a tower standing on a level ground is found to be $40m$ longer when the Sun's altitude is 30$\degree$ than when it is $60\degree$.  Find the height of the tower.
+\item  Two poles of heights 6$m$ and 11$m$ stand on a plane ground. If the distance between the feet of the poles is $12m$, find the distance between their tops.
 \end{enumerate}
