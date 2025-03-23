@@ -22,21 +22,83 @@ Thus, the distances
 \end{figure}
 %
  \item  Angle in a semicircle is a right angle. 
-\item  If a line segment joining two points subtends equal angles at two other points lying on the same side of the line containing the line segment, the four points lie on a circle. 
-	\iffalse
-\begin{enumerate}
-\input{./solutions/5/13/chapters/constr.tex}
-\input{./solutions/5/13/chapters/solution.tex}
-\end{enumerate}
-\fi
-\item  The sum of either pair of opposite angles of a cyclic quadrilateral is 180$\degree$.
-\item  If sum of a pair of opposite angles of a quadrilateral is 180$\degree$, the quadrilateral is cyclic.
+	\\
+		\solution 
+	In \figref{fig:ncert-circ-2}, considering a unit circle	
+	with
+\begin{align}
+	\vec{A}&= \myvec{\cos \theta \\ \sin \theta}\,
+	\vec{B}= \myvec{-1 \\ 0}\,
+	\vec{C}= \myvec{1 \\ 0}
+	\\
+	\brak{A-B}^{\top}
+	\brak{A-C}^{\top}
+	&=
+	 \myvec{\cos \theta+1 & \sin \theta}
+\myvec{\cos \theta -1 \\ \sin \theta}
+\\
+	&=\cos^2\theta -1 + \sin^2\theta = 0
+\end{align}
+Thus, $AB \perp AC$.
+\begin{figure}[H]
+	\begin{center}
+		{\includegraphics[width=0.6\columnwidth]{figs/ncert/circle/2.png}}
+	\end{center}
+	\caption{}
+	\label{fig:ncert-circ-2}	
+\end{figure}
 %
-\item AB is a diameter of the circle, $CD$ is a chord equal to the radius of the circle. $AC$ and $BD$ when extended intersect at a point $E$. Prove that $\angle AEB = 60\degree$.
+%
 \item Two circles of radii 5 cm and 3 cm intersect at two points and the distance between their centres is 4 cm. Find the length of the common chord.
+	\\
+		\solution 
+	In \figref{fig:ncert-circ-3}, 
+\begin{align}
+	\cos \alpha &= \frac{r_1^2+d^2-r_2^2}{2r_1r_2} = 0.8
+	\\
+\implies	l &= 2r_1\sin \alpha = 6
+\end{align}
+upon substituting numerical values.
+\begin{figure}[H]
+	\begin{center}
+		{\includegraphics[width=0.6\columnwidth]{figs/ncert/circle/3.png}}
+	\end{center}
+	\caption{}
+	\label{fig:ncert-circ-3}	
+\end{figure}
+%
 \item Two chords $AB$ and $CD$ of lengths 5 cm and 11 cm respectively of a circle are parallel
 to each other and are on opposite sides of its centre. If the distance between $AB$ and
 $CD$ is 6 cm, find the radius of the circle.
+	\\
+		\solution 
+	In \figref{fig:ncert-circ-4}, 
+\begin{align}
+	l_1&=2r \sin \theta_1\,
+	l_2=2r \sin \theta_2
+	\\
+	d &= r \brak{\cos \theta_1+\cos \theta_2}
+\end{align}
+yielding
+\begin{align}
+	2d &=  \sqrt{4r^2-l_1^2}+\sqrt{4r^2-l_2^2}
+	\\
+	\implies 
+	\brak{2d -  \sqrt{4r^2-l_1^2}}^2&=4r^2-l_2^2
+	\\
+	\text{or, }4d^2 -l_1^2+l_2^2&=4d\sqrt{4r^2-l_1^2}
+	\\
+	\implies r &= \frac{\sqrt{\brak{\frac{4d^2 -l_1^2+l_2^2}{4d}}^2+l_1^2}}{2} = 5.59 
+\end{align}
+upon substituting numerical values.
+\begin{figure}[H]
+	\begin{center}
+		{\includegraphics[width=0.6\columnwidth]{figs/ncert/circle/4.png}}
+	\end{center}
+	\caption{}
+	\label{fig:ncert-circ-4}	
+\end{figure}
+%
 \item The lengths of two parallel chords of a circle are 6 cm and 8 cm. If the smaller chord is
 at distance 4 cm from the centre, what is the distance of the other chord from the
 centre?
@@ -101,4 +163,12 @@ $F$ respectively. Prove that the angles of the $\triangle DEF$ are $90\degree â€
      	\item If a circle is inscribed in a right angled triangle $ABC$ right angled at $\vec{B}$, show that the diameter of the circle is equal to $AB+BC-AC$.
 \item  There is one and only one circle passing through three non-collinear points. 
 \item Chords equidistant from the centre  of a circle  are equal.
+\item  If a line segment joining two points subtends equal angles at two other points lying on the same side of the line containing the line segment, the four points lie on a circle. 
+	\iffalse
+\begin{enumerate}
+\input{./solutions/5/13/chapters/constr.tex}
+\input{./solutions/5/13/chapters/solution.tex}
+\end{enumerate}
+\fi
+\item  If sum of a pair of opposite angles of a quadrilateral is 180$\degree$, the quadrilateral is cyclic.
 \end{enumerate}
