@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2024.4.5)  25 MAR 2025 11:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2024.4.5)  25 MAR 2025 16:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2290,20 +2290,26 @@ Package pdftex.def Info: figs/ncert/circle/7.png  used on input line 171.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [65 <./figs/ncert/circle/6.png>] [66 <./figs/ncert/circle/7.png>]
+ [65 <./figs/ncert/circle/6.png>]
+<figs/ncert/circle/8.png, id=1736, 1809.76125pt x 1401.235pt>
+File: figs/ncert/circle/8.png Graphic file (type png)
+<use figs/ncert/circle/8.png>
+Package pdftex.def Info: figs/ncert/circle/8.png  used on input line 196.
+(pdftex.def)             Requested size: 218.5194pt x 169.18861pt.
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 223.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 223.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 223.
-
-) (./JEE/circle.tex [67] [68]) (./olympiad/circle.tex [69]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [70]
+ [66 <./figs/ncert/circle/7.png>] [67 <./figs/ncert/circle/8.png>]
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 247.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 247.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 247.
+
+) (./JEE/circle.tex [68] [69]) (./olympiad/circle.tex [70]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [71]
@@ -2316,7 +2322,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [74]
-<olympiad/figs/permo.jpg, id=1922, 679.53876pt x 232.87pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [75]
+<olympiad/figs/permo.jpg, id=1936, 679.53876pt x 232.87pt>
 File: olympiad/figs/permo.jpg Graphic file (type jpg)
 <use olympiad/figs/permo.jpg>
 Package pdftex.def Info: olympiad/figs/permo.jpg  used on input line 153.
@@ -2328,19 +2337,16 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [75])
-(./ncert/id.tex [76 <./olympiad/figs/permo.jpg>] [77]
+ [76])
+(./ncert/id.tex [77 <./olympiad/figs/permo.jpg>] [78]
 Underfull \vbox (badness 3138) has occurred while \output is active []
 
- [78])
-(./cbse/id.tex [79] [80]
+ [79])
+(./cbse/id.tex [80] [81]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [81]
-[82]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [83]
+ [82]
+[83]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [84]
@@ -2349,13 +2355,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [85]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [86])
-(./JEE/id.tex [87] [88]
+ [86]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [87])
+(./JEE/id.tex [88] [89]
 Underfull \hbox (badness 10000) detected at line 83
  []$[]   [] [] [] []  $ 
  []
 
-[89] [90] [91]
+[90] [91] [92]
 Underfull \hbox (badness 10000) in paragraph at lines 349--350
 []\OT1/txr/m/n/8 If $[] [] [] 2\OML/txmi/m/it/8 x \OT1/txr/m/n/8 + [] \OML/txmi
 /m/it/8 x [] \OT1/txr/m/n/8 2\OML/txmi/m/it/8 x [] x \OT1/txr/m/n/8 =
@@ -2367,17 +2376,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 349--350
  + [] [] [] 2\OML/txmi/m/it/8 x$ \OT1/txr/m/n/8 then
  []
 
-[92]
+[93]
 Underfull \hbox (badness 10000) detected at line 429
  []$[]  [][] [][]  $ 
  []
 
-[93]) (./ncert/eq.tex) (./cbse/eq.tex [94]
+[94]) (./ncert/eq.tex) (./cbse/eq.tex [95]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [95])
-(./JEE/eq.tex [96] [97] [98] [99] [100] [101] [102] [103])
-(./chapters/trig/ineq.tex [104]) (./JEE/ineq.tex [105] [106]) [107] (./main.aux
+ [96])
+(./JEE/eq.tex [97] [98] [99] [100] [101] [102] [103] [104])
+(./chapters/trig/ineq.tex [105]) (./JEE/ineq.tex [106] [107]) [108] (./main.aux
 )
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -2387,10 +2396,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 3868E7F26C87BCE12F6A9CF7DE49472D;2876.
  ) 
 Here is how much of TeX's memory you used:
- 55833 strings out of 474104
- 1317814 string characters out of 5729886
+ 55848 strings out of 474104
+ 1318136 string characters out of 5729886
  1958493 words of memory out of 5000000
- 75433 multiletter control sequences out of 15000+600000
+ 75441 multiletter control sequences out of 15000+600000
  641387 words of font info for 210 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  109i,16n,149p,1194b,1420s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2416,10 +2425,10 @@ b></data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/fonts/type1/ur
 w/times/utmb8a.pfb></data/data/com.termux/files/usr/share/texlive/2024/texmf-di
 st/fonts/type1/urw/times/utmr8a.pfb></data/data/com.termux/files/usr/share/texl
 ive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (107 pages, 1992358 bytes).
+Output written on main.pdf (108 pages, 2077070 bytes).
 PDF statistics:
- 3306 PDF objects out of 3580 (max. 8388607)
- 2980 compressed objects within 30 object streams
- 1873 named destinations out of 2073 (max. 500000)
- 574 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3320 PDF objects out of 3580 (max. 8388607)
+ 2991 compressed objects within 30 object streams
+ 1880 named destinations out of 2073 (max. 500000)
+ 579 words of extra memory for PDF output out of 10000 (max. 10000000)
 
