@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2024.4.5)  25 MAR 2025 10:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2024.4.5)  25 MAR 2025 11:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2282,22 +2282,25 @@ Package pdftex.def Info: figs/ncert/circle/6.png  used on input line 144.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [64 <./figs/ncert/circle/5.png>]
-Underfull \vbox (badness 1783) has occurred while \output is active []
+<figs/ncert/circle/7.png, id=1723, 2054.67625pt x 1499.6025pt>
+File: figs/ncert/circle/7.png Graphic file (type png)
+<use figs/ncert/circle/7.png>
+Package pdftex.def Info: figs/ncert/circle/7.png  used on input line 171.
+(pdftex.def)             Requested size: 218.5194pt x 159.46509pt.
 
- [65 <./figs/ncert/circle/6.png>]
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 198.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 198.
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 198.
-
-) (./JEE/circle.tex [66] [67]) (./olympiad/circle.tex [68]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [69]
+ [65 <./figs/ncert/circle/6.png>] [66 <./figs/ncert/circle/7.png>]
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 223.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 223.
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 223.
+
+) (./JEE/circle.tex [67] [68]) (./olympiad/circle.tex [69]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [70]
@@ -2310,24 +2313,31 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [73]
-<olympiad/figs/permo.jpg, id=1909, 679.53876pt x 232.87pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [74]
+<olympiad/figs/permo.jpg, id=1922, 679.53876pt x 232.87pt>
 File: olympiad/figs/permo.jpg Graphic file (type jpg)
 <use olympiad/figs/permo.jpg>
 Package pdftex.def Info: olympiad/figs/permo.jpg  used on input line 153.
 (pdftex.def)             Requested size: 364.1953pt x 124.80629pt.
 
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [74])
-(./ncert/id.tex [75 <./olympiad/figs/permo.jpg>] [76] [77]) (./cbse/id.tex
-[78] [79]
-Underfull \vbox (badness 5862) has occurred while \output is active []
+ [75])
+(./ncert/id.tex [76 <./olympiad/figs/permo.jpg>] [77]
+Underfull \vbox (badness 3138) has occurred while \output is active []
 
- [80]
-[81]
+ [78])
+(./cbse/id.tex [79] [80]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [82]
+ [81]
+[82]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [83]
@@ -2337,12 +2347,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [85]
-[86]) (./JEE/id.tex [87]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [86])
+(./JEE/id.tex [87] [88]
 Underfull \hbox (badness 10000) detected at line 83
  []$[]   [] [] [] []  $ 
  []
 
-[88] [89] [90]
+[89] [90] [91]
 Underfull \hbox (badness 10000) in paragraph at lines 349--350
 []\OT1/txr/m/n/8 If $[] [] [] 2\OML/txmi/m/it/8 x \OT1/txr/m/n/8 + [] \OML/txmi
 /m/it/8 x [] \OT1/txr/m/n/8 2\OML/txmi/m/it/8 x [] x \OT1/txr/m/n/8 =
@@ -2354,14 +2367,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 349--350
  + [] [] [] 2\OML/txmi/m/it/8 x$ \OT1/txr/m/n/8 then
  []
 
-[91]
+[92]
 Underfull \hbox (badness 10000) detected at line 429
  []$[]  [][] [][]  $ 
  []
 
-[92]) (./ncert/eq.tex [93]) (./cbse/eq.tex [94]) (./JEE/eq.tex [95] [96]
-[97] [98] [99] [100] [101] [102] [103]) (./chapters/trig/ineq.tex)
-(./JEE/ineq.tex [104] [105]) [106] (./main.aux)
+[93]) (./ncert/eq.tex) (./cbse/eq.tex [94]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [95])
+(./JEE/eq.tex [96] [97] [98] [99] [100] [101] [102] [103])
+(./chapters/trig/ineq.tex [104]) (./JEE/ineq.tex [105] [106]) [107] (./main.aux
+)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -2370,10 +2387,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 3868E7F26C87BCE12F6A9CF7DE49472D;2876.
  ) 
 Here is how much of TeX's memory you used:
- 55819 strings out of 474104
- 1317506 string characters out of 5729886
- 1957493 words of memory out of 5000000
- 75425 multiletter control sequences out of 15000+600000
+ 55833 strings out of 474104
+ 1317814 string characters out of 5729886
+ 1958493 words of memory out of 5000000
+ 75433 multiletter control sequences out of 15000+600000
  641387 words of font info for 210 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  109i,16n,149p,1194b,1420s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2399,10 +2416,10 @@ b></data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/fonts/type1/ur
 w/times/utmb8a.pfb></data/data/com.termux/files/usr/share/texlive/2024/texmf-di
 st/fonts/type1/urw/times/utmr8a.pfb></data/data/com.termux/files/usr/share/texl
 ive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (106 pages, 1889776 bytes).
+Output written on main.pdf (107 pages, 1992358 bytes).
 PDF statistics:
- 3292 PDF objects out of 3580 (max. 8388607)
- 2969 compressed objects within 30 object streams
- 1867 named destinations out of 2073 (max. 500000)
- 569 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3306 PDF objects out of 3580 (max. 8388607)
+ 2980 compressed objects within 30 object streams
+ 1873 named destinations out of 2073 (max. 500000)
+ 574 words of extra memory for PDF output out of 10000 (max. 10000000)
 
