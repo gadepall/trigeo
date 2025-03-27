@@ -109,34 +109,152 @@ Since
 \end{align}
 upon substituting from 
 	 \eqref{eq:id-sin15}.
-\item Prove that $$\frac{\sin\brak{x+y}}{\sin\brak{x-y}} = \frac{\tan x + \tan y}{\tan x - \tan y}.$$
+\item Prove that 
+\begin{align}
+	\frac{\sin\brak{x+y}}{\sin\brak{x-y}} = \frac{\tan x + \tan y}{\tan x - \tan y}.
+	 \label{eq:id-cosxcosy}
+\end{align}
 %
+	\\
+	\solution
+\begin{align}
+\frac{\sin\brak{x+y}}{\sin\brak{x-y}} = \frac{\sin x \cos y +\sin y \cos x }{\sin x \cos y -\sin y \cos x }
+\end{align}
+Dividing the numerator and denominator by $\cos x \cos y$
 %
+yields
+	 \eqref{eq:id-cosxcosy}.
 \item Show that
-$\tan3x\tan2x\tan x = \tan3x-\tan2x-\tan x$.
+\begin{align}
+	 \label{eq:id-tanx2x3x}
+\tan3x\tan2x\tan x = \tan3x-\tan2x-\tan x
+\end{align}
 %
+\\
+\solution
+\begin{align}
+	\tan3x = \tan \brak{2x +\tan x} &= \frac{\tan 2x + \tan x}{1 - \tan x \tan 2x}
+	\\
+	\implies 
+	\tan3x \brak{1 - \tan x \tan 2x}&= {\tan 2x + \tan x}
+\end{align}
 %
+yielding
+	 \eqref{eq:id-tanx2x3x}.
 \item Prove that
-$\cos\brak{\frac{\pi}{4}+x} + \cos\brak{\frac{\pi}{4}-x} = \sqrt 2\cos x$.
+\begin{align}
+\cos\brak{\frac{\pi}{4}+x} + \cos\brak{\frac{\pi}{4}-x} = \sqrt 2\cos x.
+	 \label{eq:id-sqrt2cosx}
+\end{align}
 %
+\\
+\solution
+\begin{align}
+\cos\brak{\frac{\pi}{4}+x} + \cos\brak{\frac{\pi}{4}-x} = 
+2\cos\brak{\frac{\pi}{4}} \cos x  
+\end{align}
+yielding
+	 \eqref{eq:id-sqrt2cosx}
+	 after substituting numerical values.
 %
-\item Prove that $$\frac{\cos7x+\cos5x}{\cos7x-\cos5x} = \cot x.$$
+\item Prove that 
 %
+\begin{align}
+\frac{\cos7x+\cos5x}{\sin7x-\sin 5x} 
+=\cot x
+	 \label{eq:id-cotx}
+\end{align}
 %
-\item Prove that $$\frac{\sin5x-2\sin3x+\sin x}{\cos5x-\cos x} = \tan x.$$
+\\
+\solution
+\begin{align}
+\frac{\cos7x+\cos5x}{\sin7x-\sin 5x} 
+=\frac{2\cos6x\cos x}{2\cos 6x\cos x} 
+\end{align}
+yielding
+	 \eqref{eq:id-cotx}.
+\item Prove that 
+\begin{align}
+	\frac{\sin5x-2\sin3x+\sin x}{\cos5x-\cos x} = \tan x.
+	 \label{eq:id-tanx}
+\end{align}
 %
+\\
+\solution
+\begin{align}
+	\frac{\sin5x-2\sin3x+\sin x}{\cos5x-\cos x} 
+	&=
+	-\frac{2\sin3x\cos2x-2\sin3x}{2\sin 3x\sin 2x}
+	\\
+	&=
+	\frac{1-\cos2x}{\sin2x} = \frac{2\sin^2 x}{2\sin x\cos x}
+\end{align}
+	 yielding \eqref{eq:id-tanx}.
 %
 \item If $\sin x=\frac{3}{5}, \cos y=-\frac{12}{13}$, where $x$ and $y$
 both lies in second quadrant, find the value of
 $\sin\brak{x+y}$.
 %
+\\
+\solution 
+From the given information,
+\begin{align}
+	\cos x &= -\frac{4}{5},
+	\sin y = \frac{5}{13}
+	\\
+	\implies 
+	\sin\brak{x+y} &= -\frac{3}{5}\times \frac{12}{13} - \frac{4}{5}\times \frac{5}{13}
+	\\
+	&=-\frac{56}{65}
+\end{align}
 %
 \item Prove that
-$\cos2x\cos\frac{x}{2}-\cos3x\cos\frac{9x}{2}=\sin5x\sin\frac{5x}{2}$.
+\begin{align}
+\cos2x\cos\frac{x}{2}-\cos3x\cos\frac{9x}{2}=\sin5x\sin\frac{5x}{2}.
+	 \label{eq:id-sin5x}.
+\end{align}
 %
+\\
+\solution 
+\begin{align}
+\cos2x\cos\frac{x}{2}
+	&=\frac{1}{2}\brak{\cos\brak{2x+\frac{x}{2}}+\cos\brak{2x-\frac{x}{2}}}
+	\\
+\cos3x\cos\frac{9x}{2}
+	&=\frac{1}{2}\brak{\cos\brak{3x+\frac{9x}{2}}+\cos\brak{3x-\frac{9x}{2}}}
+\end{align}
+Also,
+\begin{align}
+	\cos\brak{2x+\frac{x}{2}}-
+\cos\brak{3x+\frac{9x}{2}}
+	&= 2\sin 5x \sin \frac{5x}{2}
+\\
+\cos\brak{2x-\frac{x}{2}}
+-
+\cos\brak{3x-\frac{9x}{2}}
+	&= 0
+\end{align}
 %
+yielding
+	 \eqref{eq:id-sin5x} after some algebra.
 \item Find the value of $\tan\frac{\pi}{8}$.
 %
+	\\
+	\solution
+\begin{align}
+	\tan 2\theta = \frac{2\tan \theta}{1-\tan^2\theta}
+\end{align}
+For $\theta = \frac{\pi}{8}$,  we obtain
+\begin{align}
+	 \frac{2\tan \theta}{1-\tan^2\theta}=1
+	 \implies 
+	{\tan^2\theta}+{2\tan \theta}- 1=0
+\end{align}
+yielding
+\begin{align}
+	\tan \theta = \sqrt{2}-1 
+\end{align}
+by taking the positive root of the quadratic.
 %
 \item If $\tan x=\frac{3}{4}, \pi<x<\frac{3\pi}{2}$, find the value of $\sin\frac{x}{2},\cos\frac{x}{2}$ and $\tan\frac{x}{2}$.
 %
