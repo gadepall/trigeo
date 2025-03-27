@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2024.4.5)  27 MAR 2025 18:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2024.4.5)  27 MAR 2025 23:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2412,19 +2412,11 @@ g>]
 [86]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [87])
-(./cbse/id.tex
-Underfull \vbox (badness 3039) has occurred while \output is active []
-
- [88]
-[89]
+ [87]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [90]
-[91]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [92]
+ [88])
+(./cbse/id.tex [89] [90] [91] [92]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [93]
@@ -2433,13 +2425,16 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [94]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [95])
-(./JEE/id.tex [96] [97]
+ [95]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [96]
+[97]) (./JEE/id.tex [98]
 Underfull \hbox (badness 10000) detected at line 83
  []$[]   [] [] [] []  $ 
  []
 
-[98] [99] [100]
+[99] [100] [101]
 Underfull \hbox (badness 10000) in paragraph at lines 349--350
 []\OT1/txr/m/n/8 If $[] [] [] 2\OML/txmi/m/it/8 x \OT1/txr/m/n/8 + [] \OML/txmi
 /m/it/8 x [] \OT1/txr/m/n/8 2\OML/txmi/m/it/8 x [] x \OT1/txr/m/n/8 =
@@ -2451,18 +2446,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 349--350
  + [] [] [] 2\OML/txmi/m/it/8 x$ \OT1/txr/m/n/8 then
  []
 
-[101]
+[102]
 Underfull \hbox (badness 10000) detected at line 429
  []$[]  [][] [][]  $ 
  []
 
-[102]) (./ncert/eq.tex) (./cbse/eq.tex [103]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [104])
-(./JEE/eq.tex [105] [106] [107] [108] [109] [110] [111] [112])
-(./chapters/trig/ineq.tex [113]) (./JEE/ineq.tex [114] [115]) [116] (./main.aux
-)
+[103]) (./ncert/eq.tex [104]) (./cbse/eq.tex [105]) (./JEE/eq.tex [106]
+[107] [108] [109] [110] [111] [112] [113] [114]) (./chapters/trig/ineq.tex)
+(./JEE/ineq.tex [115] [116]) [117] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -2471,9 +2462,9 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 3868E7F26C87BCE12F6A9CF7DE49472D;2876.
  ) 
 Here is how much of TeX's memory you used:
- 56026 strings out of 474104
- 1321602 string characters out of 5729886
- 1958493 words of memory out of 5000000
+ 56043 strings out of 474104
+ 1321834 string characters out of 5729886
+ 1957493 words of memory out of 5000000
  75533 multiletter control sequences out of 15000+600000
  641387 words of font info for 210 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -2500,10 +2491,10 @@ b></data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/fonts/type1/ur
 w/times/utmb8a.pfb></data/data/com.termux/files/usr/share/texlive/2024/texmf-di
 st/fonts/type1/urw/times/utmr8a.pfb></data/data/com.termux/files/usr/share/texl
 ive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (116 pages, 2553111 bytes).
+Output written on main.pdf (117 pages, 2555859 bytes).
 PDF statistics:
- 3492 PDF objects out of 3580 (max. 8388607)
- 3133 compressed objects within 32 object streams
- 1966 named destinations out of 2073 (max. 500000)
+ 3516 PDF objects out of 3580 (max. 8388607)
+ 3156 compressed objects within 32 object streams
+ 1983 named destinations out of 2073 (max. 500000)
  629 words of extra memory for PDF output out of 10000 (max. 10000000)
 

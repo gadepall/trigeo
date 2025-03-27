@@ -510,11 +510,11 @@ $$\frac{\tan\brak{\frac{\pi}{4}+x}}{\tan\brak{\frac{\pi}{4}-x}}=\brak{\frac{1+\t
 %
 \solution
 \begin{align}
-	\frac{\tan\brak{\frac{\pi}{4}+x}}&=\frac{\tan\frac{\pi}{4}+\tan x}{1-\tan\frac{\pi}{4}\tan x}
+	{\tan\brak{\frac{\pi}{4}+x}}&=\frac{\tan\frac{\pi}{4}+\tan x}{1-\tan\frac{\pi}{4}\tan x}
 	\\
 	&=\frac{1+\tan x}{1-\tan x}
 	\\
-	\frac{\tan\brak{\frac{\pi}{4}-x}}&=\frac{\tan\frac{\pi}{4}-\tan x}{1+\tan\frac{\pi}{4}\tan x}
+{\tan\brak{\frac{\pi}{4}-x}}&=\frac{\tan\frac{\pi}{4}-\tan x}{1+\tan\frac{\pi}{4}\tan x}
 	\\
 	&=\frac{1-\tan x}{1+\tan x}
 \end{align}
@@ -541,21 +541,65 @@ yielding the RHS.
 \item Prove that
 $\sin\brak{n+1}x\sin\brak{n+2}x+\cos\brak{n+1}x\cos\brak{n+2}x=\cos x.$
 %
+\\
+\solution The LHS can be expressed as
+\begin{align}
+	\frac{1}{2}\sbrak{\cos x - \cos\brak{\frac{n+3}{2}x}+\cos x+\cos\brak{\frac{n+3}{2}x}}
+\end{align}
+yielding the RHS.
 \item Prove that
 $\cos\brak{\frac{3\pi}{4}+x}-\cos\brak{\frac{3\pi}{4}-x}=-\sqrt 2\sin x.$
 %
+\\
+\solution  The LHS can be expressed as 
+\begin{align}
+-2\sin x \sin \frac{3\pi}{4}
+=-2\sin x \sin \frac{\pi}{4}
+\end{align}
+yielding the RHS.
 \item Prove that
 $\sin^{2}6x-\sin^{2}4x=\sin2x\sin10x.$
 %
+\\
+\solution  The LHS can be expressed as 
+\begin{align}
+	\frac{\cos 8x - \cos 12 x }{2}
+\end{align}
+yielding the RHS.
 \item Prove that
 $\cos^{2}2x-\cos^{2}6x=\sin4x\sin8x.$
 %
+\\
+\solution  The LHS can be expressed as 
+\begin{align}
+	\frac{\cos 4x - \cos 12 x }{2}
+\end{align}
+yielding the RHS.
 \item Prove that
 $\sin2x+2\sin4x+\sin6x=4\cos^{2}x\sin4x.$
 %
+\\
+\solution  The LHS can be expressed as 
+\begin{align}
+	\sin2x+\sin6x+2\sin4x&=2\sin4x\cos 2x + 2\sin 4x
+	\\
+	&=2\sin4x\brak{1+\cos 2x} 
+\end{align}
+yielding the RHS.
 \item Prove that
 $\cot4x\brak{\sin5x+\sin3x}= \cot x\brak{\sin5x-\sin3x}.$
 %
+\\
+\solution  
+\begin{align}
+	LHS = 
+2\cot4x\sin4x\cos x
+\\
+	&= 
+2\cos4x\sin x
+	\\
+	RHS&=2\cot x\cos 4x \sin x
+\end{align}
 \item Prove that
 $$\frac{\cos9x-\cos5x}{\sin17x-\sin3x}=-\frac{\sin2x}{\cos10x}.$$
 %
