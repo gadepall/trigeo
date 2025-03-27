@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2024.4.5)  27 MAR 2025 14:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2024.4.5)  27 MAR 2025 18:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2366,22 +2366,80 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [81]
-[82]) (./cbse/id.tex [83] [84] [85] [86] [87]
+<figs/ncert/id/3.png, id=2043, 1735.48375pt x 1052.93375pt>
+File: figs/ncert/id/3.png Graphic file (type png)
+<use figs/ncert/id/3.png>
+Package pdftex.def Info: figs/ncert/id/3.png  used on input line 287.
+(pdftex.def)             Requested size: 218.5194pt x 132.56432pt.
+<figs/ncert/id/4.png, id=2045, 1622.06pt x 1156.32pt>
+File: figs/ncert/id/4.png Graphic file (type png)
+<use figs/ncert/id/4.png>
+Package pdftex.def Info: figs/ncert/id/4.png  used on input line 324.
+(pdftex.def)             Requested size: 218.5194pt x 155.76123pt.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [82 <./figs/ncert/id/3.png>]
+<figs/ncert/id/5.png, id=2066, 1637.11626pt x 1198.4775pt>
+File: figs/ncert/id/5.png Graphic file (type png)
+<use figs/ncert/id/5.png>
+Package pdftex.def Info: figs/ncert/id/5.png  used on input line 337.
+(pdftex.def)             Requested size: 218.5194pt x 159.95876pt.
+<figs/ncert/id/6.png, id=2068, 1643.13875pt x 1241.63875pt>
+File: figs/ncert/id/6.png Graphic file (type png)
+<use figs/ncert/id/6.png>
+Package pdftex.def Info: figs/ncert/id/6.png  used on input line 351.
+(pdftex.def)             Requested size: 218.5194pt x 165.11314pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [83 <./figs/ncert/id/4.png> <./figs/ncert/id/5.png>]
+<figs/ncert/id/7.png, id=2082, 1729.46124pt x 1181.41376pt>
+File: figs/ncert/id/7.png Graphic file (type png)
+<use figs/ncert/id/7.png>
+Package pdftex.def Info: figs/ncert/id/7.png  used on input line 365.
+(pdftex.def)             Requested size: 218.5194pt x 149.26273pt.
+<figs/ncert/id/8.png, id=2084, 1685.29625pt x 1221.56375pt>
+File: figs/ncert/id/8.png Graphic file (type png)
+<use figs/ncert/id/8.png>
+Package pdftex.def Info: figs/ncert/id/8.png  used on input line 378.
+(pdftex.def)             Requested size: 218.5194pt x 158.38014pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [84 <./figs/ncert/id/6.png> <./figs/ncert/id/7.png>] [85 <./figs/ncert/id/8.pn
+g>]
+[86]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [87])
+(./cbse/id.tex
+Underfull \vbox (badness 3039) has occurred while \output is active []
 
  [88]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [89]
+[89]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [90]
-[91]) (./JEE/id.tex [92]
+[91]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [92]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [93]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [94]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [95])
+(./JEE/id.tex [96] [97]
 Underfull \hbox (badness 10000) detected at line 83
  []$[]   [] [] [] []  $ 
  []
 
-[93] [94] [95]
+[98] [99] [100]
 Underfull \hbox (badness 10000) in paragraph at lines 349--350
 []\OT1/txr/m/n/8 If $[] [] [] 2\OML/txmi/m/it/8 x \OT1/txr/m/n/8 + [] \OML/txmi
 /m/it/8 x [] \OT1/txr/m/n/8 2\OML/txmi/m/it/8 x [] x \OT1/txr/m/n/8 =
@@ -2393,17 +2451,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 349--350
  + [] [] [] 2\OML/txmi/m/it/8 x$ \OT1/txr/m/n/8 then
  []
 
-[96]
+[101]
 Underfull \hbox (badness 10000) detected at line 429
  []$[]  [][] [][]  $ 
  []
 
-[97]) (./ncert/eq.tex [98]) (./cbse/eq.tex [99]
+[102]) (./ncert/eq.tex) (./cbse/eq.tex [103]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [100])
-(./JEE/eq.tex [101] [102] [103] [104] [105] [106] [107] [108])
-(./chapters/trig/ineq.tex) (./JEE/ineq.tex [109] [110] [111]) [112] (./main.aux
+ [104])
+(./JEE/eq.tex [105] [106] [107] [108] [109] [110] [111] [112])
+(./chapters/trig/ineq.tex [113]) (./JEE/ineq.tex [114] [115]) [116] (./main.aux
 )
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -2413,10 +2471,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 3868E7F26C87BCE12F6A9CF7DE49472D;2876.
  ) 
 Here is how much of TeX's memory you used:
- 55919 strings out of 474104
- 1319647 string characters out of 5729886
- 1961493 words of memory out of 5000000
- 75480 multiletter control sequences out of 15000+600000
+ 56026 strings out of 474104
+ 1321602 string characters out of 5729886
+ 1958493 words of memory out of 5000000
+ 75533 multiletter control sequences out of 15000+600000
  641387 words of font info for 210 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  109i,17n,149p,1194b,1420s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2442,10 +2500,10 @@ b></data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/fonts/type1/ur
 w/times/utmb8a.pfb></data/data/com.termux/files/usr/share/texlive/2024/texmf-di
 st/fonts/type1/urw/times/utmr8a.pfb></data/data/com.termux/files/usr/share/texl
 ive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (112 pages, 2321023 bytes).
+Output written on main.pdf (116 pages, 2553111 bytes).
 PDF statistics:
- 3392 PDF objects out of 3580 (max. 8388607)
- 3050 compressed objects within 31 object streams
- 1912 named destinations out of 2073 (max. 500000)
- 599 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3492 PDF objects out of 3580 (max. 8388607)
+ 3133 compressed objects within 32 object streams
+ 1966 named destinations out of 2073 (max. 500000)
+ 629 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -102,10 +102,12 @@ Since
 	\\
 	\cos15 &= \sqrt{\frac{1+\frac{\sqrt{3}}{2}}{2}}
 	 = \frac{\sqrt{2+\sqrt{3}}}{2}
+	 \label{eq:id-cos15}
 	 \\
 	 \therefore 
 	\tan\frac{\pi}{12} &= \frac{\sin 15}{\cos15}
 	 = \frac{\sqrt{2-\sqrt{3}}}{\sqrt{2+\sqrt{3}}}
+	 \label{eq:id-tan15}
 \end{align}
 upon substituting from 
 	 \eqref{eq:id-sin15}.
@@ -243,6 +245,7 @@ yielding
 	\solution
 \begin{align}
 	\tan 2\theta = \frac{2\tan \theta}{1-\tan^2\theta}
+\label{eq:id-tantheta}
 \end{align}
 For $\theta = \frac{\pi}{8}$,  we obtain
 \begin{align}
@@ -258,19 +261,126 @@ by taking the positive root of the quadratic.
 %
 \item If $\tan x=\frac{3}{4}, \pi<x<\frac{3\pi}{2}$, find the value of $\sin\frac{x}{2},\cos\frac{x}{2}$ and $\tan\frac{x}{2}$.
 %
+	\\
+	\solution $ \frac{\pi}{2}<\frac{x}{2} <\frac{3\pi}{4} $, hence $\frac{x}{2}$
+	lies in the $2^{nd}$
+	quadrant.
 %
+	For $\theta = \frac{x}{2}$
+	in
+\eqref{eq:id-tantheta},
+\begin{align}
+	3{\tan^2\theta}+{8\tan \theta}- {3}=0
+	\\
+	\implies
+	\tan\frac{x}{2}=\tan \theta = -3
+\end{align}
+by taking the negative root.
+From
+	\figref{fig:ncert-id-3},	
+\begin{align}
+	\cos \frac{x}{2} = -\frac{1}{\sqrt{10}},
+	\sin\frac{x}{2} = \frac{3}{\sqrt{10}}
+\end{align}
+\begin{figure}[H]
+	\begin{center}
+		{\includegraphics[width=0.6\columnwidth]{figs/ncert/id/3.png}}
+	\end{center}
+	\caption{}
+	\label{fig:ncert-id-3}	
+\end{figure}
 \item Prove that
 $\cos^{2}x+\cos^{2}\brak{x+\frac{\pi}{3}}+\cos^{2}\brak{x-\frac{\pi}{3}}=\frac{3}{2}$.
 %
+\\
+\solution The LHS can be expressed as
+\begin{multline}
+	\frac{1 + \cos 2x + 1 + \cos\brak{2x+\frac{2\pi}{3}}+ 1+\cos\brak{2x-\frac{2\pi}{3}}}{2}
+	\\
+	=
+	\frac{3}{2} +
+	\frac{\cos 2x + 2\cos2x\cos \brak{\frac{2\pi}{3}}}{2}
+\end{multline}
+yielding the RHS upon substituting numerical values.
 \item Find the values of other five trigonometric functions 
 \begin{enumerate}
-	\item $\cos x=-\frac{1}{2}x$,  lies in third quadrant.
-	\item $\sin x= \frac{3}{5}x$,  lies in second quadrant.
-	\item $\cot x= \frac{3}{4}x$,  lies in third quadrant.
-	\item $\sec x= \frac{13}{5}x$,  lies in fourth quadrant.
-	\item $\tan x=-\frac{5}{12}x$,  lies in second quadrant.
+	\item $\cos x=-\frac{1}{2}$, $x$  lies in third quadrant.
+	\item $\sin x= \frac{3}{5} $,$ x$  lies in second quadrant.
+	\item $\cot x= \frac{3}{4}$,$ x$  lies in third quadrant.
+	\item $\sec x= \frac{13}{5}$, $x$  lies in fourth quadrant.
+	\item $\tan x=-\frac{5}{12}$, $x$  lies in second quadrant.
 \end{enumerate}
 %
+\solution
+\begin{enumerate}
+	\item 
+	See \figref{fig:ncert-id-4}.	
+\begin{align}
+	\sin x = -\frac{\sqrt{3}}{2},
+	\tan x = {\sqrt{3}}
+\end{align}
+\begin{figure}[H]
+	\begin{center}
+		{\includegraphics[width=0.6\columnwidth]{figs/ncert/id/4.png}}
+	\end{center}
+	\caption{}
+	\label{fig:ncert-id-4}	
+\end{figure}
+	\item 
+	See \figref{fig:ncert-id-5}.	
+\begin{align}
+	\cos x = -\frac{4}{5},
+	\tan x = -\frac{3}{4}.
+\end{align}
+\begin{figure}[H]
+	\begin{center}
+		{\includegraphics[width=0.6\columnwidth]{figs/ncert/id/5.png}}
+	\end{center}
+	\caption{}
+	\label{fig:ncert-id-5}	
+\end{figure}
+	\item 
+	See \figref{fig:ncert-id-6}.
+\begin{align}
+	\cos x = -\frac{3}{5},
+	\sin x = -\frac{4}{5},
+	\tan x = \frac{4}{3}.
+\end{align}
+\begin{figure}[H]
+	\begin{center}
+		{\includegraphics[width=0.6\columnwidth]{figs/ncert/id/6.png}}
+	\end{center}
+	\caption{}
+	\label{fig:ncert-id-6}	
+\end{figure}
+	\item 
+	See \figref{fig:ncert-id-7}.	
+\begin{align}
+	\cos x = \frac{5}{13},
+	\sin x = -\frac{12}{13},
+	\tan x = -\frac{12}{5}.
+\end{align}
+\begin{figure}[H]
+	\begin{center}
+		{\includegraphics[width=0.6\columnwidth]{figs/ncert/id/7.png}}
+	\end{center}
+	\caption{}
+	\label{fig:ncert-id-7}	
+\end{figure}
+	\item 
+	See \figref{fig:ncert-id-8}.	
+\begin{align}
+	\cos x = -\frac{12}{13},
+	\sin x = \frac{5}{13}
+\end{align}
+\begin{figure}[H]
+	\begin{center}
+		{\includegraphics[width=0.6\columnwidth]{figs/ncert/id/8.png}}
+	\end{center}
+	\caption{}
+	\label{fig:ncert-id-8}	
+\end{figure}
+\end{enumerate}
 \item Find the values of the trigonometric functions
 \begin{multicols}{2}
 \begin{enumerate}
@@ -282,16 +392,90 @@ $\cos^{2}x+\cos^{2}\brak{x+\frac{\pi}{3}}+\cos^{2}\brak{x-\frac{\pi}{3}}=\frac{3
 \end{enumerate}
 \end{multicols}
 %
+\solution
+\begin{enumerate}
+\item 
+\begin{align}
+	\sin765\degree &= \sin \brak{2\times 360\degree + 45 \degree}
+	\\
+	&= \sin 45\degree = \frac{1}{\sqrt{2}}
+\end{align}
+\item 
+\begin{align}
+	\csc\brak{-1410\degree}&=	
+\csc\brak{-4\times 360\degree + 30 \degree}
+\\
+	&= \csc 30 \degree = {2}
+\end{align}
+\item 
+\begin{align}
+\tan\frac{19\pi}{3}
+	&=	
+	\tan\brak{6\pi + \frac{\pi}{3}}
+	\\
+	&= \tan \frac{\pi}{3}= {\sqrt{3}}
+\end{align}
+\item 
+\begin{align}
+\sin\frac{-11\pi}{3}
+	&=\sin\brak{-4\pi +\frac{\pi}{3}}
+	\\
+	&=\sin{\frac{\pi}{3}}=\frac{\sqrt{3}}{2}
+\end{align}
+\item $\cot\frac{-15\pi}{4}$
+\begin{align}
+\cot\frac{-15\pi}{4}
+	&=\cot\brak{-4\pi+\frac{\pi}{4}}
+	\\
+	&=\cot{\frac{\pi}{4}}=1
+\end{align}
+\end{enumerate}
 \item Prove that
 \begin{multicols}{2}
 \begin{enumerate}
 \item $\sin^{2}\frac{\pi}{6}+\cos^{2}\frac{\pi}{3}-\tan^{2}\frac{\pi}{4}=-\frac{1}{2}$
-\item $2\sin^{2}\frac{\pi}{6}+\csc^{2}\frac{7\pi}{6}\cos^{2}\frac{\pi}{3}=-\frac{3}{2}$
-\item $\cot^{2}\frac{\pi}{6}+\csc^{2}\frac{5\pi}{6}+3\tan^{2}\frac{\pi}{6}$=6
+\item $2\sin^{2}\frac{\pi}{6}+\csc^{2}\frac{7\pi}{6}\cos^{2}\frac{\pi}{3}=\frac{3}{2}$
+\item $\cot^{2}\frac{\pi}{6}+\csc\frac{5\pi}{6}+3\tan^{2}\frac{\pi}{6}$=6
 \item $2\sin^{2}\frac{3\pi}{4}+2\cos^{2}\frac{\pi}{4}+2\sec^{2}\frac{\pi}{3}$=10
 \end{enumerate}
 \end{multicols}
 %
+\solution
+\begin{enumerate}
+\item The LHS is
+\begin{align}
+\sin^{2}\frac{\pi}{6}+\sin^{2}\frac{\pi}{6}-1
+	&=
+\sin^{2}\frac{\pi}{6}-\cos^{2}\frac{\pi}{6}
+\\
+	&=-\cos\frac{\pi}{3}=-\frac{1}{2}
+\end{align}
+\item The LHS can be expressed as
+\begin{align}
+	2\sin^{2}\frac{\pi}{6}+\frac{\cos^{2}\frac{\pi}{3}}{\sin^{2}\brak{\pi +\frac{\pi}{6}}} &= 
+	2\sin^{2}\frac{\pi}{6}+\frac{\sin^{2}\frac{\pi}{6}}{\sin^{2}{\frac{\pi}{6}}} = \frac{1}{2} + 1 
+\end{align}
+\item The LHS equals
+\begin{align}
+	\tan^{2}\frac{\pi}{6}+\cot^{2}\frac{\pi}{6}+\csc\brak{\pi-\frac{\pi}{6}}+2\tan^{2}\frac{\pi}{6}
+	&=
+	\brak{\tan\frac{\pi}{6}+\cot\frac{\pi}{6}}^2-2+\csc{\frac{\pi}{6}}+2\tan^{2}\frac{\pi}{6}
+	\\
+	&=
+	\sec^2\frac{\pi}{6}\csc^2\frac{\pi}{6}-2+2+2\tan^{2}\frac{\pi}{6}
+	\\
+	&=
+	4\sec^2\frac{\pi}{6}+2\tan^{2}\frac{\pi}{6}
+	\\
+	&=
+	4+6\tan^2\frac{\pi}{6} = 6
+\end{align}
+\item The LHS can be expressed as
+\begin{align}
+	2\sin^{2}\brak{\pi -\frac{\pi}{4}}+2\cos^{2}\frac{\pi}{4}+2\sec^{2}\frac{\pi}{3} &= 
+	2\brak{\sin^{2}\frac{\pi}{4}+\cos^{2}\frac{\pi}{4}}+8
+\end{align}
+\end{enumerate}
 \item Find the value of
 \begin{multicols}{2}
 \begin{enumerate}
@@ -300,18 +484,60 @@ $\cos^{2}x+\cos^{2}\brak{x+\frac{\pi}{3}}+\cos^{2}\brak{x-\frac{\pi}{3}}=\frac{3
 \end{enumerate}
 \end{multicols}
 %
+\solution
+\begin{enumerate}
+\item 
+\begin{align}
+\sin 75\degree 
+=\cos 15\degree 
+\end{align}
+	 which is available in \eqref{eq:id-cos15}.
+\item See
+	 \eqref{eq:id-tan15}.
+\end{enumerate}
 \item Prove that 
  $\cos\brak{\frac{\pi}{4}-x}\cos\brak{\frac{\pi}{4}-y}-\sin\brak{\frac{\pi}{4}-x}\sin\brak{\frac{\pi}{4}-y}=\sin\brak{x+y}$.
 %
+ \\
+ \solution
+ The LHS can be expressed as
+\begin{align}
+	\cos\brak{\frac{\pi}{4}-x+\frac{\pi}{4}-y}&=\cos\sbrak{\frac{\pi}{2}-\brak{x+y}}
+\end{align}
+which is equal to the RHS.
 \item Prove that 
 $$\frac{\tan\brak{\frac{\pi}{4}+x}}{\tan\brak{\frac{\pi}{4}-x}}=\brak{\frac{1+\tan x}{1-\tan x}}^{2}.$$
 %
+\solution
+\begin{align}
+	\frac{\tan\brak{\frac{\pi}{4}+x}}&=\frac{\tan\frac{\pi}{4}+\tan x}{1-\tan\frac{\pi}{4}\tan x}
+	\\
+	&=\frac{1+\tan x}{1-\tan x}
+	\\
+	\frac{\tan\brak{\frac{\pi}{4}-x}}&=\frac{\tan\frac{\pi}{4}-\tan x}{1+\tan\frac{\pi}{4}\tan x}
+	\\
+	&=\frac{1-\tan x}{1+\tan x}
+\end{align}
+From the above, the desired result is obtained.
 \item Prove that
 $$\frac{\cos\brak{\pi+x}\cos\brak{-x}}{\sin\brak{\pi-x}\cos\brak{\frac{\pi}{2}+x}}=\cot^{2}x.$$
 %
+\solution
+The LHS can be expressed as
+\begin{align}
+	\frac{-\cos x\cos\brak{-x}}{\sin x\brak{-\sin x}}
+\end{align}
+yielding the RHS.
 \item Prove that
 $\cos\brak{\frac{3\pi}{2}+x}\cos\brak{2\pi+x}\sbrak{\cot\brak{\frac{3\pi}{2}-x}+\cot\brak{2\pi +x}}=1$.
 %
+\\
+\solution The LHS can be expressed as 
+\begin{align}
+	\sin x\cos x\sbrak{\tan x+\cot x}=
+\sin x\cos x\sec x\csc x
+\end{align}
+yielding the RHS.
 \item Prove that
 $\sin\brak{n+1}x\sin\brak{n+2}x+\cos\brak{n+1}x\cos\brak{n+2}x=\cos x.$
 %
