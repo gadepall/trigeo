@@ -625,24 +625,90 @@ LHS = \frac{2\sin \brak{\frac{x+y}{2}}\cos\brak{\frac{x-y}{2}}}{2\cos\brak{\frac
 \item Prove that
 $$\frac{\sin x+\sin3x}{\cos x+\cos3x}=\tan2x.$$
 %
+\solution 
+\begin{align}
+	LHS=
+\frac{2\sin 2x \cos x}{2\cos 2x\cos x}=RHS
+\end{align}
 \item Prove that
 $$\frac{\sin x-\sin3x}{\sin^{2}x-\cos^{2}x}=2\sin x.$$
 %
+\solution
+\begin{align}
+LHS = \frac{-2\sin x\cos2x}{-\cos{2}x}=RHS
+\end{align}
+
 \item Prove that
 $$\frac{\cos4x+\cos3x+\cos2x}{\sin4x+\sin3x+\sin2x}=\cot3x.$$
 %
+\solution
+\begin{align}
+LHS &= \frac{2\cos3x\cos x+\cos3x}{2\sin3x\cos x+\sin3x}
+\\
+&= \frac{\cos3x\brak{\cos x+1}}{\sin3x\brak{\cos x+1}}
+=RHS
+\end{align}
 \item Prove that
-$\cot x\cot2x-\cot2x\cot3x-\cot3x\cot x=1$.
+\begin{align}
+\cot x\cot2x-\cot2x\cot3x-\cot3x\cot x=1.
+\label{eq:cot}
+\end{align}
 %
+\\
+\solution
+\begin{align}
+	\cot x  = \cot\brak{3x-2x} &= \frac{\cot 3x \cot 2x +1}{\cot 2x - \cot 3x}
+	\\
+	\implies 
+\cot x\cot2x-\cot3x\cot x &=1+\cot2x\cot3x
+\end{align}
+yielding  
+\eqref{eq:cot}.
 \item Prove that
-$$\tan4x=\frac{4\tan x\brak{1-\tan^{2}x}}{1-6\tan^{2}x+\tan^{4}x}.$$
+\begin{align}
+\tan4x=\frac{4\tan x\brak{1-\tan^{2}x}}{1-6\tan^{2}x+\tan^{4}x}.
+\label{eq:tan4x-ans}
+\end{align}
 %
+\solution
+\begin{align}
+\label{eq:tan4x}
+\tan 4x &= 
+ \frac{2\tan 2x}{1-\tan^{2} 2x}
+ \\
+\tan 2x &= 
+ \frac{2\tan x}{1-\tan^{2} x}
+\label{eq:tan2x}
+\end{align}
+Substituting \eqref{eq:tan4x}
+in \eqref{eq:tan4x}
+yileds
+\eqref{eq:tan4x-ans}.
 \item Prove that
-$\cos4x=1-8\sin^{2}x\cos^{2}x$.
+\begin{align}
+\label{eq:cos4x}
+\cos4x=1-8\sin^{2}x\cos^{2}x.
+\end{align}
 %
+\solution
+\begin{align}
+	\cos 4x  &= 1 - 2 \sin^2 2x
+	\\
+	&=1 - 2 \brak{2 \sin x \cos x}^2 = RHS
+\end{align}
 \item Prove that
-$\cos6x=32\cos^{6}x-48\cos^{4}x+18\cos^{2}x-1$.
+\begin{align}
+\label{eq:cos6x}
+\cos6x=32\cos^{6}x-48\cos^{4}x+18\cos^{2}x-1.
+\end{align}
 %
+\solution
+\begin{align}
+	\cos 6x&= 4 \cos^3 2x - 3 \cos 2x 
+	\\
+	&= 4 \brak{2 \cos^2 x - 1}^3 - 3 \brak{2\cos^2 x - 1} = RHS
+\end{align}
+after some algebra.
 %
 \item Prove that
 \begin{enumerate}
