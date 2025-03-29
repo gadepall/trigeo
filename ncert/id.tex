@@ -784,9 +784,50 @@ after some algebra.
 \end{enumerate}
 \item Find $\sin\frac{x}{2},\cos\frac{x}{2}$ and $\tan\frac{x}{2}$ in each of the following
 \begin{enumerate}
-\item $\tan x=-\frac{4}{3}x$,  in second quadrant. 
-\item $\sin x=\frac{1}{4}x$,   in second quadrant.
-\item $\cos x=-\frac{1}{3}x$,  in third quadrant.
+\item $\tan x=-\frac{4}{3}$, $x$  in second quadrant. 
+\item $\sin x=\frac{1}{4}$, $x$   in second quadrant.
+\item $\cos x=-\frac{1}{3}$, $x$  in third quadrant.
+\end{enumerate}
+\solution
+\begin{enumerate}
+\item  Using
+\eqref{eq:id-tantheta},
+\begin{align}
+	\tan {x} = \frac{2\tan \frac{x}{2}}{1-\tan^2\frac{x}{2}}
+	\\
+	\implies 
+\tan {x}	\tan^2\frac{x}{2}+2\tan \frac{x}{2}-\tan {x}   = 0
+	\\
+	\text{or, }  \tan \frac{x}{2} &= \cot x\brak{-1 \pm \sqrt{1 + \tan^2 x}}
+	\\
+	&=\cot x\brak{-1 \pm \sec x}
+\end{align}
+Since 
+\begin{align}
+	\tan x &= -\frac{4}{3}, \sec x = -\frac{5}{3}
+	\\
+	\implies \tan \frac{x}{2} &= -\frac{3}{4}\brak{-1\pm\frac{5}{3}}
+	\\
+	&= 2
+\end{align}
+by taking the positive root.
+\item 
+	Since
+\begin{align}
+	\cos x &= -\frac{4}{\sqrt{15}},
+	\\
+	\cos \frac{x}{2} &= \sqrt{\frac{1+\cos x}{2}},
+	\label{eq:cosxcosx/2}
+	\\
+	&= \sqrt{\frac{\sqrt{15}-4}{2{\sqrt{15}}}}
+\end{align}
+\item 
+	Substituting in \eqref{eq:cosxcosx/2}
+\begin{align}
+	\cos \frac{x}{2} &= -\sqrt{\frac{1-\frac{1}{3}}{2}}
+	\\
+	&=-\frac{1}{\sqrt{3}}
+\end{align}
 \end{enumerate}
     
 \end{enumerate}
