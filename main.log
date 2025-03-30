@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2024.4.5)  30 MAR 2025 14:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2024.4.5)  30 MAR 2025 22:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2466,13 +2466,13 @@ Underfull \hbox (badness 10000) detected at line 429
 [106]) (./ncert/eq.tex [107]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [108])
-(./cbse/eq.tex [109]) (./JEE/eq.tex
+ [108]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [110]
-[111] [112] [113] [114] [115] [116] [117] [118]) (./chapters/trig/ineq.tex)
-(./JEE/ineq.tex [119] [120] [121]) [122] (./main.aux)
+ [109])
+(./cbse/eq.tex [110] [111]) (./JEE/eq.tex [112] [113] [114] [115] [116]
+[117] [118] [119]) (./chapters/trig/ineq.tex [120]) (./JEE/ineq.tex [121]
+[122]) [123] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -2481,8 +2481,8 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 3868E7F26C87BCE12F6A9CF7DE49472D;2876.
  ) 
 Here is how much of TeX's memory you used:
- 56131 strings out of 474104
- 1322992 string characters out of 5729886
+ 56169 strings out of 474104
+ 1323511 string characters out of 5729886
  1957493 words of memory out of 5000000
  75541 multiletter control sequences out of 15000+600000
  641387 words of font info for 210 fonts, out of 8000000 for 9000
@@ -2510,10 +2510,10 @@ b></data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/fonts/type1/ur
 w/times/utmb8a.pfb></data/data/com.termux/files/usr/share/texlive/2024/texmf-di
 st/fonts/type1/urw/times/utmr8a.pfb></data/data/com.termux/files/usr/share/texl
 ive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (122 pages, 2566380 bytes).
+Output written on main.pdf (123 pages, 2570011 bytes).
 PDF statistics:
- 3635 PDF objects out of 4296 (max. 8388607)
- 3269 compressed objects within 33 object streams
- 2063 named destinations out of 2073 (max. 500000)
+ 3685 PDF objects out of 4296 (max. 8388607)
+ 3317 compressed objects within 34 object streams
+ 2101 named destinations out of 2487 (max. 500000)
  629 words of extra memory for PDF output out of 10000 (max. 10000000)
 
