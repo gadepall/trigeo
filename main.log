@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2024.4.5)  1 APR 2025 17:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Termux) (preloaded format=pdflatex 2024.4.5)  1 APR 2025 22:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1823,7 +1823,7 @@ Package hyperref Info: Link coloring OFF on input line 20.
 \openout5 = `main.out'.
 
 \c@lstlisting=\count397
-<figs/logo.jpg, id=167, 2537.48pt x 2047.65pt>
+<figs/logo.jpg, id=151, 2537.48pt x 2047.65pt>
 File: figs/logo.jpg Graphic file (type jpg)
 <use figs/logo.jpg>
 Package pdftex.def Info: figs/logo.jpg  used on input line 47.
@@ -1873,13 +1873,13 @@ File: utxsyc.fd 2000/12/15 v3.1
 \openout6 = `main.toc'.
 
  [3] (./geometry/hd.tex
-<figs/trig_id/right/tri_right_angle.pdf, id=223, 345.01195pt x 258.90428pt>
+<figs/trig_id/right/tri_right_angle.pdf, id=203, 345.01195pt x 258.90428pt>
 File: figs/trig_id/right/tri_right_angle.pdf Graphic file (type pdf)
 <use figs/trig_id/right/tri_right_angle.pdf>
 Package pdftex.def Info: figs/trig_id/right/tri_right_angle.pdf  used on input 
 line 8.
 (pdftex.def)             Requested size: 218.5194pt x 163.98363pt.
-<figs/trig_id/right/tri_baudh.pdf, id=225, 345.00693pt x 312.01067pt>
+<figs/trig_id/right/tri_baudh.pdf, id=205, 345.00693pt x 312.01067pt>
 File: figs/trig_id/right/tri_baudh.pdf Graphic file (type pdf)
 <use figs/trig_id/right/tri_baudh.pdf>
 Package pdftex.def Info: figs/trig_id/right/tri_baudh.pdf  used on input line 3
@@ -1894,20 +1894,20 @@ Underfull \vbox (badness 4328) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5 <./figs/trig_id/right/tri_baudh.pdf>]
-<figs/trig_id/right/tri_isoc-alt.pdf, id=328, 345.01195pt x 234.6918pt>
+<figs/trig_id/right/tri_isoc-alt.pdf, id=308, 345.01195pt x 234.6918pt>
 File: figs/trig_id/right/tri_isoc-alt.pdf Graphic file (type pdf)
 <use figs/trig_id/right/tri_isoc-alt.pdf>
 Package pdftex.def Info: figs/trig_id/right/tri_isoc-alt.pdf  used on input lin
 e 115.
 (pdftex.def)             Requested size: 218.5194pt x 148.64803pt.
 ) (./geometry/sincos.tex
-<figs/trig_id/right/tri_sss.pdf, id=331, 345.00595pt x 199.143pt>
+<figs/trig_id/right/tri_sss.pdf, id=311, 345.00595pt x 199.143pt>
 File: figs/trig_id/right/tri_sss.pdf Graphic file (type pdf)
 <use figs/trig_id/right/tri_sss.pdf>
 Package pdftex.def Info: figs/trig_id/right/tri_sss.pdf  used on input line 7.
 (pdftex.def)             Requested size: 218.5194pt x 126.1323pt.
  [6 <./figs/trig_id/right/tri_isoc-alt.pdf>]
-<figs/trig_id/right/tri_isoc.pdf, id=361, 345.01195pt x 234.6918pt>
+<figs/trig_id/right/tri_isoc.pdf, id=341, 345.01195pt x 234.6918pt>
 File: figs/trig_id/right/tri_isoc.pdf Graphic file (type pdf)
 <use figs/trig_id/right/tri_isoc.pdf>
 Package pdftex.def Info: figs/trig_id/right/tri_isoc.pdf  used on input line 48
@@ -1917,7 +1917,7 @@ Package pdftex.def Info: figs/trig_id/right/tri_isoc.pdf  used on input line 48
 Underfull \vbox (badness 5802) has occurred while \output is active []
 
  [7 <./figs/trig_id/right/tri_sss.pdf> <./figs/trig_id/right/tri_isoc.pdf>]
-<figs/trig_id/sincos/tri_cosine_formula.pdf, id=389, 345.00595pt x 199.143pt>
+<figs/trig_id/sincos/tri_cosine_formula.pdf, id=369, 345.00595pt x 199.143pt>
 File: figs/trig_id/sincos/tri_cosine_formula.pdf Graphic file (type pdf)
 <use figs/trig_id/sincos/tri_cosine_formula.pdf>
 Package pdftex.def Info: figs/trig_id/sincos/tri_cosine_formula.pdf  used on in
@@ -1927,7 +1927,7 @@ put line 90.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [8 <./figs/trig_id/sincos/tri_cosine_formula.pdf>]
-<figs/trig_id/sincos/tri_sin_inc.pdf, id=435, 345.019pt x 341.88026pt>
+<figs/trig_id/sincos/tri_sin_inc.pdf, id=415, 345.019pt x 341.88026pt>
 File: figs/trig_id/sincos/tri_sin_inc.pdf Graphic file (type pdf)
 <use figs/trig_id/sincos/tri_sin_inc.pdf>
 Package pdftex.def Info: figs/trig_id/sincos/tri_sin_inc.pdf  used on input lin
@@ -1949,7 +1949,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 pdfTeX warning: pdflatex (file ./figs/ncert/1.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-<figs/ncert/1.pdf, id=462, 277.57703pt x 233.39195pt>
+<figs/ncert/1.pdf, id=442, 277.57703pt x 233.39195pt>
 File: figs/ncert/1.pdf Graphic file (type pdf)
 <use figs/ncert/1.pdf>
 Package pdftex.def Info: figs/ncert/1.pdf  used on input line 22.
@@ -1958,7 +1958,7 @@ Package pdftex.def Info: figs/ncert/1.pdf  used on input line 22.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10 <./figs/trig_id/sincos/tri_sin_inc.pdf>] (./tables/ncert/hd/2.tex)
-<figs/ncert/2.png, id=487, 971.63pt x 734.745pt>
+<figs/ncert/2.png, id=466, 971.63pt x 734.745pt>
 File: figs/ncert/2.png Graphic file (type png)
 <use figs/ncert/2.png>
 Package pdftex.def Info: figs/ncert/2.png  used on input line 49.
@@ -1967,7 +1967,7 @@ Package pdftex.def Info: figs/ncert/2.png  used on input line 49.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11 <./figs/ncert/1.pdf>] (./tables/ncert/hd/3.tex)
-<figs/ncert/3.png, id=502, 1243.64626pt x 516.93124pt>
+<figs/ncert/3.png, id=482, 1243.64626pt x 516.93124pt>
 File: figs/ncert/3.png Graphic file (type png)
 <use figs/ncert/3.png>
 Package pdftex.def Info: figs/ncert/3.png  used on input line 76.
@@ -1976,7 +1976,7 @@ Package pdftex.def Info: figs/ncert/3.png  used on input line 76.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12 <./figs/ncert/2.png>] (./tables/ncert/hd/4.tex)
-<figs/ncert/4.png, id=516, 1233.60875pt x 581.17125pt>
+<figs/ncert/4.png, id=496, 1233.60875pt x 581.17125pt>
 File: figs/ncert/4.png Graphic file (type png)
 <use figs/ncert/4.png>
 Package pdftex.def Info: figs/ncert/4.png  used on input line 116.
@@ -1985,7 +1985,7 @@ Package pdftex.def Info: figs/ncert/4.png  used on input line 116.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [13 <./figs/ncert/3.png>] (./tables/ncert/hd/5.tex)
-<figs/ncert/5.png, id=533, 857.2025pt x 632.3625pt>
+<figs/ncert/5.png, id=513, 857.2025pt x 632.3625pt>
 File: figs/ncert/5.png Graphic file (type png)
 <use figs/ncert/5.png>
 Package pdftex.def Info: figs/ncert/5.png  used on input line 149.
@@ -1995,12 +1995,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [16])
 (./cbse/hd.tex
-<cbse/figs/kites.jpeg, id=578, 296.10625pt x 210.7875pt>
+<cbse/figs/kites.jpeg, id=558, 296.10625pt x 210.7875pt>
 File: cbse/figs/kites.jpeg Graphic file (type jpg)
 <use cbse/figs/kites.jpeg>
 Package pdftex.def Info: cbse/figs/kites.jpeg  used on input line 6.
 (pdftex.def)             Requested size: 364.1953pt x 259.26709pt.
-<cbse/figs/as.jpeg, id=580, 261.97874pt x 182.6825pt>
+<cbse/figs/as.jpeg, id=560, 261.97874pt x 182.6825pt>
 File: cbse/figs/as.jpeg Graphic file (type jpg)
 <use cbse/figs/as.jpeg>
 Package pdftex.def Info: cbse/figs/as.jpeg  used on input line 19.
@@ -2009,7 +2009,7 @@ Package pdftex.def Info: cbse/figs/as.jpeg  used on input line 19.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17 <./cbse/figs/kites.jpeg>]
-<cbse/figs/ak.jpeg, id=593, 418.56375pt x 315.1775pt>
+<cbse/figs/ak.jpeg, id=573, 418.56375pt x 315.1775pt>
 File: cbse/figs/ak.jpeg Graphic file (type jpg)
 <use cbse/figs/ak.jpeg>
 Package pdftex.def Info: cbse/figs/ak.jpeg  used on input line 29.
@@ -2018,7 +2018,7 @@ Package pdftex.def Info: cbse/figs/ak.jpeg  used on input line 29.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18 <./cbse/figs/as.jpeg>]
-<cbse/figs/su.jpeg, id=605, 336.25626pt x 181.67876pt>
+<cbse/figs/su.jpeg, id=584, 336.25626pt x 181.67876pt>
 File: cbse/figs/su.jpeg Graphic file (type jpg)
 <use cbse/figs/su.jpeg>
 Package pdftex.def Info: cbse/figs/su.jpeg  used on input line 43.
@@ -2027,7 +2027,7 @@ Package pdftex.def Info: cbse/figs/su.jpeg  used on input line 43.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19 <./cbse/figs/ak.jpeg>]
-<cbse/figs/boat.edit.jpeg, id=616, 432.61626pt x 263.98625pt>
+<cbse/figs/boat.edit.jpeg, id=596, 432.61626pt x 263.98625pt>
 File: cbse/figs/boat.edit.jpeg Graphic file (type jpg)
 <use cbse/figs/boat.edit.jpeg>
 Package pdftex.def Info: cbse/figs/boat.edit.jpeg  used on input line 52.
@@ -2036,14 +2036,14 @@ Package pdftex.def Info: cbse/figs/boat.edit.jpeg  used on input line 52.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [21]
-<cbse/figs/Problem.png, id=642, 580.1675pt x 341.275pt>
+<cbse/figs/Problem.png, id=622, 580.1675pt x 341.275pt>
 File: cbse/figs/Problem.png Graphic file (type png)
 <use cbse/figs/Problem.png>
 Package pdftex.def Info: cbse/figs/Problem.png  used on input line 105.
 (pdftex.def)             Requested size: 273.14647pt x 160.67526pt.
 
 [22 <./cbse/figs/Problem.png>]
-<cbse/figs/Fig-4.png, id=659, 249.93375pt x 177.66376pt>
+<cbse/figs/Fig-4.png, id=639, 249.93375pt x 177.66376pt>
 File: cbse/figs/Fig-4.png Graphic file (type png)
 <use cbse/figs/Fig-4.png>
 Package pdftex.def Info: cbse/figs/Fig-4.png  used on input line 143.
@@ -2052,7 +2052,7 @@ Package pdftex.def Info: cbse/figs/Fig-4.png  used on input line 143.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24]
-<cbse/figs/cbse_30_3_1.png, id=702, 269.005pt x 169.63374pt>
+<cbse/figs/cbse_30_3_1.png, id=682, 269.005pt x 169.63374pt>
 File: cbse/figs/cbse_30_3_1.png Graphic file (type png)
 <use cbse/figs/cbse_30_3_1.png>
 Package pdftex.def Info: cbse/figs/cbse_30_3_1.png  used on input line 192.
@@ -2076,13 +2076,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [32]
-<figs/trig_id/median/tri_med.pdf, id=895, 345.01195pt x 246.65651pt>
+<figs/trig_id/median/tri_med.pdf, id=875, 345.01195pt x 246.65651pt>
 File: figs/trig_id/median/tri_med.pdf Graphic file (type pdf)
 <use figs/trig_id/median/tri_med.pdf>
 Package pdftex.def Info: figs/trig_id/median/tri_med.pdf  used on input line 18
 .
 (pdftex.def)             Requested size: 218.5194pt x 156.22618pt.
-<figs/trig_id/median/tri_med_isect.pdf, id=903, 345.01195pt x 246.65651pt>
+<figs/trig_id/median/tri_med_isect.pdf, id=883, 345.01195pt x 246.65651pt>
 File: figs/trig_id/median/tri_med_isect.pdf Graphic file (type pdf)
 <use figs/trig_id/median/tri_med_isect.pdf>
 Package pdftex.def Info: figs/trig_id/median/tri_med_isect.pdf  used on input l
@@ -2092,7 +2092,7 @@ ine 68.
 Underfull \vbox (badness 1275) has occurred while \output is active []
 
  [33 <./figs/trig_id/median/tri_med.pdf>]
-<figs/trig_id/median/tri_med_meet.pdf, id=948, 345.01195pt x 246.65651pt>
+<figs/trig_id/median/tri_med_meet.pdf, id=927, 345.01195pt x 246.65651pt>
 File: figs/trig_id/median/tri_med_meet.pdf Graphic file (type pdf)
 <use figs/trig_id/median/tri_med_meet.pdf>
 Package pdftex.def Info: figs/trig_id/median/tri_med_meet.pdf  used on input li
@@ -2102,7 +2102,7 @@ ne 125.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [34 <./figs/trig_id/median/tri_med_isect.pdf>]
-<figs/trig_id/median/tri_med_sim.pdf, id=980, 345.01195pt x 246.65651pt>
+<figs/trig_id/median/tri_med_sim.pdf, id=960, 345.01195pt x 246.65651pt>
 File: figs/trig_id/median/tri_med_sim.pdf Graphic file (type pdf)
 <use figs/trig_id/median/tri_med_sim.pdf>
 Package pdftex.def Info: figs/trig_id/median/tri_med_sim.pdf  used on input lin
@@ -2124,7 +2124,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [39]
 (./tables/ncert/tri/sss.tex)
-<figs/ncert/triangle/sss.png, id=1102, 1714.405pt x 1106.1325pt>
+<figs/ncert/triangle/sss.png, id=1082, 1714.405pt x 1106.1325pt>
 File: figs/ncert/triangle/sss.png Graphic file (type png)
 <use figs/ncert/triangle/sss.png>
 Package pdftex.def Info: figs/ncert/triangle/sss.png  used on input line 222.
@@ -2134,14 +2134,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [40])
 (./cbse/tri.tex
-<cbse/figs/rightangled.jpg, id=1116, 745.78625pt x 209.78375pt>
+<cbse/figs/rightangled.jpg, id=1096, 745.78625pt x 209.78375pt>
 File: cbse/figs/rightangled.jpg Graphic file (type jpg)
 <use cbse/figs/rightangled.jpg>
 Package pdftex.def Info: cbse/figs/rightangled.jpg  used on input line 10.
 (pdftex.def)             Requested size: 364.1953pt x 102.44281pt.
  [41 <./figs/ncert/triangle/sss.png> <./cbse/figs/rightangled.jpg>]) (./JEE/tri
 .tex [42] [43]
-<figs/figure.png, id=1203, 238.8925pt x 190.7125pt>
+<figs/figure.png, id=1183, 238.8925pt x 190.7125pt>
 File: figs/figure.png Graphic file (type png)
 <use figs/figure.png>
 Package pdftex.def Info: figs/figure.png  used on input line 213.
@@ -2158,26 +2158,26 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [51])
 (./geometry/incircle.tex
-<figs/trig_id/angbis/tri-icentre.pdf, id=1405, 345.01195pt x 275.42299pt>
+<figs/trig_id/angbis/tri-icentre.pdf, id=1385, 345.01195pt x 275.42299pt>
 File: figs/trig_id/angbis/tri-icentre.pdf Graphic file (type pdf)
 <use figs/trig_id/angbis/tri-icentre.pdf>
 Package pdftex.def Info: figs/trig_id/angbis/tri-icentre.pdf  used on input lin
 e 9.
 (pdftex.def)             Requested size: 218.5194pt x 174.44617pt.
-<figs/trig_id/angbis/tri-iradius.pdf, id=1409, 345.01195pt x 275.71004pt>
+<figs/trig_id/angbis/tri-iradius.pdf, id=1389, 345.01195pt x 275.71004pt>
 File: figs/trig_id/angbis/tri-iradius.pdf Graphic file (type pdf)
 <use figs/trig_id/angbis/tri-iradius.pdf>
 Package pdftex.def Info: figs/trig_id/angbis/tri-iradius.pdf  used on input lin
 e 57.
 (pdftex.def)             Requested size: 218.5194pt x 174.62799pt.
  [52 <./figs/trig_id/angbis/tri-icentre.pdf>]
-<figs/trig_id/angbis/tri_icircle.pdf, id=1440, 345.01195pt x 277.9203pt>
+<figs/trig_id/angbis/tri_icircle.pdf, id=1420, 345.01195pt x 277.9203pt>
 File: figs/trig_id/angbis/tri_icircle.pdf Graphic file (type pdf)
 <use figs/trig_id/angbis/tri_icircle.pdf>
 Package pdftex.def Info: figs/trig_id/angbis/tri_icircle.pdf  used on input lin
 e 92.
 (pdftex.def)             Requested size: 218.5194pt x 176.02791pt.
-<figs/trig_id/angbis/tri_isoc_ang_bsect.pdf, id=1441, 345.01195pt x 234.6918pt>
+<figs/trig_id/angbis/tri_isoc_ang_bsect.pdf, id=1421, 345.01195pt x 234.6918pt>
 
 File: figs/trig_id/angbis/tri_isoc_ang_bsect.pdf Graphic file (type pdf)
 <use figs/trig_id/angbis/tri_isoc_ang_bsect.pdf>
@@ -2193,26 +2193,26 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [55])
 (./geometry/ccircle.tex
-<figs/trig_id/ccircle/tri_isosc.pdf, id=1524, 345.01195pt x 135.77425pt>
+<figs/trig_id/ccircle/tri_isosc.pdf, id=1504, 345.01195pt x 135.77425pt>
 File: figs/trig_id/ccircle/tri_isosc.pdf Graphic file (type pdf)
 <use figs/trig_id/ccircle/tri_isosc.pdf>
 Package pdftex.def Info: figs/trig_id/ccircle/tri_isosc.pdf  used on input line
  6.
 (pdftex.def)             Requested size: 218.5194pt x 85.99608pt.
-<figs/trig_id/ccircle/tri-perp-bis.pdf, id=1530, 345.01195pt x 136.06133pt>
+<figs/trig_id/ccircle/tri-perp-bis.pdf, id=1510, 345.01195pt x 136.06133pt>
 File: figs/trig_id/ccircle/tri-perp-bis.pdf Graphic file (type pdf)
 <use figs/trig_id/ccircle/tri-perp-bis.pdf>
 Package pdftex.def Info: figs/trig_id/ccircle/tri-perp-bis.pdf  used on input l
 ine 56.
 (pdftex.def)             Requested size: 218.5194pt x 86.17789pt.
  [56 <./figs/trig_id/ccircle/tri_isosc.pdf>]
-<figs/trig_id/ccircle/tri_ccentre.pdf, id=1557, 345.01398pt x 281.00984pt>
+<figs/trig_id/ccircle/tri_ccentre.pdf, id=1537, 345.01398pt x 281.00984pt>
 File: figs/trig_id/ccircle/tri_ccentre.pdf Graphic file (type pdf)
 <use figs/trig_id/ccircle/tri_ccentre.pdf>
 Package pdftex.def Info: figs/trig_id/ccircle/tri_ccentre.pdf  used on input li
 ne 69.
 (pdftex.def)             Requested size: 218.5194pt x 177.98474pt.
-<figs/trig_id/ccircle/tri_ccircle.pdf, id=1562, 345.01997pt x 341.71365pt>
+<figs/trig_id/ccircle/tri_ccircle.pdf, id=1542, 345.01997pt x 341.71365pt>
 File: figs/trig_id/ccircle/tri_ccircle.pdf Graphic file (type pdf)
 <use figs/trig_id/ccircle/tri_ccircle.pdf>
 Package pdftex.def Info: figs/trig_id/ccircle/tri_ccircle.pdf  used on input li
@@ -2229,7 +2229,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [59]
-<figs/trig_id/ccircle/circ_tang_icept.pdf, id=1650, 345.01297pt x 238.1718pt>
+<figs/trig_id/ccircle/circ_tang_icept.pdf, id=1630, 345.01297pt x 238.1718pt>
 File: figs/trig_id/ccircle/circ_tang_icept.pdf Graphic file (type pdf)
 <use figs/trig_id/ccircle/circ_tang_icept.pdf>
 Package pdftex.def Info: figs/trig_id/ccircle/circ_tang_icept.pdf  used on inpu
@@ -2239,29 +2239,29 @@ t line 266.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [60 <./figs/trig_id/ccircle/circ_tang_icept.pdf>]) (./ncert/circle.tex
-<figs/ncert/circle/1.png, id=1670, 1690.315pt x 1227.58624pt>
+<figs/ncert/circle/1.png, id=1650, 1690.315pt x 1227.58624pt>
 File: figs/ncert/circle/1.png Graphic file (type png)
 <use figs/ncert/circle/1.png>
 Package pdftex.def Info: figs/ncert/circle/1.png  used on input line 18.
 (pdftex.def)             Requested size: 218.5194pt x 158.6927pt.
-<figs/ncert/circle/10.png, id=1672, 1801.73125pt x 1214.5375pt>
+<figs/ncert/circle/10.png, id=1652, 1801.73125pt x 1214.5375pt>
 File: figs/ncert/circle/10.png Graphic file (type png)
 <use figs/ncert/circle/10.png>
 Package pdftex.def Info: figs/ncert/circle/10.png  used on input line 33.
 (pdftex.def)             Requested size: 218.5194pt x 147.29492pt.
  [61 <./figs/ncert/circle/1.png>]
-<figs/ncert/circle/2.png, id=1693, 1937.2375pt x 1045.9075pt>
+<figs/ncert/circle/2.png, id=1673, 1937.2375pt x 1045.9075pt>
 File: figs/ncert/circle/2.png Graphic file (type png)
 <use figs/ncert/circle/2.png>
 Package pdftex.def Info: figs/ncert/circle/2.png  used on input line 60.
 (pdftex.def)             Requested size: 218.5194pt x 117.97072pt.
-<figs/ncert/circle/3.png, id=1695, 1978.39125pt x 1272.755pt>
+<figs/ncert/circle/3.png, id=1675, 1978.39125pt x 1272.755pt>
 File: figs/ncert/circle/3.png Graphic file (type png)
 <use figs/ncert/circle/3.png>
 Package pdftex.def Info: figs/ncert/circle/3.png  used on input line 79.
 (pdftex.def)             Requested size: 218.5194pt x 140.56668pt.
  [62 <./figs/ncert/circle/10.png> <./figs/ncert/circle/2.png>]
-<figs/ncert/circle/4.png, id=1712, 1849.91125pt x 1307.88625pt>
+<figs/ncert/circle/4.png, id=1692, 1849.91125pt x 1307.88625pt>
 File: figs/ncert/circle/4.png Graphic file (type png)
 <use figs/ncert/circle/4.png>
 Package pdftex.def Info: figs/ncert/circle/4.png  used on input line 111.
@@ -2270,7 +2270,7 @@ Package pdftex.def Info: figs/ncert/circle/4.png  used on input line 111.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [63 <./figs/ncert/circle/3.png>]
-<figs/ncert/circle/5.png, id=1728, 1919.17pt x 1318.9275pt>
+<figs/ncert/circle/5.png, id=1707, 1919.17pt x 1318.9275pt>
 File: figs/ncert/circle/5.png Graphic file (type png)
 <use figs/ncert/circle/5.png>
 Package pdftex.def Info: figs/ncert/circle/5.png  used on input line 141.
@@ -2279,7 +2279,7 @@ Package pdftex.def Info: figs/ncert/circle/5.png  used on input line 141.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [64 <./figs/ncert/circle/4.png>]
-<figs/ncert/circle/6.png, id=1742, 1728.4575pt x 1206.5075pt>
+<figs/ncert/circle/6.png, id=1722, 1728.4575pt x 1206.5075pt>
 File: figs/ncert/circle/6.png Graphic file (type png)
 <use figs/ncert/circle/6.png>
 Package pdftex.def Info: figs/ncert/circle/6.png  used on input line 159.
@@ -2288,7 +2288,7 @@ Package pdftex.def Info: figs/ncert/circle/6.png  used on input line 159.
 Underfull \vbox (badness 3108) has occurred while \output is active []
 
  [65 <./figs/ncert/circle/5.png> <./figs/ncert/circle/6.png>]
-<figs/ncert/circle/7.png, id=1755, 2054.67625pt x 1499.6025pt>
+<figs/ncert/circle/7.png, id=1735, 2054.67625pt x 1499.6025pt>
 File: figs/ncert/circle/7.png Graphic file (type png)
 <use figs/ncert/circle/7.png>
 Package pdftex.def Info: figs/ncert/circle/7.png  used on input line 190.
@@ -2297,12 +2297,12 @@ Package pdftex.def Info: figs/ncert/circle/7.png  used on input line 190.
 Underfull \vbox (badness 2884) has occurred while \output is active []
 
  [66 <./figs/ncert/circle/7.png>]
-<figs/ncert/circle/8.png, id=1776, 1809.76125pt x 1401.235pt>
+<figs/ncert/circle/8.png, id=1756, 1809.76125pt x 1401.235pt>
 File: figs/ncert/circle/8.png Graphic file (type png)
 <use figs/ncert/circle/8.png>
 Package pdftex.def Info: figs/ncert/circle/8.png  used on input line 215.
 (pdftex.def)             Requested size: 218.5194pt x 169.18861pt.
-<figs/ncert/circle/9.png, id=1778, 2060.69875pt x 1324.95pt>
+<figs/ncert/circle/9.png, id=1758, 2060.69875pt x 1324.95pt>
 File: figs/ncert/circle/9.png Graphic file (type png)
 <use figs/ncert/circle/9.png>
 Package pdftex.def Info: figs/ncert/circle/9.png  used on input line 236.
@@ -2328,7 +2328,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [75]
-<olympiad/figs/permo.jpg, id=1950, 679.53876pt x 232.87pt>
+<olympiad/figs/permo.jpg, id=1929, 679.53876pt x 232.87pt>
 File: olympiad/figs/permo.jpg Graphic file (type jpg)
 <use olympiad/figs/permo.jpg>
 Package pdftex.def Info: olympiad/figs/permo.jpg  used on input line 153.
@@ -2342,7 +2342,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [76])
 (./ncert/id.tex
-<figs/ncert/id/1.png, id=1966, 1848.9075pt x 1043.9pt>
+<figs/ncert/id/1.png, id=1946, 1848.9075pt x 1043.9pt>
 File: figs/ncert/id/1.png Graphic file (type png)
 <use figs/ncert/id/1.png>
 Package pdftex.def Info: figs/ncert/id/1.png  used on input line 18.
@@ -2351,7 +2351,7 @@ Package pdftex.def Info: figs/ncert/id/1.png  used on input line 18.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [77 <./olympiad/figs/permo.jpg>]
-<figs/ncert/id/2.png, id=1979, 1693.32625pt x 1143.27126pt>
+<figs/ncert/id/2.png, id=1959, 1693.32625pt x 1143.27126pt>
 File: figs/ncert/id/2.png Graphic file (type png)
 <use figs/ncert/id/2.png>
 Package pdftex.def Info: figs/ncert/id/2.png  used on input line 37.
@@ -2366,12 +2366,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [81]
-<figs/ncert/id/3.png, id=2064, 1735.48375pt x 1052.93375pt>
+<figs/ncert/id/3.png, id=2043, 1735.48375pt x 1052.93375pt>
 File: figs/ncert/id/3.png Graphic file (type png)
 <use figs/ncert/id/3.png>
 Package pdftex.def Info: figs/ncert/id/3.png  used on input line 287.
 (pdftex.def)             Requested size: 218.5194pt x 132.56432pt.
-<figs/ncert/id/4.png, id=2066, 1622.06pt x 1156.32pt>
+<figs/ncert/id/4.png, id=2045, 1622.06pt x 1156.32pt>
 File: figs/ncert/id/4.png Graphic file (type png)
 <use figs/ncert/id/4.png>
 Package pdftex.def Info: figs/ncert/id/4.png  used on input line 324.
@@ -2380,12 +2380,12 @@ Package pdftex.def Info: figs/ncert/id/4.png  used on input line 324.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [82 <./figs/ncert/id/3.png>]
-<figs/ncert/id/5.png, id=2086, 1637.11626pt x 1198.4775pt>
+<figs/ncert/id/5.png, id=2066, 1637.11626pt x 1198.4775pt>
 File: figs/ncert/id/5.png Graphic file (type png)
 <use figs/ncert/id/5.png>
 Package pdftex.def Info: figs/ncert/id/5.png  used on input line 337.
 (pdftex.def)             Requested size: 218.5194pt x 159.95876pt.
-<figs/ncert/id/6.png, id=2088, 1643.13875pt x 1241.63875pt>
+<figs/ncert/id/6.png, id=2068, 1643.13875pt x 1241.63875pt>
 File: figs/ncert/id/6.png Graphic file (type png)
 <use figs/ncert/id/6.png>
 Package pdftex.def Info: figs/ncert/id/6.png  used on input line 351.
@@ -2394,12 +2394,12 @@ Package pdftex.def Info: figs/ncert/id/6.png  used on input line 351.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [83 <./figs/ncert/id/4.png> <./figs/ncert/id/5.png>]
-<figs/ncert/id/7.png, id=2102, 1729.46124pt x 1181.41376pt>
+<figs/ncert/id/7.png, id=2082, 1729.46124pt x 1181.41376pt>
 File: figs/ncert/id/7.png Graphic file (type png)
 <use figs/ncert/id/7.png>
 Package pdftex.def Info: figs/ncert/id/7.png  used on input line 365.
 (pdftex.def)             Requested size: 218.5194pt x 149.26273pt.
-<figs/ncert/id/8.png, id=2104, 1685.29625pt x 1221.56375pt>
+<figs/ncert/id/8.png, id=2084, 1685.29625pt x 1221.56375pt>
 File: figs/ncert/id/8.png Graphic file (type png)
 <use figs/ncert/id/8.png>
 Package pdftex.def Info: figs/ncert/id/8.png  used on input line 378.
@@ -2424,29 +2424,23 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [90]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [91])
-(./cbse/id.tex [92] [93] [94] [95]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [96]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [97]
+ [91]
+[92] [93]) (./cbse/id.tex [94] [95] [96] [97]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [98]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [99]
-Underfull \vbox (badness 1776) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [100])
-(./JEE/id.tex [101]
+ [100]
+[101]) (./JEE/id.tex [102]
 Underfull \hbox (badness 10000) detected at line 83
  []$[]   [] [] [] []  $ 
  []
 
-[102] [103] [104]
+[103] [104] [105] [106]
 Underfull \hbox (badness 10000) in paragraph at lines 349--350
 []\OT1/txr/m/n/8 If $[] [] [] 2\OML/txmi/m/it/8 x \OT1/txr/m/n/8 + [] \OML/txmi
 /m/it/8 x [] \OT1/txr/m/n/8 2\OML/txmi/m/it/8 x [] x \OT1/txr/m/n/8 =
@@ -2458,23 +2452,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 349--350
  + [] [] [] 2\OML/txmi/m/it/8 x$ \OT1/txr/m/n/8 then
  []
 
-[105]
+
 Underfull \hbox (badness 10000) detected at line 429
  []$[]  [][] [][]  $ 
  []
 
-[106]) (./ncert/inv.tex [107] [108]) (./ncert/eq.tex
-Underfull \vbox (badness 1831) has occurred while \output is active []
+[107] [108]) (./ncert/eq.tex [109]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [109]
-[110]
+ [110]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [111]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [112])
-(./cbse/eq.tex [113]
+[112]) (./cbse/eq.tex [113]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [114])
@@ -2486,13 +2476,13 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4F1405B97D666BAAEB618D895732EAD9;3189.
+(rerunfilecheck)             Checksum: 3868E7F26C87BCE12F6A9CF7DE49472D;2876.
  ) 
 Here is how much of TeX's memory you used:
- 56264 strings out of 474104
- 1324442 string characters out of 5729886
- 1959493 words of memory out of 5000000
- 75548 multiletter control sequences out of 15000+600000
+ 56267 strings out of 474104
+ 1324390 string characters out of 5729886
+ 1960493 words of memory out of 5000000
+ 75541 multiletter control sequences out of 15000+600000
  641387 words of font info for 210 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  109i,17n,149p,1194b,1420s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2518,10 +2508,10 @@ b></data/data/com.termux/files/usr/share/texlive/2024/texmf-dist/fonts/type1/ur
 w/times/utmb8a.pfb></data/data/com.termux/files/usr/share/texlive/2024/texmf-di
 st/fonts/type1/urw/times/utmr8a.pfb></data/data/com.termux/files/usr/share/texl
 ive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (126 pages, 2581769 bytes).
+Output written on main.pdf (126 pages, 2582399 bytes).
 PDF statistics:
  3813 PDF objects out of 4296 (max. 8388607)
  3441 compressed objects within 35 object streams
- 2186 named destinations out of 2487 (max. 500000)
- 661 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2199 named destinations out of 2487 (max. 500000)
+ 629 words of extra memory for PDF output out of 10000 (max. 10000000)
 
