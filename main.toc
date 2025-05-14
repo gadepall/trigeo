@@ -28,3 +28,5 @@
 \contentsline {section}{\numberline {6}Inequalities}{123}{section.6}%
 \contentsline {subsection}{\numberline {6.1}NCERT}{123}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}JEE}{124}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Complex Numbers}{126}{section.7}%
+\contentsline {subsection}{\numberline {7.1}NCERT}{126}{subsection.7.1}%
